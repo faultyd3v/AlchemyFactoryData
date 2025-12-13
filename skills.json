@@ -1,3175 +1,2701 @@
-[
-  {
-    "idName": "Level1",
-    "bUpgrade": false,
-    "tier": 0,
-    "requiredLevel": 0,
-    "unlockItems": [
-      "Wood",
-      "GelatinousGridlock"
-    ],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 100,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 0,
-      "name": "None"
-    },
-    "unlockResearchPoints": 30,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [],
-    "skillLevel": true
-  },
-  {
-    "idName": "TableSaw",
-    "bUpgrade": false,
-    "tier": 0,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 100,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "TableSaw"
-    },
-    "unlockResearchPoints": 30,
-    "unlockConstructions": [
-      "WoodBlock"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level1"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "SmallContainer",
-    "bUpgrade": false,
-    "tier": 0,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 100,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "SmallContainer"
-    },
-    "unlockResearchPoints": 30,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "TableSaw"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Grinder",
-    "bUpgrade": false,
-    "tier": 0,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 100,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Grinder"
-    },
-    "unlockResearchPoints": 30,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "TableSaw"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Belt",
-    "bUpgrade": false,
-    "tier": 0,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 100,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Belt"
-    },
-    "unlockResearchPoints": 30,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "TableSaw"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "BeltSlopeUp",
-    "bUpgrade": false,
-    "tier": 0,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 100,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "BeltSlopeUp"
-    },
-    "unlockResearchPoints": 30,
-    "unlockConstructions": [
-      "BeltInclinedUp"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "Belt"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Level2",
-    "bUpgrade": false,
-    "tier": 1,
-    "requiredLevel": 0,
-    "unlockItems": [
-      "FlaxSeed",
-      "Limestone"
-    ],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 230,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 0,
-      "name": "None"
-    },
-    "unlockResearchPoints": 57,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Grinder"
-    ],
-    "skillLevel": true
-  },
-  {
-    "idName": "StoneCrusher",
-    "bUpgrade": false,
-    "tier": 1,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 230,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "StoneCrusher"
-    },
-    "unlockResearchPoints": 57,
-    "unlockConstructions": [
-      "StoneBlock"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level2"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Processor",
-    "bUpgrade": false,
-    "tier": 1,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 230,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Processor"
-    },
-    "unlockResearchPoints": 57,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "StoneCrusher"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "SeedPlot",
-    "bUpgrade": false,
-    "tier": 1,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 230,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "SeedPlot"
-    },
-    "unlockResearchPoints": 57,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "StoneCrusher"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "WoodGear",
-    "bUpgrade": false,
-    "tier": 1,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 230,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "WoodGear"
-    },
-    "unlockResearchPoints": 57,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Processor"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Mortar",
-    "bUpgrade": false,
-    "tier": 1,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 230,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Mortar"
-    },
-    "unlockResearchPoints": 57,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Processor"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "LinenThread",
-    "bUpgrade": false,
-    "tier": 1,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 230,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "LinenThread"
-    },
-    "unlockResearchPoints": 57,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Processor",
-      "SeedPlot"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "WoodContainer",
-    "bUpgrade": false,
-    "tier": 1,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 230,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "WoodContainer"
-    },
-    "unlockResearchPoints": 57,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "WoodGear"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "LinenRope",
-    "bUpgrade": false,
-    "tier": 1,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 230,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "LinenRope"
-    },
-    "unlockResearchPoints": 57,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "LinenThread"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Level3",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [
-      "IronOre",
-      "SageSeed"
-    ],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 0,
-      "name": "None"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Mortar"
-    ],
-    "skillLevel": true
-  },
-  {
-    "idName": "catapult",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "catapult"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level3"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "StoneStove",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "StoneStove"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level3"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Assembler",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Assembler"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level3"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "ConveyerLift_Upwards",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "ConveyerLift_Upwards"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [
-      "ConveyerLift_EndUpwards",
-      "ConveyerLift_EndDownwards",
-      "ConveyerLift_Body",
-      "ConveyerLift_Payload"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level3"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "JunkBarrel",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "JunkBarrel"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level3"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Hopper",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Hopper"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "catapult"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "IronSmelter",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "IronSmelter"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [
-      "IronBlock"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "StoneStove"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "HealingPotion",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "HealingPotion"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Assembler"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Linen",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Linen"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Assembler"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "WorkBench",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "WorkBench"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Assembler"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "FrameSingle",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "FrameSingle"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [
-      "IronStand"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "IronSmelter"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Nails",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Nails"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "IronSmelter"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "PotionStand",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "PotionStand"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "HealingPotion"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Bandage",
-    "bUpgrade": false,
-    "tier": 2,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 570,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Bandage"
-    },
-    "unlockResearchPoints": 90,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Linen"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Level4",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [
-      "RedcurrantSeed",
-      "PortalSigil",
-      "CashRegister"
-    ],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 0,
-      "name": "None"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [
-      "AutoCheckout"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "HealingPotion"
-    ],
-    "skillLevel": true
-  },
-  {
-    "idName": "ConveyorTunnel",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "ConveyorTunnel"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level4"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Portal_AlchGuild",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Portal_AlchGuild"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level4"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Crucible",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Crucible"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level4"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Pipe",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Pipe"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level4"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "WoodPulley",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "WoodPulley"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level4"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Portal_Bank",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Portal_Bank"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Portal_AlchGuild"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Clay",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Clay"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Crucible"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "DrawBridge",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "DrawBridge"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "WoodPulley"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "AutoNursery",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "AutoNursery"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "BasicFertilizer",
-      "Clay"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Kiln",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Kiln"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Clay"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "BasicFertilizer",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "BasicFertilizer"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [
-      "BrickBlock"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "Crucible"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Brick",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Brick"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [
-      "BrickBlock"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "Kiln"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Glass",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Glass"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Kiln"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "ConicalFlask",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "ConicalFlask"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Glass"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Blender",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Blender"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Glass"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Extractor",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Extractor"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Glass",
-      "Pipe"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Soap",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Soap"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Blender"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "VitalityPotion",
-    "bUpgrade": false,
-    "tier": 3,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 1600,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "VitalityPotion"
-    },
-    "unlockResearchPoints": 129,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Blender"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Level5",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [
-      "RottenLog",
-      "CoalOre"
-    ],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 0,
-      "name": "None"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "VitalityPotion"
-    ],
-    "skillLevel": true
-  },
-  {
-    "idName": "SphereFlask",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "SphereFlask"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level5"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Athanor",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Athanor"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level5"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "YeastPowder",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "YeastPowder"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level5"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Turquoise",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Turquoise"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level5"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Shaper",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Shaper"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level5"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "AdvancedFertilizer",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "AdvancedFertilizer"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level5"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Merger_Vert",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Merger_Vert"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Filter_Vert"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Splitter_Vert",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Splitter_Vert"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Filter_Vert"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Filter_Vert",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Filter_Vert"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Athanor"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Coke",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Coke"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Athanor"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "GloomSpores",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "GloomSpores"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "YeastPowder"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "JewelryStand",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "JewelryStand"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Turquoise"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Jupiter",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Jupiter"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Shaper"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "SteelIngot",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "SteelIngot"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Coke"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "ManaPotion",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "ManaPotion"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Coke",
-      "GloomSpores"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "RelicStandSmall",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "RelicStandSmall"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Jupiter"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "KnowledgeAltar",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "KnowledgeAltar"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Jupiter"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "MetalStand",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "MetalStand"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "SteelIngot"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Cannon",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Cannon"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "SteelIngot"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "SteelGear",
-    "bUpgrade": false,
-    "tier": 4,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 4400,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "SteelGear"
-    },
-    "unlockResearchPoints": 174,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "SteelIngot"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Level6",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [
-      "ChamomileSeed",
-      "Pyrite",
-      "RockSalt"
-    ],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 0,
-      "name": "None"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "ManaPotion"
-    ],
-    "skillLevel": true
-  },
-  {
-    "idName": "Salt",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Salt"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level6"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "StoneFurnace",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "StoneFurnace"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level6"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "CopperPowder2",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "CopperPowder2"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [
-      "BronzeBlock",
-      "CopperBlock"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level6"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Refiner",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Refiner"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level6"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "EnhancedGrinder",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "EnhancedGrinder"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level6"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Saturn",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Saturn"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Salt"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Malachite",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Malachite"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "CopperPowder2"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "CopperBearing",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "CopperBearing"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "CopperPowder2"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Cauldron",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Cauldron"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "CopperPowder2"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "BronzeRivet",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "BronzeRivet"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "CopperPowder2"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "CopperCoin",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "CopperCoin"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "CopperPowder2"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Omni-Machine",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Omni-Machine"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "CopperBearing"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "AdvancedBlender",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "AdvancedBlender"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "CopperBearing"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Mars",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Mars"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "CopperBearing",
-      "BronzeRivet"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "StackableCrucible",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "StackableCrucible"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "BronzeRivet"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "SmallPlatform",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "SmallPlatform"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "BronzeRivet"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "CopperIngot_Alt",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "CopperIngot_Alt"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "CopperCoin"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Catalyst1",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Catalyst1"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Omni-Machine"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "PocketWatch",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "PocketWatch"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Omni-Machine"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "BlackPowder",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "BlackPowder"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "AdvancedBlender"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "GrowthPotion",
-    "bUpgrade": false,
-    "tier": 5,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 12,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "GrowthPotion"
-    },
-    "unlockResearchPoints": 225,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "AdvancedBlender"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Level7",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [
-      "LavenderSeed",
-      "QuartzOre"
-    ],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 0,
-      "name": "None"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "GrowthPotion"
-    ],
-    "skillLevel": true
-  },
-  {
-    "idName": "AdvancedShaper",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "AdvancedShaper"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level7"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "ThermalExtractor",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "ThermalExtractor"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level7"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Alembic",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "Alembic"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level7"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "ParadoxCrucible",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "ParadoxCrucible"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level7"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "SulfuricAcid",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "SulfuricAcid"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Alembic"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Brandy",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Brandy"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Alembic"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "LavenderEssentialOil",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "LavenderEssentialOil"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Alembic"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Venus",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Venus"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "AdvancedShaper",
-      "SulfuricAcid"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Topaz",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Topaz"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "SulfuricAcid"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "BlastPotion",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "BlastPotion"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Brandy"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "PerfumedSoap",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "PerfumedSoap"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "LavenderEssentialOil"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Catalyst2",
-    "bUpgrade": false,
-    "tier": 6,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 43,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Catalyst2"
-    },
-    "unlockResearchPoints": 282,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "LavenderEssentialOil",
-      "ParadoxCrucible"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Level8",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [
-      "GentianSeed",
-      "WorldTreeSeed"
-    ],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 0,
-      "name": "None"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "BlastPotion"
-    ],
-    "skillLevel": true
-  },
-  {
-    "idName": "AdvancedAthanor",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "AdvancedAthanor"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level8"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "AdvancedAlembic",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "AdvancedAlembic"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level8"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "WorldTreeNursery",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "WorldTreeNursery"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level8"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "SilverPowder3",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "SilverPowder3"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [
-      "SilverBlock"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "AdvancedAthanor"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "LapisLazuli",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "LapisLazuli"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "AdvancedAthanor"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Obsidian",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Obsidian"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "AdvancedAthanor"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Mercury",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Mercury"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "AdvancedAlembic"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "AquaVitae",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "AquaVitae"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "AdvancedAlembic",
-      "WorldTreeNursery"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "SilverIngot_Alt",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "SilverIngot_Alt"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "SilverPowder3"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "SilverCoin",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "SilverCoin"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "SilverPowder3"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "SilverAmulet",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "SilverAmulet"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "SilverPowder3"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "MercuryP",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "MercuryP"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "LapisLazuli",
-      "Obsidian",
-      "Mercury"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "PanaceaElixir",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "PanaceaElixir"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "AquaVitae"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Catalyst3",
-    "bUpgrade": false,
-    "tier": 7,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 136,
-      "Copper": 0,
-      "Gold": 0
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Catalyst3"
-    },
-    "unlockResearchPoints": 345,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "AquaVitae"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Level9",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [
-      "Meteorite"
-    ],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 0,
-      "name": "None"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "MercuryP",
-      "PanaceaElixir"
-    ],
-    "skillLevel": true
-  },
-  {
-    "idName": "ArcaneProcessor",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "ArcaneProcessor"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level9"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "GoldDust3",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "GoldDust3"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [
-      "GoldBlock"
-    ],
-    "bUnlimited": false,
-    "predecessors": [
-      "Level9"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "FairyDust",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "FairyDust"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "ArcaneProcessor"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "StarDust",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "StarDust"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "ArcaneProcessor"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Catalyst4",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Catalyst4"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "ArcaneProcessor"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "GoldCoin",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "GoldCoin"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "GoldDust3"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Crown",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Crown"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "GoldDust3"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "MoonTear",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "MoonTear"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "FairyDust",
-      "StarDust"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "GoldIngot_Alt",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "GoldIngot_Alt"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "GoldCoin"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "MoonlitSoap",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "MoonlitSoap"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "MoonTear"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Luna",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Luna"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "MoonTear"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "AetherShaper",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 3,
-      "name": "AetherShaper"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "GoldIngot_Alt"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Sol",
-    "bUpgrade": false,
-    "tier": 8,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 5
-    },
-    "unlockItem": {
-      "type": 2,
-      "name": "Sol"
-    },
-    "unlockResearchPoints": 414,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Luna",
-      "Catalyst4",
-      "AetherShaper"
-    ],
-    "skillLevel": false
-  },
-  {
-    "idName": "Level10",
-    "bUpgrade": false,
-    "tier": 9,
-    "requiredLevel": 0,
-    "unlockItems": [],
-    "unlockCost": {
-      "Silver": 0,
-      "Copper": 0,
-      "Gold": 21
-    },
-    "unlockItem": {
-      "type": 0,
-      "name": "None"
-    },
-    "unlockResearchPoints": 489,
-    "unlockConstructions": [],
-    "bUnlimited": false,
-    "predecessors": [
-      "Sol"
-    ],
-    "skillLevel": true
-  }
-]
+[{
+    "tier":0,
+    "skillLevel":true,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":100,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Level1",
+    "unlockItems":["Wood","GelatinousGridlock"],
+    "unlockResearchPoints":30.0,
+    "unlockItem":{
+      "type":0,
+      "name":"None"
+    },
+    "requiredLevel":0,
+    "predecessors":[]
+  },{
+    "tier":0,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":100,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":["WoodBlock"],
+    "bUpgrade":false,
+    "idName":"TableSaw",
+    "unlockItems":[],
+    "unlockResearchPoints":30.0,
+    "unlockItem":{
+      "type":3,
+      "name":"TableSaw"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level1"]
+  },{
+    "tier":0,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":100,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"SmallContainer",
+    "unlockItems":[],
+    "unlockResearchPoints":30.0,
+    "unlockItem":{
+      "type":3,
+      "name":"SmallContainer"
+    },
+    "requiredLevel":0,
+    "predecessors":["TableSaw"]
+  },{
+    "tier":0,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":100,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Grinder",
+    "unlockItems":[],
+    "unlockResearchPoints":30.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Grinder"
+    },
+    "requiredLevel":0,
+    "predecessors":["TableSaw"]
+  },{
+    "tier":0,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":100,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Belt",
+    "unlockItems":[],
+    "unlockResearchPoints":30.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Belt"
+    },
+    "requiredLevel":0,
+    "predecessors":["TableSaw"]
+  },{
+    "tier":0,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":100,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":["BeltInclinedUp"],
+    "bUpgrade":false,
+    "idName":"BeltSlopeUp",
+    "unlockItems":[],
+    "unlockResearchPoints":30.0,
+    "unlockItem":{
+      "type":3,
+      "name":"BeltSlopeUp"
+    },
+    "requiredLevel":0,
+    "predecessors":["Belt"]
+  },{
+    "tier":1,
+    "skillLevel":true,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":230,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Level2",
+    "unlockItems":["FlaxSeed","Limestone"],
+    "unlockResearchPoints":57.0,
+    "unlockItem":{
+      "type":0,
+      "name":"None"
+    },
+    "requiredLevel":0,
+    "predecessors":["Grinder"]
+  },{
+    "tier":1,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":230,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":["StoneBlock"],
+    "bUpgrade":false,
+    "idName":"StoneCrusher",
+    "unlockItems":[],
+    "unlockResearchPoints":57.0,
+    "unlockItem":{
+      "type":3,
+      "name":"StoneCrusher"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level2"]
+  },{
+    "tier":1,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":230,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Processor",
+    "unlockItems":[],
+    "unlockResearchPoints":57.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Processor"
+    },
+    "requiredLevel":0,
+    "predecessors":["StoneCrusher"]
+  },{
+    "tier":1,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":230,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"SeedPlot",
+    "unlockItems":[],
+    "unlockResearchPoints":57.0,
+    "unlockItem":{
+      "type":3,
+      "name":"SeedPlot"
+    },
+    "requiredLevel":0,
+    "predecessors":["StoneCrusher"]
+  },{
+    "tier":1,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":230,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"WoodGear",
+    "unlockItems":[],
+    "unlockResearchPoints":57.0,
+    "unlockItem":{
+      "type":2,
+      "name":"WoodGear"
+    },
+    "requiredLevel":0,
+    "predecessors":["Processor"]
+  },{
+    "tier":1,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":230,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Mortar",
+    "unlockItems":[],
+    "unlockResearchPoints":57.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Mortar"
+    },
+    "requiredLevel":0,
+    "predecessors":["Processor"]
+  },{
+    "tier":1,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":230,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"LinenThread",
+    "unlockItems":[],
+    "unlockResearchPoints":57.0,
+    "unlockItem":{
+      "type":2,
+      "name":"LinenThread"
+    },
+    "requiredLevel":0,
+    "predecessors":["Processor","SeedPlot"]
+  },{
+    "tier":1,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":230,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"WoodContainer",
+    "unlockItems":[],
+    "unlockResearchPoints":57.0,
+    "unlockItem":{
+      "type":3,
+      "name":"WoodContainer"
+    },
+    "requiredLevel":0,
+    "predecessors":["WoodGear"]
+  },{
+    "tier":1,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":230,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"LinenRope",
+    "unlockItems":[],
+    "unlockResearchPoints":57.0,
+    "unlockItem":{
+      "type":2,
+      "name":"LinenRope"
+    },
+    "requiredLevel":0,
+    "predecessors":["LinenThread"]
+  },{
+    "tier":2,
+    "skillLevel":true,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Level3",
+    "unlockItems":["IronOre","SageSeed"],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":0,
+      "name":"None"
+    },
+    "requiredLevel":0,
+    "predecessors":["Mortar"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"catapult",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":3,
+      "name":"catapult"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level3"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"StoneStove",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":3,
+      "name":"StoneStove"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level3"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Assembler",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Assembler"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level3"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":["ConveyerLift_EndUpwards","ConveyerLift_EndDownwards","ConveyerLift_Body","ConveyerLift_Payload"],
+    "bUpgrade":false,
+    "idName":"ConveyerLift_Upwards",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":3,
+      "name":"ConveyerLift_Upwards"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level3"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"JunkBarrel",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":3,
+      "name":"JunkBarrel"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level3"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Hopper",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Hopper"
+    },
+    "requiredLevel":0,
+    "predecessors":["catapult"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":["IronBlock"],
+    "bUpgrade":false,
+    "idName":"IronSmelter",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":3,
+      "name":"IronSmelter"
+    },
+    "requiredLevel":0,
+    "predecessors":["StoneStove"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"HealingPotion",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":2,
+      "name":"HealingPotion"
+    },
+    "requiredLevel":0,
+    "predecessors":["Assembler"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Linen",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Linen"
+    },
+    "requiredLevel":0,
+    "predecessors":["Assembler"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"WorkBench",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":3,
+      "name":"WorkBench"
+    },
+    "requiredLevel":0,
+    "predecessors":["Assembler"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":["IronStand"],
+    "bUpgrade":false,
+    "idName":"FrameSingle",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":3,
+      "name":"FrameSingle"
+    },
+    "requiredLevel":0,
+    "predecessors":["IronSmelter"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Nails",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Nails"
+    },
+    "requiredLevel":0,
+    "predecessors":["IronSmelter"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"PotionStand",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":3,
+      "name":"PotionStand"
+    },
+    "requiredLevel":0,
+    "predecessors":["HealingPotion"]
+  },{
+    "tier":2,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":570,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Bandage",
+    "unlockItems":[],
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Bandage"
+    },
+    "requiredLevel":0,
+    "predecessors":["Linen"]
+  },{
+    "tier":3,
+    "skillLevel":true,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":["AutoCheckout"],
+    "bUpgrade":false,
+    "idName":"Level4",
+    "unlockItems":["RedcurrantSeed","PortalSigil","CashRegister"],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":0,
+      "name":"None"
+    },
+    "requiredLevel":0,
+    "predecessors":["HealingPotion"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"ConveyorTunnel",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"ConveyorTunnel"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level4"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Portal_AlchGuild",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Portal_AlchGuild"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level4"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Crucible",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Crucible"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level4"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Pipe",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Pipe"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level4"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"WoodPulley",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":2,
+      "name":"WoodPulley"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level4"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Portal_Bank",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Portal_Bank"
+    },
+    "requiredLevel":0,
+    "predecessors":["Portal_AlchGuild"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Clay",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Clay"
+    },
+    "requiredLevel":0,
+    "predecessors":["Crucible"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"DrawBridge",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"DrawBridge"
+    },
+    "requiredLevel":0,
+    "predecessors":["WoodPulley"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"AutoNursery",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"AutoNursery"
+    },
+    "requiredLevel":0,
+    "predecessors":["BasicFertilizer","Clay"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Kiln",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Kiln"
+    },
+    "requiredLevel":0,
+    "predecessors":["Clay"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":["BrickBlock"],
+    "bUpgrade":false,
+    "idName":"BasicFertilizer",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":2,
+      "name":"BasicFertilizer"
+    },
+    "requiredLevel":0,
+    "predecessors":["Crucible"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":["BrickBlock"],
+    "bUpgrade":false,
+    "idName":"Brick",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Brick"
+    },
+    "requiredLevel":0,
+    "predecessors":["Kiln"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Glass",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Glass"
+    },
+    "requiredLevel":0,
+    "predecessors":["Kiln"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"ConicalFlask",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"ConicalFlask"
+    },
+    "requiredLevel":0,
+    "predecessors":["Glass"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Blender",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Blender"
+    },
+    "requiredLevel":0,
+    "predecessors":["Glass"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Extractor",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Extractor"
+    },
+    "requiredLevel":0,
+    "predecessors":["Glass","Pipe"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Soap",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Soap"
+    },
+    "requiredLevel":0,
+    "predecessors":["Blender"]
+  },{
+    "tier":3,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":1600,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"VitalityPotion",
+    "unlockItems":[],
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "type":2,
+      "name":"VitalityPotion"
+    },
+    "requiredLevel":0,
+    "predecessors":["Blender"]
+  },{
+    "tier":4,
+    "skillLevel":true,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Level5",
+    "unlockItems":["RottenLog","CoalOre"],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":0,
+      "name":"None"
+    },
+    "requiredLevel":0,
+    "predecessors":["VitalityPotion"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"SphereFlask",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"SphereFlask"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level5"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Athanor",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Athanor"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level5"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"YeastPowder",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":2,
+      "name":"YeastPowder"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level5"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Turquoise",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Turquoise"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level5"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Shaper",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Shaper"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level5"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"AdvancedFertilizer",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":2,
+      "name":"AdvancedFertilizer"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level5"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Merger_Vert",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Merger_Vert"
+    },
+    "requiredLevel":0,
+    "predecessors":["Filter_Vert"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Splitter_Vert",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Splitter_Vert"
+    },
+    "requiredLevel":0,
+    "predecessors":["Filter_Vert"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Filter_Vert",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Filter_Vert"
+    },
+    "requiredLevel":0,
+    "predecessors":["Athanor"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Coke",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Coke"
+    },
+    "requiredLevel":0,
+    "predecessors":["Athanor"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"GloomSpores",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":2,
+      "name":"GloomSpores"
+    },
+    "requiredLevel":0,
+    "predecessors":["YeastPowder"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"JewelryStand",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"JewelryStand"
+    },
+    "requiredLevel":0,
+    "predecessors":["Turquoise"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Jupiter",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Jupiter"
+    },
+    "requiredLevel":0,
+    "predecessors":["Shaper"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"SteelIngot",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":2,
+      "name":"SteelIngot"
+    },
+    "requiredLevel":0,
+    "predecessors":["Coke"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"ManaPotion",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":2,
+      "name":"ManaPotion"
+    },
+    "requiredLevel":0,
+    "predecessors":["Coke","GloomSpores"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"RelicStandSmall",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"RelicStandSmall"
+    },
+    "requiredLevel":0,
+    "predecessors":["Jupiter"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"KnowledgeAltar",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"KnowledgeAltar"
+    },
+    "requiredLevel":0,
+    "predecessors":["Jupiter"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"MetalStand",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"MetalStand"
+    },
+    "requiredLevel":0,
+    "predecessors":["SteelIngot"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Cannon",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Cannon"
+    },
+    "requiredLevel":0,
+    "predecessors":["SteelIngot"]
+  },{
+    "tier":4,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":4400,
+      "Silver":0,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"SteelGear",
+    "unlockItems":[],
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "type":2,
+      "name":"SteelGear"
+    },
+    "requiredLevel":0,
+    "predecessors":["SteelIngot"]
+  },{
+    "tier":5,
+    "skillLevel":true,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Level6",
+    "unlockItems":["ChamomileSeed","Pyrite","RockSalt"],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":0,
+      "name":"None"
+    },
+    "requiredLevel":0,
+    "predecessors":["ManaPotion"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Salt",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Salt"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level6"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"StoneFurnace",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":3,
+      "name":"StoneFurnace"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level6"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":["BronzeBlock","CopperBlock"],
+    "bUpgrade":false,
+    "idName":"CopperPowder2",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"CopperPowder2"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level6"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Refiner",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Refiner"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level6"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"EnhancedGrinder",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":3,
+      "name":"EnhancedGrinder"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level6"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Saturn",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Saturn"
+    },
+    "requiredLevel":0,
+    "predecessors":["Salt"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Malachite",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Malachite"
+    },
+    "requiredLevel":0,
+    "predecessors":["CopperPowder2"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"CopperBearing",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"CopperBearing"
+    },
+    "requiredLevel":0,
+    "predecessors":["CopperPowder2"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Cauldron",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Cauldron"
+    },
+    "requiredLevel":0,
+    "predecessors":["CopperPowder2"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"BronzeRivet",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"BronzeRivet"
+    },
+    "requiredLevel":0,
+    "predecessors":["CopperPowder2"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"CopperCoin",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"CopperCoin"
+    },
+    "requiredLevel":0,
+    "predecessors":["CopperPowder2"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Omni-Machine",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Omni-Machine"
+    },
+    "requiredLevel":0,
+    "predecessors":["CopperBearing"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"AdvancedBlender",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":3,
+      "name":"AdvancedBlender"
+    },
+    "requiredLevel":0,
+    "predecessors":["CopperBearing"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Mars",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Mars"
+    },
+    "requiredLevel":0,
+    "predecessors":["CopperBearing","BronzeRivet"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"StackableCrucible",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":3,
+      "name":"StackableCrucible"
+    },
+    "requiredLevel":0,
+    "predecessors":["BronzeRivet"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"SmallPlatform",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":3,
+      "name":"SmallPlatform"
+    },
+    "requiredLevel":0,
+    "predecessors":["BronzeRivet"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"CopperIngot_Alt",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"CopperIngot_Alt"
+    },
+    "requiredLevel":0,
+    "predecessors":["CopperCoin"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Catalyst1",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Catalyst1"
+    },
+    "requiredLevel":0,
+    "predecessors":["Omni-Machine"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"PocketWatch",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"PocketWatch"
+    },
+    "requiredLevel":0,
+    "predecessors":["Omni-Machine"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"BlackPowder",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"BlackPowder"
+    },
+    "requiredLevel":0,
+    "predecessors":["AdvancedBlender"]
+  },{
+    "tier":5,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":12,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"GrowthPotion",
+    "unlockItems":[],
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "type":2,
+      "name":"GrowthPotion"
+    },
+    "requiredLevel":0,
+    "predecessors":["AdvancedBlender"]
+  },{
+    "tier":6,
+    "skillLevel":true,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Level7",
+    "unlockItems":["LavenderSeed","QuartzOre"],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":0,
+      "name":"None"
+    },
+    "requiredLevel":0,
+    "predecessors":["GrowthPotion"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"AdvancedShaper",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":3,
+      "name":"AdvancedShaper"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level7"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"ThermalExtractor",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":3,
+      "name":"ThermalExtractor"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level7"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Alembic",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":3,
+      "name":"Alembic"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level7"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"ParadoxCrucible",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":3,
+      "name":"ParadoxCrucible"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level7"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"SulfuricAcid",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":2,
+      "name":"SulfuricAcid"
+    },
+    "requiredLevel":0,
+    "predecessors":["Alembic"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Brandy",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Brandy"
+    },
+    "requiredLevel":0,
+    "predecessors":["Alembic"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"LavenderEssentialOil",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":2,
+      "name":"LavenderEssentialOil"
+    },
+    "requiredLevel":0,
+    "predecessors":["Alembic"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Venus",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Venus"
+    },
+    "requiredLevel":0,
+    "predecessors":["AdvancedShaper","SulfuricAcid"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Topaz",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Topaz"
+    },
+    "requiredLevel":0,
+    "predecessors":["SulfuricAcid"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"BlastPotion",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":2,
+      "name":"BlastPotion"
+    },
+    "requiredLevel":0,
+    "predecessors":["Brandy"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"PerfumedSoap",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":2,
+      "name":"PerfumedSoap"
+    },
+    "requiredLevel":0,
+    "predecessors":["LavenderEssentialOil"]
+  },{
+    "tier":6,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":43,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Catalyst2",
+    "unlockItems":[],
+    "unlockResearchPoints":282.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Catalyst2"
+    },
+    "requiredLevel":0,
+    "predecessors":["LavenderEssentialOil","ParadoxCrucible"]
+  },{
+    "tier":7,
+    "skillLevel":true,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Level8",
+    "unlockItems":["GentianSeed","WorldTreeSeed"],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":0,
+      "name":"None"
+    },
+    "requiredLevel":0,
+    "predecessors":["BlastPotion"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"AdvancedAthanor",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":3,
+      "name":"AdvancedAthanor"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level8"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"AdvancedAlembic",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":3,
+      "name":"AdvancedAlembic"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level8"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"WorldTreeNursery",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":3,
+      "name":"WorldTreeNursery"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level8"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":["SilverBlock"],
+    "bUpgrade":false,
+    "idName":"SilverPowder3",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"SilverPowder3"
+    },
+    "requiredLevel":0,
+    "predecessors":["AdvancedAthanor"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"LapisLazuli",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"LapisLazuli"
+    },
+    "requiredLevel":0,
+    "predecessors":["AdvancedAthanor"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Obsidian",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Obsidian"
+    },
+    "requiredLevel":0,
+    "predecessors":["AdvancedAthanor"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Mercury",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Mercury"
+    },
+    "requiredLevel":0,
+    "predecessors":["AdvancedAlembic"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"AquaVitae",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"AquaVitae"
+    },
+    "requiredLevel":0,
+    "predecessors":["AdvancedAlembic","WorldTreeNursery"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"SilverIngot_Alt",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"SilverIngot_Alt"
+    },
+    "requiredLevel":0,
+    "predecessors":["SilverPowder3"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"SilverCoin",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"SilverCoin"
+    },
+    "requiredLevel":0,
+    "predecessors":["SilverPowder3"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"SilverAmulet",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"SilverAmulet"
+    },
+    "requiredLevel":0,
+    "predecessors":["SilverPowder3"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"MercuryP",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"MercuryP"
+    },
+    "requiredLevel":0,
+    "predecessors":["LapisLazuli","Obsidian","Mercury"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"PanaceaElixir",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"PanaceaElixir"
+    },
+    "requiredLevel":0,
+    "predecessors":["AquaVitae"]
+  },{
+    "tier":7,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":136,
+      "Gold":0
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Catalyst3",
+    "unlockItems":[],
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Catalyst3"
+    },
+    "requiredLevel":0,
+    "predecessors":["AquaVitae"]
+  },{
+    "tier":8,
+    "skillLevel":true,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Level9",
+    "unlockItems":["Meteorite"],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":0,
+      "name":"None"
+    },
+    "requiredLevel":0,
+    "predecessors":["MercuryP","PanaceaElixir"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"ArcaneProcessor",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":3,
+      "name":"ArcaneProcessor"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level9"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":["GoldBlock"],
+    "bUpgrade":false,
+    "idName":"GoldDust3",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"GoldDust3"
+    },
+    "requiredLevel":0,
+    "predecessors":["Level9"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"FairyDust",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"FairyDust"
+    },
+    "requiredLevel":0,
+    "predecessors":["ArcaneProcessor"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"StarDust",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"StarDust"
+    },
+    "requiredLevel":0,
+    "predecessors":["ArcaneProcessor"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Catalyst4",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Catalyst4"
+    },
+    "requiredLevel":0,
+    "predecessors":["ArcaneProcessor"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"GoldCoin",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"GoldCoin"
+    },
+    "requiredLevel":0,
+    "predecessors":["GoldDust3"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Crown",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Crown"
+    },
+    "requiredLevel":0,
+    "predecessors":["GoldDust3"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"MoonTear",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"MoonTear"
+    },
+    "requiredLevel":0,
+    "predecessors":["FairyDust","StarDust"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"GoldIngot_Alt",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"GoldIngot_Alt"
+    },
+    "requiredLevel":0,
+    "predecessors":["GoldCoin"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"MoonlitSoap",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"MoonlitSoap"
+    },
+    "requiredLevel":0,
+    "predecessors":["MoonTear"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Luna",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Luna"
+    },
+    "requiredLevel":0,
+    "predecessors":["MoonTear"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"AetherShaper",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":3,
+      "name":"AetherShaper"
+    },
+    "requiredLevel":0,
+    "predecessors":["GoldIngot_Alt"]
+  },{
+    "tier":8,
+    "skillLevel":false,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":5
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Sol",
+    "unlockItems":[],
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "type":2,
+      "name":"Sol"
+    },
+    "requiredLevel":0,
+    "predecessors":["Luna","Catalyst4","AetherShaper"]
+  },{
+    "tier":9,
+    "skillLevel":true,
+    "bUnlimited":false,
+    "unlockCost":{
+      "Copper":0,
+      "Silver":0,
+      "Gold":21
+    },
+    "unlockConstructions":[],
+    "bUpgrade":false,
+    "idName":"Level10",
+    "unlockItems":[],
+    "unlockResearchPoints":489.0,
+    "unlockItem":{
+      "type":0,
+      "name":"None"
+    },
+    "requiredLevel":0,
+    "predecessors":["Sol"]
+  }]

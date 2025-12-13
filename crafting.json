@@ -1,5056 +1,4495 @@
-[
-  {
-    "productInfo": {
-      "name": "Flax",
-      "qty": 200
-    },
-    "ingredientList": [
-      {
-        "name": "FlaxSeed",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 3,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 5,
-    "fractionNum": 1,
-    "craftIdName": "Flax",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 400,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sage",
-      "qty": 180
-    },
-    "ingredientList": [
-      {
-        "name": "SageSeed",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 3,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 6,
-    "fractionNum": 1,
-    "craftIdName": "Sage",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 540,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Redcurrant",
-      "qty": 150
-    },
-    "ingredientList": [
-      {
-        "name": "RedcurrantSeed",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 3,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 11,
-    "fractionNum": 1,
-    "craftIdName": "Redcurrant",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 900,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Lavender",
-      "qty": 120
-    },
-    "ingredientList": [
-      {
-        "name": "LavenderSeed",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 3,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 13,
-    "fractionNum": 1,
-    "craftIdName": "Lavender",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 1440,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Chamomile",
-      "qty": 140
-    },
-    "ingredientList": [
-      {
-        "name": "ChamomileSeed",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 3,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 15,
-    "fractionNum": 1,
-    "craftIdName": "Chamomile",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 1120,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Gentian",
-      "qty": 80
-    },
-    "ingredientList": [
-      {
-        "name": "GentianSeed",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 3,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 17,
-    "fractionNum": 1,
-    "craftIdName": "Gentian",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "GentianNectar",
-      "qty": 80
-    },
-    "craftTime": 2160,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "WoodBoard",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Wood",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 0,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 101,
-    "fractionNum": 200,
-    "craftIdName": "WoodBoard",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 2,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "LargeWoodGear",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "WoodBoard",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 102,
-    "fractionNum": 1,
-    "craftIdName": "LargeWoodGear",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Stone",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Limestone",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 1,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 201,
-    "fractionNum": 150,
-    "craftIdName": "Stone",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sand",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Stone",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 202,
-    "fractionNum": 1,
-    "craftIdName": "Sand",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Mortar",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Stone",
-        "qty": 5
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 203,
-    "fractionNum": 1,
-    "craftIdName": "Mortar",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 20,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "FlaxFiber",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Flax",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 204,
-    "fractionNum": 1,
-    "craftIdName": "FlaxFiber",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "LinenThread",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "FlaxFiber",
-        "qty": 3
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 205,
-    "fractionNum": 1,
-    "craftIdName": "LinenThread",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "LinenRope",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "LinenThread",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 206,
-    "fractionNum": 1,
-    "craftIdName": "LinenRope",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "WoodGear",
-      "qty": 3
-    },
-    "ingredientList": [
-      {
-        "name": "LargeWoodGear",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 207,
-    "fractionNum": 1,
-    "craftIdName": "WoodGear",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "IronIngot",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "IronOre",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 2,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 301,
-    "fractionNum": 100,
-    "craftIdName": "IronIngot",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Nails",
-      "qty": 3
-    },
-    "ingredientList": [
-      {
-        "name": "IronIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 302,
-    "fractionNum": 1,
-    "craftIdName": "Nails",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "IronSand",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "IronIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 303,
-    "fractionNum": 1,
-    "craftIdName": "IronSand",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 30,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "PlantAsh",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sage",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 6,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 304,
-    "fractionNum": 1,
-    "craftIdName": "PlantAsh",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SagePowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sage",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 305,
-    "fractionNum": 1,
-    "craftIdName": "SagePowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "HealingPotion",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SagePowder",
-        "qty": 6
-      },
-      {
-        "name": "FlaxFiber",
-        "qty": 6
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 306,
-    "fractionNum": 1,
-    "craftIdName": "HealingPotion",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Linen",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "LinenThread",
-        "qty": 10
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 307,
-    "fractionNum": 1,
-    "craftIdName": "Linen",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 5,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Bandage",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Linen",
-        "qty": 1
-      },
-      {
-        "name": "HealingPotion",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 308,
-    "fractionNum": 1,
-    "craftIdName": "Bandage",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 10,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Quicklime",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Stone",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 6,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 401,
-    "fractionNum": 1,
-    "craftIdName": "Quicklime",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 9,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "QuicklimePowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Quicklime",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 402,
-    "fractionNum": 1,
-    "craftIdName": "QuicklimePowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 9,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Charcoal",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "WoodBoard",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 6,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 403,
-    "fractionNum": 1,
-    "craftIdName": "Charcoal",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "CharcoalPowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Charcoal",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 404,
-    "fractionNum": 1,
-    "craftIdName": "CharcoalPowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "WoodPulley",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "WoodBoard",
-        "qty": 2
-      },
-      {
-        "name": "LinenRope",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 405,
-    "fractionNum": 1,
-    "craftIdName": "WoodPulley",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Clay",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CharcoalPowder",
-        "qty": 2
-      },
-      {
-        "name": "Sand",
-        "qty": 4
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 406,
-    "fractionNum": 1,
-    "craftIdName": "Clay",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "ClayPowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Clay",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 407,
-    "fractionNum": 1,
-    "craftIdName": "ClayPowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Brick",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Clay",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 8,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 408,
-    "fractionNum": 1,
-    "craftIdName": "Brick",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "LinseedOil",
-      "qty": 50
-    },
-    "ingredientList": [
-      {
-        "name": "Flax",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 5,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 409,
-    "fractionNum": 1,
-    "craftIdName": "LinseedOil",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 2,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "FruitWine",
-      "qty": 10
-    },
-    "ingredientList": [
-      {
-        "name": "Redcurrant",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 5,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 410,
-    "fractionNum": 1,
-    "craftIdName": "FruitWine",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Limewater",
-      "qty": 30
-    },
-    "ingredientList": [
-      {
-        "name": "QuicklimePowder",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 5,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 411,
-    "fractionNum": 1,
-    "craftIdName": "Limewater",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Glass",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sand",
-        "qty": 6
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 8,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 412,
-    "fractionNum": 1,
-    "craftIdName": "Glass",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Soap",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "PlantAsh",
-        "qty": 3
-      },
-      {
-        "name": "LinseedOil",
-        "qty": 200
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 11,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 413,
-    "fractionNum": 1,
-    "craftIdName": "Soap",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SoapPowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Soap",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 414,
-    "fractionNum": 1,
-    "craftIdName": "SoapPowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "VitalityPotion",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "QuicklimePowder",
-        "qty": 4
-      },
-      {
-        "name": "FruitWine",
-        "qty": 80
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 11,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 415,
-    "fractionNum": 1,
-    "craftIdName": "VitalityPotion",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "BasicFertilizer",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "PlantAsh",
-        "qty": 2
-      },
-      {
-        "name": "QuicklimePowder",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 416,
-    "fractionNum": 1,
-    "craftIdName": "BasicFertilizer",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Turquoise",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "HealingPotion",
-        "qty": 2
-      },
-      {
-        "name": "Sand",
-        "qty": 12
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 501,
-    "fractionNum": 1,
-    "craftIdName": "Turquoise",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Jupiter",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "WoodBoard",
-        "qty": 4
-      },
-      {
-        "name": "WoodGear",
-        "qty": 6
-      },
-      {
-        "name": "WoodPulley",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 18,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 502,
-    "fractionNum": 300,
-    "craftIdName": "Jupiter",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 2,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Coke",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CharcoalPowder",
-        "qty": 6
-      }
-    ],
-    "failProduct1": {
-      "name": "Charcoal",
-      "qty": 2
-    },
-    "craftType": 15,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 503,
-    "fractionNum": 1,
-    "craftIdName": "Coke",
-    "failRate1": 0.5,
-    "ProductSequence": [
-      1,
-      0
-    ],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "CokePowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Coke",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 504,
-    "fractionNum": 1,
-    "craftIdName": "CokePowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SteelIngot",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "IronIngot",
-        "qty": 1
-      },
-      {
-        "name": "CokePowder",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "IronIngot",
-      "qty": 1
-    },
-    "craftType": 15,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 505,
-    "fractionNum": 1,
-    "craftIdName": "SteelIngot",
-    "failRate1": 0.75,
-    "ProductSequence": [
-      1,
-      1,
-      1,
-      0
-    ],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SteelGear",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SteelIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 506,
-    "fractionNum": 1,
-    "craftIdName": "SteelGear",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 16,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "YeastPowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SoapPowder",
-        "qty": 2
-      },
-      {
-        "name": "FruitWine",
-        "qty": 40
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 11,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 507,
-    "fractionNum": 1,
-    "craftIdName": "YeastPowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "ManaPotion",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CokePowder",
-        "qty": 2
-      },
-      {
-        "name": "GloomSpores",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 508,
-    "fractionNum": 1,
-    "craftIdName": "ManaPotion",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GloomFungus",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "RottenLog",
-        "qty": 5
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 0,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 509,
-    "fractionNum": 40,
-    "craftIdName": "GloomFungus",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "WoodBoard",
-      "qty": 4
-    },
-    "craftTime": 10,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GloomSpores",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "GloomFungus",
-        "qty": 2
-      },
-      {
-        "name": "YeastPowder",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 510,
-    "fractionNum": 1,
-    "craftIdName": "GloomSpores",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "AdvancedFertilizer",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "BasicFertilizer",
-        "qty": 1
-      },
-      {
-        "name": "GloomFungus",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 511,
-    "fractionNum": 1,
-    "craftIdName": "AdvancedFertilizer",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "ChamomilePowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Chamomile",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 601,
-    "fractionNum": 1,
-    "craftIdName": "ChamomilePowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sulfur",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Pyrite",
-        "qty": 4
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 2,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 602,
-    "fractionNum": 40,
-    "craftIdName": "Sulfur",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "IronIngot",
-      "qty": 3
-    },
-    "craftTime": 24,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SulfurPowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sulfur",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 603,
-    "fractionNum": 1,
-    "craftIdName": "SulfurPowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Coal",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CoalOre",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 1,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 604,
-    "fractionNum": 120,
-    "craftIdName": "Coal",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Salt",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CharcoalPowder",
-        "qty": 2
-      },
-      {
-        "name": "QuicklimePowder",
-        "qty": 4
-      }
-    ],
-    "failProduct1": {
-      "name": "Sand",
-      "qty": 6
-    },
-    "craftType": 15,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 605,
-    "fractionNum": 1,
-    "craftIdName": "Salt",
-    "failRate1": 0.66666666666667,
-    "ProductSequence": [
-      1,
-      1,
-      0
-    ],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SaltWater",
-      "qty": 20
-    },
-    "ingredientList": [
-      {
-        "name": "Salt",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 5,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 606,
-    "fractionNum": 1,
-    "craftIdName": "SaltWater",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "CopperPowder2",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "IronSand",
-        "qty": 6
-      },
-      {
-        "name": "SoapPowder",
-        "qty": 6
-      }
-    ],
-    "failProduct1": {
-      "name": "CopperPowder",
-      "qty": 1
-    },
-    "craftType": 15,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 608,
-    "fractionNum": 1,
-    "craftIdName": "CopperPowder2",
-    "failRate1": 0.5,
-    "ProductSequence": [
-      1,
-      0
-    ],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "BronzeIngot",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CopperPowder",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 6,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 609,
-    "fractionNum": 1,
-    "craftIdName": "BronzeIngot",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "CopperIngot",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CopperPowder2",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 6,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 610,
-    "fractionNum": 1,
-    "craftIdName": "CopperIngot",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "CopperCoin",
-      "qty": 300
-    },
-    "ingredientList": [
-      {
-        "name": "CopperIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 611,
-    "fractionNum": 1,
-    "craftIdName": "CopperCoin",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "CopperBearing",
-      "qty": 2
-    },
-    "ingredientList": [
-      {
-        "name": "CopperIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 612,
-    "fractionNum": 1,
-    "craftIdName": "CopperBearing",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "BronzeRivet",
-      "qty": 3
-    },
-    "ingredientList": [
-      {
-        "name": "BronzeIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 613,
-    "fractionNum": 1,
-    "craftIdName": "BronzeRivet",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "BlackPowder",
-      "qty": 2
-    },
-    "ingredientList": [
-      {
-        "name": "SulfurPowder",
-        "qty": 1
-      },
-      {
-        "name": "CharcoalPowder",
-        "qty": 12
-      },
-      {
-        "name": "Limewater",
-        "qty": 150
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 12,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 614,
-    "fractionNum": 1,
-    "craftIdName": "BlackPowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GrowthPotion",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "ChamomilePowder",
-        "qty": 2
-      },
-      {
-        "name": "ClayPowder",
-        "qty": 6
-      },
-      {
-        "name": "SaltWater",
-        "qty": 80
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 12,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 615,
-    "fractionNum": 1,
-    "craftIdName": "GrowthPotion",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Catalyst1",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "ChamomilePowder",
-        "qty": 1
-      },
-      {
-        "name": "GloomSpores",
-        "qty": 1
-      },
-      {
-        "name": "SulfurPowder",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 17,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 616,
-    "fractionNum": 1,
-    "craftIdName": "Catalyst1",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "PocketWatch",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SteelGear",
-        "qty": 2
-      },
-      {
-        "name": "CopperBearing",
-        "qty": 2
-      },
-      {
-        "name": "Glass",
-        "qty": 6
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 17,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 617,
-    "fractionNum": 1,
-    "craftIdName": "PocketWatch",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Malachite",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CopperPowder",
-        "qty": 2
-      },
-      {
-        "name": "ClayPowder",
-        "qty": 6
-      }
-    ],
-    "failProduct1": {
-      "name": "Shard1",
-      "qty": 1
-    },
-    "craftType": 15,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 618,
-    "fractionNum": 1,
-    "craftIdName": "Malachite",
-    "failRate1": 0.5,
-    "ProductSequence": [
-      1,
-      0
-    ],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Saturn",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Salt",
-        "qty": 6
-      },
-      {
-        "name": "Brick",
-        "qty": 6
-      },
-      {
-        "name": "Glass",
-        "qty": 6
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 18,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 619,
-    "fractionNum": 100,
-    "craftIdName": "Saturn",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Mars",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Nails",
-        "qty": 8
-      },
-      {
-        "name": "SteelGear",
-        "qty": 4
-      },
-      {
-        "name": "BronzeRivet",
-        "qty": 8
-      },
-      {
-        "name": "CopperBearing",
-        "qty": 4
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 18,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 620,
-    "fractionNum": 75,
-    "craftIdName": "Mars",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sand2",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sand",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 621,
-    "fractionNum": 1,
-    "craftIdName": "Sand2",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sand3",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sand2",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 622,
-    "fractionNum": 1,
-    "craftIdName": "Sand3",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sand4",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sand3",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 623,
-    "fractionNum": 1,
-    "craftIdName": "Sand4",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sand5",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sand4",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 624,
-    "fractionNum": 1,
-    "craftIdName": "Sand5",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sand6",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sand5",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 625,
-    "fractionNum": 1,
-    "craftIdName": "Sand6",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sand8",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sand6",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 626,
-    "fractionNum": 1,
-    "craftIdName": "Sand8",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Shard1",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Sand8",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 627,
-    "fractionNum": 1,
-    "craftIdName": "Shard1",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Shard2",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Shard1",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 628,
-    "fractionNum": 1,
-    "craftIdName": "Shard2",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Shard3",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Shard2",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 629,
-    "fractionNum": 1,
-    "craftIdName": "Shard3",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Crystal1",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Shard3",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 630,
-    "fractionNum": 1,
-    "craftIdName": "Crystal1",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Crystal2",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Crystal1",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 631,
-    "fractionNum": 1,
-    "craftIdName": "Crystal2",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Crystal3",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Crystal2",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 632,
-    "fractionNum": 1,
-    "craftIdName": "Crystal3",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Diamond1",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Crystal3",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 633,
-    "fractionNum": 1,
-    "craftIdName": "Diamond1",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Diamond2",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Diamond1",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 634,
-    "fractionNum": 1,
-    "craftIdName": "Diamond2",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Diamond3",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Diamond2",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 635,
-    "fractionNum": 1,
-    "craftIdName": "Diamond3",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "LavenderEssentialOil",
-      "qty": 15
-    },
-    "ingredientList": [
-      {
-        "name": "Lavender",
-        "qty": 3
-      },
-      {
-        "name": "LinseedOil",
-        "qty": 300
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 13,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 701,
-    "fractionNum": 1,
-    "craftIdName": "LavenderEssentialOil",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Brandy",
-      "qty": 40
-    },
-    "ingredientList": [
-      {
-        "name": "CokePowder",
-        "qty": 5
-      },
-      {
-        "name": "FruitWine",
-        "qty": 100
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 13,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 702,
-    "fractionNum": 1,
-    "craftIdName": "Brandy",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 5,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SulfuricAcid",
-      "qty": 20
-    },
-    "ingredientList": [
-      {
-        "name": "SulfurPowder",
-        "qty": 1
-      },
-      {
-        "name": "SaltWater",
-        "qty": 60
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 13,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 703,
-    "fractionNum": 1,
-    "craftIdName": "SulfuricAcid",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Topaz",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Shard1",
-        "qty": 1
-      },
-      {
-        "name": "SulfuricAcid",
-        "qty": 30
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 11,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 704,
-    "fractionNum": 1,
-    "craftIdName": "Topaz",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "BlastPotion",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Mors",
-        "qty": 1
-      },
-      {
-        "name": "BlackPowder",
-        "qty": 2
-      },
-      {
-        "name": "Brandy",
-        "qty": 40
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 12,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 705,
-    "fractionNum": 1,
-    "craftIdName": "BlastPotion",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Catalyst2",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Catalyst1",
-        "qty": 1
-      },
-      {
-        "name": "Vitae",
-        "qty": 1
-      },
-      {
-        "name": "LavenderEssentialOil",
-        "qty": 18
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 12,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 706,
-    "fractionNum": 1,
-    "craftIdName": "Catalyst2",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "PerfumedSoap",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SoapPowder",
-        "qty": 4
-      },
-      {
-        "name": "LavenderEssentialOil",
-        "qty": 30
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 11,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 707,
-    "fractionNum": 1,
-    "craftIdName": "PerfumedSoap",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "PerfumedSoapPowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "PerfumedSoap",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 708,
-    "fractionNum": 1,
-    "craftIdName": "PerfumedSoapPowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Vitae",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Mors",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 21,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 709,
-    "fractionNum": 1,
-    "craftIdName": "Vitae",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 5,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Venus",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "HealingPotion",
-        "qty": 1
-      },
-      {
-        "name": "VitalityPotion",
-        "qty": 1
-      },
-      {
-        "name": "ManaPotion",
-        "qty": 1
-      },
-      {
-        "name": "GrowthPotion",
-        "qty": 1
-      },
-      {
-        "name": "BlastPotion",
-        "qty": 1
-      },
-      {
-        "name": "SulfuricAcid",
-        "qty": 20
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 19,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 710,
-    "fractionNum": 200,
-    "craftIdName": "Venus",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GentianPowder",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Gentian",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 801,
-    "fractionNum": 1,
-    "craftIdName": "GentianPowder",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 3,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SilverPowder2",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SilverPowder",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 804,
-    "fractionNum": 1,
-    "craftIdName": "SilverPowder2",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SilverPowder3",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CopperPowder2",
-        "qty": 2
-      },
-      {
-        "name": "Catalyst1",
-        "qty": 2
-      },
-      {
-        "name": "BlackPowder",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "SilverPowder",
-      "qty": 1
-    },
-    "craftType": 16,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 805,
-    "fractionNum": 1,
-    "craftIdName": "SilverPowder3",
-    "failRate1": 0.8,
-    "ProductSequence": [
-      1,
-      1,
-      1,
-      1,
-      0
-    ],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6.4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "VolcanicAsh",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Obsidian",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2017,
-    "fractionNum": 1,
-    "craftIdName": "VolcanicAsh_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 24,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Obsidian",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Mors",
-        "qty": 1
-      },
-      {
-        "name": "Crystal1",
-        "qty": 1
-      },
-      {
-        "name": "Catalyst1",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "VolcanicAsh",
-      "qty": 1
-    },
-    "craftType": 16,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 806,
-    "fractionNum": 1,
-    "craftIdName": "Obsidian",
-    "failRate1": 0.5,
-    "ProductSequence": [
-      1,
-      0
-    ],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SilverIngot",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SilverPowder3",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 6,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 808,
-    "fractionNum": 1,
-    "craftIdName": "SilverIngot",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 16,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SilverCoin",
-      "qty": 5
-    },
-    "ingredientList": [
-      {
-        "name": "SilverIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 809,
-    "fractionNum": 1,
-    "craftIdName": "SilverCoin",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 16,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SilverAmulet",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SilverIngot",
-        "qty": 2
-      },
-      {
-        "name": "LapisLazuli",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 10,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 810,
-    "fractionNum": 1,
-    "craftIdName": "SilverAmulet",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 10,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Mercury",
-      "qty": 10
-    },
-    "ingredientList": [
-      {
-        "name": "SilverPowder",
-        "qty": 1
-      },
-      {
-        "name": "Vitae",
-        "qty": 1
-      },
-      {
-        "name": "SulfuricAcid",
-        "qty": 80
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 14,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 811,
-    "fractionNum": 1,
-    "craftIdName": "Mercury",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "AquaVitae",
-      "qty": 10
-    },
-    "ingredientList": [
-      {
-        "name": "GentianNectar",
-        "qty": 1
-      },
-      {
-        "name": "WorldTreeLeaf",
-        "qty": 1
-      },
-      {
-        "name": "Brandy",
-        "qty": 200
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 14,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 812,
-    "fractionNum": 1,
-    "craftIdName": "AquaVitae",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "LapisLazuli",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SilverPowder2",
-        "qty": 1
-      },
-      {
-        "name": "Shard1",
-        "qty": 4
-      },
-      {
-        "name": "GentianPowder",
-        "qty": 4
-      }
-    ],
-    "failProduct1": {
-      "name": "Crystal1",
-      "qty": 1
-    },
-    "craftType": 16,
-    "failProduct2": {
-      "name": "Shard1",
-      "qty": 1
-    },
-    "craftId": 813,
-    "fractionNum": 1,
-    "craftIdName": "LapisLazuli",
-    "failRate1": 0.33333333333333,
-    "ProductSequence": [
-      2,
-      1,
-      0
-    ],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0.33333333333333
-  },
-  {
-    "productInfo": {
-      "name": "MercuryP",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Turquoise",
-        "qty": 1
-      },
-      {
-        "name": "Malachite",
-        "qty": 1
-      },
-      {
-        "name": "Topaz",
-        "qty": 1
-      },
-      {
-        "name": "Obsidian",
-        "qty": 1
-      },
-      {
-        "name": "LapisLazuli",
-        "qty": 1
-      },
-      {
-        "name": "Mercury",
-        "qty": 10
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 19,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 814,
-    "fractionNum": 100,
-    "craftIdName": "MercuryP",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Catalyst3",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Catalyst2",
-        "qty": 1
-      },
-      {
-        "name": "VolcanicAsh",
-        "qty": 1
-      },
-      {
-        "name": "AquaVitae",
-        "qty": 12
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 12,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 815,
-    "fractionNum": 1,
-    "craftIdName": "Catalyst3",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "PanaceaElixir",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Catalyst2",
-        "qty": 3
-      },
-      {
-        "name": "BlastPotion",
-        "qty": 3
-      },
-      {
-        "name": "AquaVitae",
-        "qty": 12
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 12,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 816,
-    "fractionNum": 1,
-    "craftIdName": "PanaceaElixir",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GoldDust2",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "GoldDust",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 902,
-    "fractionNum": 1,
-    "craftIdName": "GoldDust2",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 10,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GoldDust3",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SilverPowder3",
-        "qty": 1
-      },
-      {
-        "name": "VolcanicAsh",
-        "qty": 1
-      },
-      {
-        "name": "Catalyst2",
-        "qty": 1
-      },
-      {
-        "name": "Mercury",
-        "qty": 12
-      }
-    ],
-    "failProduct1": {
-      "name": "GoldDust2",
-      "qty": 1
-    },
-    "craftType": 16,
-    "failProduct2": {
-      "name": "GoldDust",
-      "qty": 1
-    },
-    "craftId": 903,
-    "fractionNum": 1,
-    "craftIdName": "GoldDust3",
-    "failRate1": 0.3,
-    "ProductSequence": [
-      2,
-      2,
-      1,
-      2,
-      2,
-      1,
-      2,
-      2,
-      1,
-      0
-    ],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0.6
-  },
-  {
-    "productInfo": {
-      "name": "GoldDust5",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "GoldDust3",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 904,
-    "fractionNum": 1,
-    "craftIdName": "GoldDust5",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 10,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GoldIngot",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "GoldDust5",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 6,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 905,
-    "fractionNum": 1,
-    "craftIdName": "GoldIngot",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 40,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GoldCoin",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "GoldIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 9,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 906,
-    "fractionNum": 1,
-    "craftIdName": "GoldCoin",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 40,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Crown",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "GoldIngot",
-        "qty": 3
-      },
-      {
-        "name": "Ruby",
-        "qty": 1
-      },
-      {
-        "name": "Sapphire",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 17,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 907,
-    "fractionNum": 1,
-    "craftIdName": "Crown",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 15,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Catalyst4",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Catalyst3",
-        "qty": 15
-      },
-      {
-        "name": "PhilosopherStone",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 23,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 908,
-    "fractionNum": 1,
-    "craftIdName": "Catalyst4",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 60,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "StarDust",
-      "qty": 2
-    },
-    "ingredientList": [
-      {
-        "name": "Jupiter",
-        "qty": 12
-      },
-      {
-        "name": "Saturn",
-        "qty": 4
-      },
-      {
-        "name": "Mars",
-        "qty": 3
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 23,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 909,
-    "fractionNum": 25,
-    "craftIdName": "StarDust",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "FairyDust",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "ChamomilePowder",
-        "qty": 1
-      },
-      {
-        "name": "GentianPowder",
-        "qty": 1
-      },
-      {
-        "name": "WorldTreeLeaf",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 23,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 910,
-    "fractionNum": 1,
-    "craftIdName": "FairyDust",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "FairyTear",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "FairyDust",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 5,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 911,
-    "fractionNum": 1,
-    "craftIdName": "FairyTear",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 4,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "MoonTear",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "StarDust",
-        "qty": 16
-      },
-      {
-        "name": "FairyTear",
-        "qty": 10
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 14,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 912,
-    "fractionNum": 1,
-    "craftIdName": "MoonTear",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "MoonlitSoap",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "PerfumedSoapPowder",
-        "qty": 2
-      },
-      {
-        "name": "MoonTear",
-        "qty": 5
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 11,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 913,
-    "fractionNum": 1,
-    "craftIdName": "MoonlitSoap",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 10,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Luna",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SteelIngot",
-        "qty": 1
-      },
-      {
-        "name": "BronzeIngot",
-        "qty": 1
-      },
-      {
-        "name": "CopperIngot",
-        "qty": 1
-      },
-      {
-        "name": "SilverIngot",
-        "qty": 1
-      },
-      {
-        "name": "GoldIngot",
-        "qty": 1
-      },
-      {
-        "name": "MoonTear",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 19,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 914,
-    "fractionNum": 75,
-    "craftIdName": "Luna",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sol",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Jupiter",
-        "qty": 60
-      },
-      {
-        "name": "Saturn",
-        "qty": 20
-      },
-      {
-        "name": "Mars",
-        "qty": 15
-      },
-      {
-        "name": "Venus",
-        "qty": 40
-      },
-      {
-        "name": "MercuryP",
-        "qty": 20
-      },
-      {
-        "name": "Luna",
-        "qty": 15
-      },
-      {
-        "name": "Diamond3",
-        "qty": 5
-      },
-      {
-        "name": "Catalyst4",
-        "qty": 1
-      },
-      {
-        "name": "WorldTreeCore",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 20,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 1001,
-    "fractionNum": 5,
-    "craftIdName": "Sol",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": false,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 60,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Salt",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "RockSalt",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 1,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2001,
-    "fractionNum": 100,
-    "craftIdName": "Salt_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "Sand",
-      "qty": 1
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Coke",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Coal",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 6,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2003,
-    "fractionNum": 1,
-    "craftIdName": "Coke_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "CopperPowder2",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CopperPowder",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2004,
-    "fractionNum": 1,
-    "craftIdName": "CopperPowder2_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SilverPowder3",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SilverPowder2",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2005,
-    "fractionNum": 1,
-    "craftIdName": "SilverPowder3_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 8,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GoldDust3",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "GoldDust2",
-        "qty": 2
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 7,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2006,
-    "fractionNum": 1,
-    "craftIdName": "GoldDust3_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 10,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "CopperIngot",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CopperCoin",
-        "qty": 400
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 8,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2007,
-    "fractionNum": 1,
-    "craftIdName": "CopperIngot_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SilverIngot",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SilverCoin",
-        "qty": 6
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 8,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2008,
-    "fractionNum": 1,
-    "craftIdName": "SilverIngot_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 16,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GoldIngot",
-      "qty": 2
-    },
-    "ingredientList": [
-      {
-        "name": "GoldCoin",
-        "qty": 3
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 8,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2009,
-    "fractionNum": 1,
-    "craftIdName": "GoldIngot_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 40,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "IronIngot",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "IronSand",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 6,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2010,
-    "fractionNum": 1,
-    "craftIdName": "IronIngot_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "CopperPowder2",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "CopperIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2011,
-    "fractionNum": 1,
-    "craftIdName": "CopperPowder2_Alt2",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 12,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "SilverPowder3",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "SilverIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2012,
-    "fractionNum": 1,
-    "craftIdName": "SilverPowder3_Alt3",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 16,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "GoldDust5",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "GoldIngot",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 4,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2013,
-    "fractionNum": 1,
-    "craftIdName": "GoldDust5_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 40,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Shard1",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "QuartzOre",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 1,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2014,
-    "fractionNum": 80,
-    "craftIdName": "Shard1_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 6,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Mors",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Vitae",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 21,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2015,
-    "fractionNum": 1,
-    "craftIdName": "Mors_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 5,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "PhilosopherStone",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Ruby",
-        "qty": 1
-      },
-      {
-        "name": "Sapphire",
-        "qty": 1
-      },
-      {
-        "name": "Emerald",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 22,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2016,
-    "fractionNum": 1,
-    "craftIdName": "PhilosopherStone_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 60,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Ruby",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Diamond2",
-        "qty": 1
-      },
-      {
-        "name": "GoldDust5",
-        "qty": 1
-      },
-      {
-        "name": "Catalyst3",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 22,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2017,
-    "fractionNum": 1,
-    "craftIdName": "Ruby_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 30.9,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Sapphire",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "Diamond3",
-        "qty": 1
-      },
-      {
-        "name": "WorldTreeCore",
-        "qty": 1
-      },
-      {
-        "name": "Catalyst1",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 22,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2018,
-    "fractionNum": 1,
-    "craftIdName": "Sapphire_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 38.2,
-    "failRate2": 0
-  },
-  {
-    "productInfo": {
-      "name": "Emerald",
-      "qty": 1
-    },
-    "ingredientList": [
-      {
-        "name": "MoonlitSoap",
-        "qty": 1
-      },
-      {
-        "name": "LapisLazuli",
-        "qty": 1
-      },
-      {
-        "name": "Catalyst2",
-        "qty": 1
-      }
-    ],
-    "failProduct1": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftType": 22,
-    "failProduct2": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftId": 2019,
-    "fractionNum": 1,
-    "craftIdName": "Emerald_Alt",
-    "failRate1": 0,
-    "ProductSequence": [],
-    "alternate": true,
-    "sideProduct": {
-      "name": "None",
-      "qty": 0
-    },
-    "craftTime": 45.5,
-    "failRate2": 0
-  }
-]
+[{
+    "alternate":false,
+    "productInfo":{
+      "qty":200,
+      "name":"Flax"
+    },
+    "craftId":5,
+    "craftTime":400.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"FlaxSeed"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Flax",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":3
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":180,
+      "name":"Sage"
+    },
+    "craftId":6,
+    "craftTime":540.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SageSeed"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Sage",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":3
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":150,
+      "name":"Redcurrant"
+    },
+    "craftId":11,
+    "craftTime":900.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"RedcurrantSeed"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Redcurrant",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":3
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":120,
+      "name":"Lavender"
+    },
+    "craftId":13,
+    "craftTime":1440.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"LavenderSeed"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Lavender",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":3
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":140,
+      "name":"Chamomile"
+    },
+    "craftId":15,
+    "craftTime":1120.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"ChamomileSeed"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Chamomile",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":3
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":80,
+      "name":"Gentian"
+    },
+    "craftId":17,
+    "craftTime":2160.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"GentianSeed"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":80,
+      "name":"GentianNectar"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Gentian",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":3
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"WoodBoard"
+    },
+    "craftId":101,
+    "craftTime":2.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Wood"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":200,
+    "craftIdName":"WoodBoard",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":0
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"LargeWoodGear"
+    },
+    "craftId":102,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"WoodBoard"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"LargeWoodGear",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Stone"
+    },
+    "craftId":201,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Limestone"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":150,
+    "craftIdName":"Stone",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":1
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Sand"
+    },
+    "craftId":202,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Stone"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Sand",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Mortar"
+    },
+    "craftId":203,
+    "craftTime":20.0,
+    "ingredientList":[{
+        "qty":5,
+        "name":"Stone"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Mortar",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"FlaxFiber"
+    },
+    "craftId":204,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Flax"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"FlaxFiber",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"LinenThread"
+    },
+    "craftId":205,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":3,
+        "name":"FlaxFiber"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"LinenThread",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"LinenRope"
+    },
+    "craftId":206,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"LinenThread"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"LinenRope",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":3,
+      "name":"WoodGear"
+    },
+    "craftId":207,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"LargeWoodGear"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"WoodGear",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"IronIngot"
+    },
+    "craftId":301,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"IronOre"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":100,
+    "craftIdName":"IronIngot",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":2
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":3,
+      "name":"Nails"
+    },
+    "craftId":302,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"IronIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Nails",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"IronSand"
+    },
+    "craftId":303,
+    "craftTime":30.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"IronIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"IronSand",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"PlantAsh"
+    },
+    "craftId":304,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Sage"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"PlantAsh",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":6
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"SagePowder"
+    },
+    "craftId":305,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Sage"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SagePowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"HealingPotion"
+    },
+    "craftId":306,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":6,
+        "name":"SagePowder"
+      },{
+        "qty":6,
+        "name":"FlaxFiber"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"HealingPotion",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Linen"
+    },
+    "craftId":307,
+    "craftTime":5.0,
+    "ingredientList":[{
+        "qty":10,
+        "name":"LinenThread"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Linen",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Bandage"
+    },
+    "craftId":308,
+    "craftTime":10.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Linen"
+      },{
+        "qty":2,
+        "name":"HealingPotion"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Bandage",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Quicklime"
+    },
+    "craftId":401,
+    "craftTime":9.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Stone"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Quicklime",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":6
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"QuicklimePowder"
+    },
+    "craftId":402,
+    "craftTime":9.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Quicklime"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"QuicklimePowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Charcoal"
+    },
+    "craftId":403,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"WoodBoard"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Charcoal",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":6
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"CharcoalPowder"
+    },
+    "craftId":404,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Charcoal"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"CharcoalPowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"WoodPulley"
+    },
+    "craftId":405,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"WoodBoard"
+      },{
+        "qty":1,
+        "name":"LinenRope"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"WoodPulley",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Clay"
+    },
+    "craftId":406,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"CharcoalPowder"
+      },{
+        "qty":4,
+        "name":"Sand"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Clay",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"ClayPowder"
+    },
+    "craftId":407,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Clay"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"ClayPowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Brick"
+    },
+    "craftId":408,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Clay"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Brick",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":8
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":50,
+      "name":"LinseedOil"
+    },
+    "craftId":409,
+    "craftTime":2.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Flax"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"LinseedOil",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":5
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":10,
+      "name":"FruitWine"
+    },
+    "craftId":410,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Redcurrant"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"FruitWine",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":5
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":30,
+      "name":"Limewater"
+    },
+    "craftId":411,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"QuicklimePowder"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Limewater",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":5
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Glass"
+    },
+    "craftId":412,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":6,
+        "name":"Sand"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Glass",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":8
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Soap"
+    },
+    "craftId":413,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":3,
+        "name":"PlantAsh"
+      },{
+        "qty":200,
+        "name":"LinseedOil"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Soap",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":11
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"SoapPowder"
+    },
+    "craftId":414,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Soap"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SoapPowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"VitalityPotion"
+    },
+    "craftId":415,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":4,
+        "name":"QuicklimePowder"
+      },{
+        "qty":80,
+        "name":"FruitWine"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"VitalityPotion",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":11
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"BasicFertilizer"
+    },
+    "craftId":416,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"PlantAsh"
+      },{
+        "qty":1,
+        "name":"QuicklimePowder"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"BasicFertilizer",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Turquoise"
+    },
+    "craftId":501,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"HealingPotion"
+      },{
+        "qty":12,
+        "name":"Sand"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Turquoise",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Jupiter"
+    },
+    "craftId":502,
+    "craftTime":2.0,
+    "ingredientList":[{
+        "qty":4,
+        "name":"WoodBoard"
+      },{
+        "qty":6,
+        "name":"WoodGear"
+      },{
+        "qty":2,
+        "name":"WoodPulley"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":300,
+    "craftIdName":"Jupiter",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":18
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Coke"
+    },
+    "craftId":503,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":6,
+        "name":"CharcoalPowder"
+      }],
+    "failRate1":0.5,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[1,0],
+    "fractionNum":1,
+    "craftIdName":"Coke",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":2,
+      "name":"Charcoal"
+    },
+    "craftType":15
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"CokePowder"
+    },
+    "craftId":504,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Coke"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"CokePowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"SteelIngot"
+    },
+    "craftId":505,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"IronIngot"
+      },{
+        "qty":1,
+        "name":"CokePowder"
+      }],
+    "failRate1":0.75,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[1,1,1,0],
+    "fractionNum":1,
+    "craftIdName":"SteelIngot",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":1,
+      "name":"IronIngot"
+    },
+    "craftType":15
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"SteelGear"
+    },
+    "craftId":506,
+    "craftTime":16.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SteelIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SteelGear",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"YeastPowder"
+    },
+    "craftId":507,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"SoapPowder"
+      },{
+        "qty":40,
+        "name":"FruitWine"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"YeastPowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":11
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"ManaPotion"
+    },
+    "craftId":508,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"CokePowder"
+      },{
+        "qty":1,
+        "name":"GloomSpores"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"ManaPotion",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"GloomFungus"
+    },
+    "craftId":509,
+    "craftTime":10.0,
+    "ingredientList":[{
+        "qty":5,
+        "name":"RottenLog"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":4,
+      "name":"WoodBoard"
+    },
+    "ProductSequence":[],
+    "fractionNum":40,
+    "craftIdName":"GloomFungus",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":0
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"GloomSpores"
+    },
+    "craftId":510,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"GloomFungus"
+      },{
+        "qty":1,
+        "name":"YeastPowder"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"GloomSpores",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"AdvancedFertilizer"
+    },
+    "craftId":511,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"BasicFertilizer"
+      },{
+        "qty":1,
+        "name":"GloomFungus"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"AdvancedFertilizer",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"ChamomilePowder"
+    },
+    "craftId":601,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Chamomile"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"ChamomilePowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Sulfur"
+    },
+    "craftId":602,
+    "craftTime":24.0,
+    "ingredientList":[{
+        "qty":4,
+        "name":"Pyrite"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":3,
+      "name":"IronIngot"
+    },
+    "ProductSequence":[],
+    "fractionNum":40,
+    "craftIdName":"Sulfur",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":2
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"SulfurPowder"
+    },
+    "craftId":603,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Sulfur"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SulfurPowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Coal"
+    },
+    "craftId":604,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"CoalOre"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":120,
+    "craftIdName":"Coal",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":1
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Salt"
+    },
+    "craftId":605,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"CharcoalPowder"
+      },{
+        "qty":4,
+        "name":"QuicklimePowder"
+      }],
+    "failRate1":0.66666666666667,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[1,1,0],
+    "fractionNum":1,
+    "craftIdName":"Salt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":6,
+      "name":"Sand"
+    },
+    "craftType":15
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":20,
+      "name":"SaltWater"
+    },
+    "craftId":606,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Salt"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SaltWater",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":5
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"CopperPowder2"
+    },
+    "craftId":608,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":6,
+        "name":"IronSand"
+      },{
+        "qty":6,
+        "name":"SoapPowder"
+      }],
+    "failRate1":0.5,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[1,0],
+    "fractionNum":1,
+    "craftIdName":"CopperPowder2",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":1,
+      "name":"CopperPowder"
+    },
+    "craftType":15
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"BronzeIngot"
+    },
+    "craftId":609,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"CopperPowder"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"BronzeIngot",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":6
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"CopperIngot"
+    },
+    "craftId":610,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"CopperPowder2"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"CopperIngot",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":6
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":300,
+      "name":"CopperCoin"
+    },
+    "craftId":611,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"CopperIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"CopperCoin",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":2,
+      "name":"CopperBearing"
+    },
+    "craftId":612,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"CopperIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"CopperBearing",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":3,
+      "name":"BronzeRivet"
+    },
+    "craftId":613,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"BronzeIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"BronzeRivet",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":2,
+      "name":"BlackPowder"
+    },
+    "craftId":614,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SulfurPowder"
+      },{
+        "qty":12,
+        "name":"CharcoalPowder"
+      },{
+        "qty":150,
+        "name":"Limewater"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"BlackPowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":12
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"GrowthPotion"
+    },
+    "craftId":615,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"ChamomilePowder"
+      },{
+        "qty":6,
+        "name":"ClayPowder"
+      },{
+        "qty":80,
+        "name":"SaltWater"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"GrowthPotion",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":12
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Catalyst1"
+    },
+    "craftId":616,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"ChamomilePowder"
+      },{
+        "qty":1,
+        "name":"GloomSpores"
+      },{
+        "qty":1,
+        "name":"SulfurPowder"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Catalyst1",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":17
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"PocketWatch"
+    },
+    "craftId":617,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"SteelGear"
+      },{
+        "qty":2,
+        "name":"CopperBearing"
+      },{
+        "qty":6,
+        "name":"Glass"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"PocketWatch",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":17
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Malachite"
+    },
+    "craftId":618,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"CopperPowder"
+      },{
+        "qty":6,
+        "name":"ClayPowder"
+      }],
+    "failRate1":0.5,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[1,0],
+    "fractionNum":1,
+    "craftIdName":"Malachite",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":1,
+      "name":"Shard1"
+    },
+    "craftType":15
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Saturn"
+    },
+    "craftId":619,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":6,
+        "name":"Salt"
+      },{
+        "qty":6,
+        "name":"Brick"
+      },{
+        "qty":6,
+        "name":"Glass"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":100,
+    "craftIdName":"Saturn",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":18
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Mars"
+    },
+    "craftId":620,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":8,
+        "name":"Nails"
+      },{
+        "qty":4,
+        "name":"SteelGear"
+      },{
+        "qty":8,
+        "name":"BronzeRivet"
+      },{
+        "qty":4,
+        "name":"CopperBearing"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":75,
+    "craftIdName":"Mars",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":18
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Sand2"
+    },
+    "craftId":621,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Sand"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Sand2",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Sand3"
+    },
+    "craftId":622,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Sand2"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Sand3",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Sand4"
+    },
+    "craftId":623,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Sand3"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Sand4",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Sand5"
+    },
+    "craftId":624,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Sand4"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Sand5",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Sand6"
+    },
+    "craftId":625,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Sand5"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Sand6",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Sand8"
+    },
+    "craftId":626,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Sand6"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Sand8",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Shard1"
+    },
+    "craftId":627,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Sand8"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Shard1",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Shard2"
+    },
+    "craftId":628,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Shard1"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Shard2",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Shard3"
+    },
+    "craftId":629,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Shard2"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Shard3",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Crystal1"
+    },
+    "craftId":630,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Shard3"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Crystal1",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Crystal2"
+    },
+    "craftId":631,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Crystal1"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Crystal2",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Crystal3"
+    },
+    "craftId":632,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Crystal2"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Crystal3",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Diamond1"
+    },
+    "craftId":633,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Crystal3"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Diamond1",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Diamond2"
+    },
+    "craftId":634,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Diamond1"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Diamond2",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Diamond3"
+    },
+    "craftId":635,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"Diamond2"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Diamond3",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":15,
+      "name":"LavenderEssentialOil"
+    },
+    "craftId":701,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":3,
+        "name":"Lavender"
+      },{
+        "qty":300,
+        "name":"LinseedOil"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"LavenderEssentialOil",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":13
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":40,
+      "name":"Brandy"
+    },
+    "craftId":702,
+    "craftTime":5.0,
+    "ingredientList":[{
+        "qty":5,
+        "name":"CokePowder"
+      },{
+        "qty":100,
+        "name":"FruitWine"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Brandy",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":13
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":20,
+      "name":"SulfuricAcid"
+    },
+    "craftId":703,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SulfurPowder"
+      },{
+        "qty":60,
+        "name":"SaltWater"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SulfuricAcid",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":13
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Topaz"
+    },
+    "craftId":704,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Shard1"
+      },{
+        "qty":30,
+        "name":"SulfuricAcid"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Topaz",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":11
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"BlastPotion"
+    },
+    "craftId":705,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Mors"
+      },{
+        "qty":2,
+        "name":"BlackPowder"
+      },{
+        "qty":40,
+        "name":"Brandy"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"BlastPotion",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":12
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Catalyst2"
+    },
+    "craftId":706,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Catalyst1"
+      },{
+        "qty":1,
+        "name":"Vitae"
+      },{
+        "qty":18,
+        "name":"LavenderEssentialOil"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Catalyst2",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":12
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"PerfumedSoap"
+    },
+    "craftId":707,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":4,
+        "name":"SoapPowder"
+      },{
+        "qty":30,
+        "name":"LavenderEssentialOil"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"PerfumedSoap",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":11
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"PerfumedSoapPowder"
+    },
+    "craftId":708,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"PerfumedSoap"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"PerfumedSoapPowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Vitae"
+    },
+    "craftId":709,
+    "craftTime":5.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Mors"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Vitae",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":21
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Venus"
+    },
+    "craftId":710,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"HealingPotion"
+      },{
+        "qty":1,
+        "name":"VitalityPotion"
+      },{
+        "qty":1,
+        "name":"ManaPotion"
+      },{
+        "qty":1,
+        "name":"GrowthPotion"
+      },{
+        "qty":1,
+        "name":"BlastPotion"
+      },{
+        "qty":20,
+        "name":"SulfuricAcid"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":200,
+    "craftIdName":"Venus",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":19
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"GentianPowder"
+    },
+    "craftId":801,
+    "craftTime":3.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Gentian"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"GentianPowder",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"SilverPowder2"
+    },
+    "craftId":804,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"SilverPowder"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SilverPowder2",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"SilverPowder3"
+    },
+    "craftId":805,
+    "craftTime":6.4,
+    "ingredientList":[{
+        "qty":2,
+        "name":"CopperPowder2"
+      },{
+        "qty":2,
+        "name":"Catalyst1"
+      },{
+        "qty":2,
+        "name":"BlackPowder"
+      }],
+    "failRate1":0.8,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[1,1,1,1,0],
+    "fractionNum":1,
+    "craftIdName":"SilverPowder3",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":1,
+      "name":"SilverPowder"
+    },
+    "craftType":16
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"VolcanicAsh"
+    },
+    "craftId":2017,
+    "craftTime":24.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Obsidian"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"VolcanicAsh_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Obsidian"
+    },
+    "craftId":806,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Mors"
+      },{
+        "qty":1,
+        "name":"Crystal1"
+      },{
+        "qty":1,
+        "name":"Catalyst1"
+      }],
+    "failRate1":0.5,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[1,0],
+    "fractionNum":1,
+    "craftIdName":"Obsidian",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":1,
+      "name":"VolcanicAsh"
+    },
+    "craftType":16
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"SilverIngot"
+    },
+    "craftId":808,
+    "craftTime":16.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SilverPowder3"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SilverIngot",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":6
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":5,
+      "name":"SilverCoin"
+    },
+    "craftId":809,
+    "craftTime":16.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SilverIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SilverCoin",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"SilverAmulet"
+    },
+    "craftId":810,
+    "craftTime":10.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"SilverIngot"
+      },{
+        "qty":1,
+        "name":"LapisLazuli"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SilverAmulet",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":10
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":10,
+      "name":"Mercury"
+    },
+    "craftId":811,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SilverPowder"
+      },{
+        "qty":1,
+        "name":"Vitae"
+      },{
+        "qty":80,
+        "name":"SulfuricAcid"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Mercury",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":14
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":10,
+      "name":"AquaVitae"
+    },
+    "craftId":812,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"GentianNectar"
+      },{
+        "qty":1,
+        "name":"WorldTreeLeaf"
+      },{
+        "qty":200,
+        "name":"Brandy"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"AquaVitae",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":14
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"LapisLazuli"
+    },
+    "craftId":813,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SilverPowder2"
+      },{
+        "qty":4,
+        "name":"Shard1"
+      },{
+        "qty":4,
+        "name":"GentianPowder"
+      }],
+    "failRate1":0.33333333333333,
+    "failRate2":0.33333333333333,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[2,1,0],
+    "fractionNum":1,
+    "craftIdName":"LapisLazuli",
+    "failProduct2":{
+      "qty":1,
+      "name":"Shard1"
+    },
+    "failProduct1":{
+      "qty":1,
+      "name":"Crystal1"
+    },
+    "craftType":16
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"MercuryP"
+    },
+    "craftId":814,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Turquoise"
+      },{
+        "qty":1,
+        "name":"Malachite"
+      },{
+        "qty":1,
+        "name":"Topaz"
+      },{
+        "qty":1,
+        "name":"Obsidian"
+      },{
+        "qty":1,
+        "name":"LapisLazuli"
+      },{
+        "qty":10,
+        "name":"Mercury"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":100,
+    "craftIdName":"MercuryP",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":19
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Catalyst3"
+    },
+    "craftId":815,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Catalyst2"
+      },{
+        "qty":1,
+        "name":"VolcanicAsh"
+      },{
+        "qty":12,
+        "name":"AquaVitae"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Catalyst3",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":12
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"PanaceaElixir"
+    },
+    "craftId":816,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":3,
+        "name":"Catalyst2"
+      },{
+        "qty":3,
+        "name":"BlastPotion"
+      },{
+        "qty":12,
+        "name":"AquaVitae"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"PanaceaElixir",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":12
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"GoldDust2"
+    },
+    "craftId":902,
+    "craftTime":10.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"GoldDust"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"GoldDust2",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"GoldDust3"
+    },
+    "craftId":903,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SilverPowder3"
+      },{
+        "qty":1,
+        "name":"VolcanicAsh"
+      },{
+        "qty":1,
+        "name":"Catalyst2"
+      },{
+        "qty":12,
+        "name":"Mercury"
+      }],
+    "failRate1":0.3,
+    "failRate2":0.6,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[2,2,1,2,2,1,2,2,1,0],
+    "fractionNum":1,
+    "craftIdName":"GoldDust3",
+    "failProduct2":{
+      "qty":1,
+      "name":"GoldDust"
+    },
+    "failProduct1":{
+      "qty":1,
+      "name":"GoldDust2"
+    },
+    "craftType":16
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"GoldDust5"
+    },
+    "craftId":904,
+    "craftTime":10.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"GoldDust3"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"GoldDust5",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"GoldIngot"
+    },
+    "craftId":905,
+    "craftTime":40.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"GoldDust5"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"GoldIngot",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":6
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"GoldCoin"
+    },
+    "craftId":906,
+    "craftTime":40.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"GoldIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"GoldCoin",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":9
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Crown"
+    },
+    "craftId":907,
+    "craftTime":15.0,
+    "ingredientList":[{
+        "qty":3,
+        "name":"GoldIngot"
+      },{
+        "qty":1,
+        "name":"Ruby"
+      },{
+        "qty":1,
+        "name":"Sapphire"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Crown",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":17
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Catalyst4"
+    },
+    "craftId":908,
+    "craftTime":60.0,
+    "ingredientList":[{
+        "qty":15,
+        "name":"Catalyst3"
+      },{
+        "qty":1,
+        "name":"PhilosopherStone"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Catalyst4",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":23
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":2,
+      "name":"StarDust"
+    },
+    "craftId":909,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":12,
+        "name":"Jupiter"
+      },{
+        "qty":4,
+        "name":"Saturn"
+      },{
+        "qty":3,
+        "name":"Mars"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":25,
+    "craftIdName":"StarDust",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":23
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"FairyDust"
+    },
+    "craftId":910,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"ChamomilePowder"
+      },{
+        "qty":1,
+        "name":"GentianPowder"
+      },{
+        "qty":1,
+        "name":"WorldTreeLeaf"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"FairyDust",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":23
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"FairyTear"
+    },
+    "craftId":911,
+    "craftTime":4.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"FairyDust"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"FairyTear",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":5
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"MoonTear"
+    },
+    "craftId":912,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":16,
+        "name":"StarDust"
+      },{
+        "qty":10,
+        "name":"FairyTear"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"MoonTear",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":14
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"MoonlitSoap"
+    },
+    "craftId":913,
+    "craftTime":10.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"PerfumedSoapPowder"
+      },{
+        "qty":5,
+        "name":"MoonTear"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"MoonlitSoap",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":11
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Luna"
+    },
+    "craftId":914,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SteelIngot"
+      },{
+        "qty":1,
+        "name":"BronzeIngot"
+      },{
+        "qty":1,
+        "name":"CopperIngot"
+      },{
+        "qty":1,
+        "name":"SilverIngot"
+      },{
+        "qty":1,
+        "name":"GoldIngot"
+      },{
+        "qty":1,
+        "name":"MoonTear"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":75,
+    "craftIdName":"Luna",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":19
+  },{
+    "alternate":false,
+    "productInfo":{
+      "qty":1,
+      "name":"Sol"
+    },
+    "craftId":1001,
+    "craftTime":60.0,
+    "ingredientList":[{
+        "qty":60,
+        "name":"Jupiter"
+      },{
+        "qty":20,
+        "name":"Saturn"
+      },{
+        "qty":15,
+        "name":"Mars"
+      },{
+        "qty":40,
+        "name":"Venus"
+      },{
+        "qty":20,
+        "name":"MercuryP"
+      },{
+        "qty":15,
+        "name":"Luna"
+      },{
+        "qty":5,
+        "name":"Diamond3"
+      },{
+        "qty":1,
+        "name":"Catalyst4"
+      },{
+        "qty":1,
+        "name":"WorldTreeCore"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":5,
+    "craftIdName":"Sol",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":20
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"Salt"
+    },
+    "craftId":2001,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"RockSalt"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":1,
+      "name":"Sand"
+    },
+    "ProductSequence":[],
+    "fractionNum":100,
+    "craftIdName":"Salt_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":1
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"Coke"
+    },
+    "craftId":2003,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Coal"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Coke_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":6
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"CopperPowder2"
+    },
+    "craftId":2004,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"CopperPowder"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"CopperPowder2_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"SilverPowder3"
+    },
+    "craftId":2005,
+    "craftTime":8.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"SilverPowder2"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SilverPowder3_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"GoldDust3"
+    },
+    "craftId":2006,
+    "craftTime":10.0,
+    "ingredientList":[{
+        "qty":2,
+        "name":"GoldDust2"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"GoldDust3_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":7
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"CopperIngot"
+    },
+    "craftId":2007,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":400,
+        "name":"CopperCoin"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"CopperIngot_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":8
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"SilverIngot"
+    },
+    "craftId":2008,
+    "craftTime":16.0,
+    "ingredientList":[{
+        "qty":6,
+        "name":"SilverCoin"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SilverIngot_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":8
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":2,
+      "name":"GoldIngot"
+    },
+    "craftId":2009,
+    "craftTime":40.0,
+    "ingredientList":[{
+        "qty":3,
+        "name":"GoldCoin"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"GoldIngot_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":8
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"IronIngot"
+    },
+    "craftId":2010,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"IronSand"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"IronIngot_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":6
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"CopperPowder2"
+    },
+    "craftId":2011,
+    "craftTime":12.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"CopperIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"CopperPowder2_Alt2",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"SilverPowder3"
+    },
+    "craftId":2012,
+    "craftTime":16.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"SilverIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"SilverPowder3_Alt3",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"GoldDust5"
+    },
+    "craftId":2013,
+    "craftTime":40.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"GoldIngot"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"GoldDust5_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":4
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"Shard1"
+    },
+    "craftId":2014,
+    "craftTime":6.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"QuartzOre"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":80,
+    "craftIdName":"Shard1_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":1
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"Mors"
+    },
+    "craftId":2015,
+    "craftTime":5.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Vitae"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Mors_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":21
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"PhilosopherStone"
+    },
+    "craftId":2016,
+    "craftTime":60.0,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Ruby"
+      },{
+        "qty":1,
+        "name":"Sapphire"
+      },{
+        "qty":1,
+        "name":"Emerald"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"PhilosopherStone_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":22
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"Ruby"
+    },
+    "craftId":2017,
+    "craftTime":30.9,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Diamond2"
+      },{
+        "qty":1,
+        "name":"GoldDust5"
+      },{
+        "qty":1,
+        "name":"Catalyst3"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Ruby_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":22
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"Sapphire"
+    },
+    "craftId":2018,
+    "craftTime":38.2,
+    "ingredientList":[{
+        "qty":1,
+        "name":"Diamond3"
+      },{
+        "qty":1,
+        "name":"WorldTreeCore"
+      },{
+        "qty":1,
+        "name":"Catalyst1"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Sapphire_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":22
+  },{
+    "alternate":true,
+    "productInfo":{
+      "qty":1,
+      "name":"Emerald"
+    },
+    "craftId":2019,
+    "craftTime":45.5,
+    "ingredientList":[{
+        "qty":1,
+        "name":"MoonlitSoap"
+      },{
+        "qty":1,
+        "name":"LapisLazuli"
+      },{
+        "qty":1,
+        "name":"Catalyst2"
+      }],
+    "failRate1":0.0,
+    "failRate2":0.0,
+    "sideProduct":{
+      "qty":0,
+      "name":"None"
+    },
+    "ProductSequence":[],
+    "fractionNum":1,
+    "craftIdName":"Emerald_Alt",
+    "failProduct2":{
+      "qty":0,
+      "name":"None"
+    },
+    "failProduct1":{
+      "qty":0,
+      "name":"None"
+    },
+    "craftType":22
+  }]
