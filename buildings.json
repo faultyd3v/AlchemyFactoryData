@@ -1,1797 +1,1797 @@
 [{
+    "idName":"Belt",
     "id":1,
-    "secondaryType":1,
     "name":"Conveyor Belt",
     "desc":"A conveyor belt powered by magic, streamlining automation in the alchemy industry.",
-    "idName":"Belt",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":1,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":0,
-    "hc":0.0
+    }
   },{
-    "id":2,
-    "secondaryType":2,
-    "name":"Inclined Conveyor Belt",
-    "desc":"A conveyor belt that can send items to high or low places.",
     "idName":"BeltSlopeUp",
-    "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":2,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":0,
-    "hc":0.0
-  },{
-    "id":0,
-    "secondaryType":2,
+    "id":2,
     "name":"Inclined Conveyor Belt",
     "desc":"A conveyor belt that can send items to high or low places.",
-    "idName":"BeltInclinedUp",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":2,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":2
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":4,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":0,
-    "hc":0.0
+    }
   },{
+    "idName":"BeltInclinedUp",
+    "id":0,
+    "name":"Inclined Conveyor Belt",
+    "desc":"A conveyor belt that can send items to high or low places.",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":2,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    }
+  },{
+    "idName":"catapult",
     "id":4,
-    "secondaryType":0,
     "name":"Catapult",
     "desc":"A catapult that can throw items onto shelves or hopper conveyors, with angle and distance restrictions.",
-    "idName":"catapult",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"WoodGear",
+        "qty":6
+      },{
+        "name":"LinenRope",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":10,
-        "name":"WoodBoard"
-      },{
-        "qty":6,
-        "name":"WoodGear"
-      },{
-        "qty":4,
-        "name":"LinenRope"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"ConveyerLift_Upwards",
     "id":5,
-    "secondaryType":3,
     "name":"Conveyor Lifter",
     "desc":"A logistics device for transporting items vertically. Drag to adjust height. Can be switched to move items upwards or downwards.",
-    "idName":"ConveyerLift_Upwards",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":3,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":2
+      },{
+        "name":"LinenRope",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":2,
-        "name":"WoodBoard"
-      },{
-        "qty":1,
-        "name":"LinenRope"
-      }],
-    "furnitureType":0,
-    "hc":0.0
+    }
   },{
+    "idName":"Pipe",
     "id":11,
-    "secondaryType":7,
     "name":"Pipeline",
     "desc":"Pipeline for transporting liquids, configurable in vertical or horizontal mode.",
-    "idName":"Pipe",
+    "hc":0.0,
+    "furnitureType":5,
+    "secondaryType":7,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"IronIngot"
-      }],
-    "furnitureType":5,
-    "hc":0.0
+    }
   },{
+    "idName":"Railroad",
     "id":13,
-    "secondaryType":9,
     "name":"Track",
     "desc":"Iron tracks for factory vehicles.",
-    "idName":"Railroad",
+    "hc":0.0,
+    "furnitureType":6,
+    "secondaryType":9,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":2
+      },{
+        "name":"WoodBoard",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":2,
-        "name":"IronIngot"
-      },{
-        "qty":4,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":6,
-    "hc":0.0
+    }
   },{
+    "idName":"RailroadTurn",
     "id":14,
-    "secondaryType":9,
     "name":"Curved Track",
     "desc":"Iron tracks for factory vehicles.",
-    "idName":"RailroadTurn",
+    "hc":0.0,
+    "furnitureType":6,
+    "secondaryType":9,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":6
+      },{
+        "name":"WoodBoard",
+        "qty":12
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"IronIngot"
-      },{
-        "qty":12,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":6,
-    "hc":0.0
+    }
   },{
+    "idName":"RailroadRamp",
     "id":16,
-    "secondaryType":9,
     "name":"Banked Track",
     "desc":"Iron tracks for factory vehicles.",
-    "idName":"RailroadRamp",
+    "hc":0.0,
+    "furnitureType":6,
+    "secondaryType":9,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":2
+      },{
+        "name":"WoodBoard",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":2,
-        "name":"IronIngot"
-      },{
-        "qty":4,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":6,
-    "hc":0.0
+    }
   },{
+    "idName":"RailroadInclientUp",
     "id":18,
-    "secondaryType":9,
     "name":"Ascent Track",
     "desc":"Iron tracks for factory vehicles.",
-    "idName":"RailroadInclientUp",
+    "hc":0.0,
+    "furnitureType":6,
+    "secondaryType":9,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":4
+      },{
+        "name":"WoodBoard",
+        "qty":8
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":4,
-        "name":"IronIngot"
-      },{
-        "qty":8,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":6,
-    "hc":0.0
+    }
   },{
+    "idName":"RailroadInclientDown",
     "id":19,
-    "secondaryType":9,
     "name":"Descent Track",
     "desc":"Iron tracks for factory vehicles.",
-    "idName":"RailroadInclientDown",
+    "hc":0.0,
+    "furnitureType":6,
+    "secondaryType":9,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":4
+      },{
+        "name":"WoodBoard",
+        "qty":8
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":4,
-        "name":"IronIngot"
-      },{
-        "qty":8,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":6,
-    "hc":0.0
+    }
   },{
+    "idName":"Cannon",
     "id":22,
-    "secondaryType":0,
     "name":"Cannon",
     "desc":"An advanced catapult with no angle restrictions, longer throw distance, and two conveyor belt inputs.",
-    "idName":"Cannon",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":4
+      },{
+        "name":"SteelGear",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":4,
-        "name":"SteelIngot"
-      },{
-        "qty":4,
-        "name":"SteelGear"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"DrawBridge",
     "id":23,
-    "secondaryType":2,
     "name":"Drawbridge Conveyor",
     "desc":"A special conveyor belt pulled by linen ropes, requiring no extra support.",
-    "idName":"DrawBridge",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":2,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      },{
+        "name":"LinenRope",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"WoodBoard"
-      },{
-        "qty":6,
-        "name":"LinenRope"
-      }],
-    "furnitureType":0,
-    "hc":0.0
+    }
   },{
+    "idName":"ConveyorTunnel",
     "id":24,
-    "secondaryType":2,
     "name":"Tunnel Conveyor",
     "desc":"A conveyor passage that can be mounted on walls.",
-    "idName":"ConveyorTunnel",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":2,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":6
+      },{
+        "name":"Nails",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics","Building.WallMounted"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"IronIngot"
-      },{
-        "qty":6,
-        "name":"Nails"
-      }],
-    "furnitureType":0,
-    "hc":0.0
+    }
   },{
+    "idName":"Filter_Vert",
     "id":25,
-    "secondaryType":0,
     "name":"Filter Splitter",
     "desc":"A splitter designed to filter out chosen items.",
-    "idName":"Filter_Vert",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"Hopper",
     "id":28,
-    "secondaryType":0,
     "name":"Hopper Conveyor",
     "desc":"Designed to catch thrown items, it features a single conveyor belt output.",
-    "idName":"Hopper",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      },{
+        "name":"Nails",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":5,
-        "name":"WoodBoard"
-      },{
-        "qty":4,
-        "name":"Nails"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"Splitter_Vert",
     "id":30,
-    "secondaryType":0,
     "name":"Priority Splitter",
     "desc":"Features one conveyor belt input and two conveyor belt outputs. Input items are prioritized for the first output.",
-    "idName":"Splitter_Vert",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"Merger_Vert",
     "id":33,
-    "secondaryType":0,
     "name":"Priority Merger",
     "desc":"Features two conveyor belt inputs and one conveyor belt output. Items put into the first input are prioritized.",
-    "idName":"Merger_Vert",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Logistics"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"Grinder",
     "id":101,
-    "secondaryType":0,
     "name":"Grinder",
     "desc":"Automated grinding device with one conveyor belt input and one conveyor belt output.",
-    "idName":"Grinder",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":8
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.PassiveCrafting"]
-    },
-    "costList":[{
-        "qty":8,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"EnhancedGrinder",
     "id":103,
-    "secondaryType":0,
     "name":"Enhanced Grinder",
     "desc":"A more efficient grinder, working at twice the speed of a regular one.",
-    "idName":"EnhancedGrinder",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":12
+      },{
+        "name":"SteelGear",
+        "qty":3
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.PassiveCrafting"]
-    },
-    "costList":[{
-        "qty":12,
-        "name":"WoodBoard"
-      },{
-        "qty":3,
-        "name":"SteelGear"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"Crucible",
     "id":104,
-    "secondaryType":0,
     "name":"Crucible",
     "desc":"Automated heating device that can only be built on a furnace, with one conveyor belt input and one conveyor belt output.",
-    "idName":"Crucible",
+    "hc":4.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Stone",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab"],
       "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"]
-    },
-    "costList":[{
-        "qty":4,
-        "name":"Stone"
-      }],
-    "furnitureType":2,
-    "hc":4.0
+    }
   },{
+    "idName":"StackableCrucible",
     "id":105,
-    "secondaryType":0,
     "name":"Stackable Crucible",
     "desc":"An automated heater that transfers heat to the device above it.",
-    "idName":"StackableCrucible",
+    "hc":6.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Stone",
+        "qty":6
+      },{
+        "name":"SteelIngot",
+        "qty":2
+      },{
+        "name":"BronzeRivet",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab"],
       "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"Stone"
-      },{
-        "qty":2,
-        "name":"SteelIngot"
-      },{
-        "qty":4,
-        "name":"BronzeRivet"
-      }],
-    "furnitureType":2,
-    "hc":6.0
+    }
   },{
+    "idName":"Extractor",
     "id":106,
-    "secondaryType":0,
     "name":"Extractor",
     "desc":"Automated extraction device with one conveyor belt input and one pipeline output.",
-    "idName":"Extractor",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":5
+      },{
+        "name":"Glass",
+        "qty":5
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.PassiveCrafting"]
-    },
-    "costList":[{
-        "qty":5,
-        "name":"IronIngot"
-      },{
-        "qty":5,
-        "name":"Glass"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"ThermalExtractor",
     "id":107,
-    "secondaryType":0,
     "name":"Thermal Extractor",
     "desc":"An advanced Extractor with an added heating module. The higher up it's built, the greater its output.",
-    "idName":"ThermalExtractor",
+    "hc":80.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":5
+      },{
+        "name":"Glass",
+        "qty":5
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.PassiveCrafting","Building.Heating"]
-    },
-    "costList":[{
-        "qty":5,
-        "name":"SteelIngot"
-      },{
-        "qty":5,
-        "name":"Glass"
-      }],
-    "furnitureType":2,
-    "hc":80.0
+    }
   },{
+    "idName":"Refiner",
     "id":108,
-    "secondaryType":0,
     "name":"Refiner",
     "desc":"An automated refining device with two conveyor belt inputs and one conveyor belt output.",
-    "idName":"Refiner",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":8
+      },{
+        "name":"SteelGear",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.PassiveCrafting"]
-    },
-    "costList":[{
-        "qty":8,
-        "name":"WoodBoard"
-      },{
-        "qty":4,
-        "name":"SteelGear"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"ParadoxCrucible",
     "id":110,
-    "secondaryType":0,
     "name":"Paradox Crucible",
     "desc":"A passive heating device that can refine any material into oblivion essence. Different materials will take different amounts of time to refine.",
-    "idName":"ParadoxCrucible",
+    "hc":1200.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":8
+      },{
+        "name":"CopperIngot",
+        "qty":8
+      },{
+        "name":"BronzeRivet",
+        "qty":16
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab"],
       "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"]
-    },
-    "costList":[{
-        "qty":8,
-        "name":"SteelIngot"
-      },{
-        "qty":8,
-        "name":"CopperIngot"
-      },{
-        "qty":16,
-        "name":"BronzeRivet"
-      }],
-    "furnitureType":2,
-    "hc":1200.0
+    }
   },{
+    "idName":"KnowledgeAltar",
     "id":111,
-    "secondaryType":0,
     "name":"Knowledge Altar",
     "desc":"A device that can withdraw alchemy knowledge automatically from Relics and upgrade knowledge level, with one conveyor belt input.",
-    "idName":"KnowledgeAltar",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Stone",
+        "qty":24
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.PassiveCrafting"]
-    },
-    "costList":[{
-        "qty":24,
-        "name":"Stone"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"Processor",
     "id":201,
-    "secondaryType":0,
     "name":"Processor",
     "desc":"An advanced processing device that requires a recipe. It has one conveyor belt input and one conveyor belt output.",
-    "idName":"Processor",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":12
+      },{
+        "name":"LargeWoodGear",
+        "qty":3
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":12,
-        "name":"WoodBoard"
-      },{
-        "qty":3,
-        "name":"LargeWoodGear"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"Kiln",
     "id":203,
-    "secondaryType":0,
     "name":"Kiln",
     "desc":"An advanced heating device that requires a recipe. It can only be built on a furnace, with one conveyor belt input and one conveyor belt output.",
-    "idName":"Kiln",
+    "hc":15.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Stone",
+        "qty":20
+      },{
+        "name":"Clay",
+        "qty":10
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab"],
       "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":20,
-        "name":"Stone"
-      },{
-        "qty":10,
-        "name":"Clay"
-      }],
-    "furnitureType":2,
-    "hc":15.0
+    }
   },{
+    "idName":"Blender",
     "id":204,
-    "secondaryType":0,
     "name":"Blender",
     "desc":"An advanced Blender that requires a recipe. It has one conveyor belt input, one pipeline input and one conveyor belt output.",
-    "idName":"Blender",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":8
+      },{
+        "name":"Glass",
+        "qty":8
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":8,
-        "name":"IronIngot"
-      },{
-        "qty":8,
-        "name":"Glass"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"Assembler",
     "id":205,
-    "secondaryType":0,
     "name":"Assembler",
     "desc":"An advanced processing device that requires a recipe. It has two conveyor belt inputs and one conveyor belt output.",
-    "idName":"Assembler",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"LargeWoodGear",
+        "qty":5
+      },{
+        "name":"WoodGear",
+        "qty":15
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":10,
-        "name":"WoodBoard"
-      },{
-        "qty":5,
-        "name":"LargeWoodGear"
-      },{
-        "qty":15,
-        "name":"WoodGear"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"Alembic",
     "id":207,
-    "secondaryType":0,
     "name":"Alembic",
     "desc":"An alembic that requires a recipe. It can only be built on a furnace, with one conveyor belt input, one pipeline input and one pipeline output.",
-    "idName":"Alembic",
+    "hc":108.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":4
+      },{
+        "name":"CopperIngot",
+        "qty":4
+      },{
+        "name":"Glass",
+        "qty":8
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab"],
       "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":4,
-        "name":"SteelIngot"
-      },{
-        "qty":4,
-        "name":"CopperIngot"
-      },{
-        "qty":8,
-        "name":"Glass"
-      }],
-    "furnitureType":2,
-    "hc":108.0
+    }
   },{
+    "idName":"Athanor",
     "id":208,
-    "secondaryType":0,
     "name":"Athanor",
     "desc":"An advanced athanor with a chance of failure. It has two conveyor outputs, and failed products go through the second output.",
-    "idName":"Athanor",
+    "hc":32.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":10
+      },{
+        "name":"Nails",
+        "qty":15
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab"],
       "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":10,
-        "name":"IronIngot"
-      },{
-        "qty":15,
-        "name":"Nails"
-      }],
-    "furnitureType":2,
-    "hc":32.0
+    }
   },{
+    "idName":"AdvancedBlender",
     "id":210,
-    "secondaryType":0,
     "name":"Advanced Blender",
     "desc":"An advanced blender that requires a recipe. It has two conveyor belt inputs, one pipeline input and one conveyor belt output.",
-    "idName":"AdvancedBlender",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":8
+      },{
+        "name":"Glass",
+        "qty":16
+      },{
+        "name":"CopperBearing",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":8,
-        "name":"SteelIngot"
-      },{
-        "qty":16,
-        "name":"Glass"
-      },{
-        "qty":4,
-        "name":"CopperBearing"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"AdvancedAlembic",
     "id":212,
-    "secondaryType":0,
     "name":"Advanced Alembic",
     "desc":"An advanced alembic that requires a recipe. It can only be built on a furnace, with two conveyor belt inputs, one pipeline input and one pipeline output.",
-    "idName":"AdvancedAlembic",
+    "hc":270.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":8
+      },{
+        "name":"Glass",
+        "qty":16
+      },{
+        "name":"CopperBearing",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab"],
       "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":8,
-        "name":"SteelIngot"
-      },{
-        "qty":16,
-        "name":"Glass"
-      },{
-        "qty":4,
-        "name":"CopperBearing"
-      }],
-    "furnitureType":2,
-    "hc":270.0
+    }
   },{
+    "idName":"Omni-Machine",
     "id":214,
-    "secondaryType":0,
     "name":"Advanced Assembler",
     "desc":"An advanced processing device that requires a recipe. It has three conveyor belt inputs, one pipeline input and one conveyor belt output.",
-    "idName":"Omni-Machine",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":12
+      },{
+        "name":"SteelGear",
+        "qty":16
+      },{
+        "name":"CopperBearing",
+        "qty":8
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":12,
-        "name":"SteelIngot"
-      },{
-        "qty":16,
-        "name":"SteelGear"
-      },{
-        "qty":8,
-        "name":"CopperBearing"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"AdvancedAthanor",
     "id":215,
-    "secondaryType":0,
     "name":"Advanced Athanor",
     "desc":"An advanced athanor with a chance of failure. It has three conveyor outputs, and failed products go through a second or third output.",
-    "idName":"AdvancedAthanor",
+    "hc":360.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":12
+      },{
+        "name":"CopperIngot",
+        "qty":12
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab"],
       "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":12,
-        "name":"SteelIngot"
-      },{
-        "qty":12,
-        "name":"CopperIngot"
-      }],
-    "furnitureType":2,
-    "hc":360.0
+    }
   },{
+    "idName":"Shaper",
     "id":216,
-    "secondaryType":0,
     "name":"Shaper",
     "desc":"An advanced shaper that requires a recipe. It has six conveyor belt inputs and one conveyor belt output, and the product is crafted gradually as materials are fed in.",
-    "idName":"Shaper",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":8
+      },{
+        "name":"Nails",
+        "qty":16
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":8,
-        "name":"IronIngot"
-      },{
-        "qty":16,
-        "name":"Nails"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"AdvancedShaper",
     "id":217,
-    "secondaryType":0,
     "name":"Advanced Shaper",
     "desc":"An advanced shaper requires that a recipe. It has five conveyor belt inputs, two pipeline inputs and one conveyor belt output, and the product is crafted gradually as materials are fed in.",
-    "idName":"AdvancedShaper",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":8
+      },{
+        "name":"SteelGear",
+        "qty":16
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":8,
-        "name":"SteelIngot"
-      },{
-        "qty":16,
-        "name":"SteelGear"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"AetherShaper",
     "id":218,
-    "secondaryType":0,
     "name":"Arcane Shaper",
     "desc":"An advanced shaper that requires a recipe. It has nine conveyor belt inputs and one conveyor belt output, and the product is crafted gradually as materials are fed in.",
-    "idName":"AetherShaper",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"GoldIngot",
+        "qty":12
+      },{
+        "name":"SteelGear",
+        "qty":24
+      },{
+        "name":"CopperBearing",
+        "qty":18
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":12,
-        "name":"GoldIngot"
-      },{
-        "qty":24,
-        "name":"SteelGear"
-      },{
-        "qty":18,
-        "name":"CopperBearing"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"Cauldron",
     "id":112,
-    "secondaryType":0,
     "name":"Cauldron",
     "desc":"A traditional alchemy device that takes any three materials and refines them into one unknown material. Some old alchemists still insist on using it.",
-    "idName":"Cauldron",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"BronzeIngot",
+        "qty":30
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.PassiveCrafting","Building.Heating"]
-    },
-    "costList":[{
-        "qty":30,
-        "name":"BronzeIngot"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"ArcaneProcessor",
     "id":219,
-    "secondaryType":0,
     "name":"Arcane Processor",
     "desc":"An advanced processing device that requires a recipe. It has one conveyor belt input and one conveyor belt output.",
-    "idName":"ArcaneProcessor",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":6
+      },{
+        "name":"SteelGear",
+        "qty":12
+      },{
+        "name":"LapisLazuli",
+        "qty":2
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.ActiveCrafting"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"SteelIngot"
-      },{
-        "qty":12,
-        "name":"SteelGear"
-      },{
-        "qty":2,
-        "name":"LapisLazuli"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"StoneStove",
     "id":301,
-    "secondaryType":0,
     "name":"Stone Furnace",
     "desc":"A simple heating device. After adding fuel, the devices above the stone furnace can be heated. Fuel can be automatically refilled through a conveyor belt.",
-    "idName":"StoneStove",
+    "hc":1.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Stone",
+        "qty":20
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building","Building.Nav"],
       "GameplayTags":["Building.Lab.Heating","Building.Nav.ModifierObstacleArea","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":20,
-        "name":"Stone"
-      }],
-    "furnitureType":2,
-    "hc":1.0
+    }
   },{
+    "idName":"StoneFurnace",
     "id":302,
-    "secondaryType":0,
     "name":"Blast Furnace",
     "desc":"An advanced heating device with a larger heating area. It can automatically refill fuel through a conveyor belt.",
-    "idName":"StoneFurnace",
+    "hc":4.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Brick",
+        "qty":30
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building","Building.Nav"],
       "GameplayTags":["Building.Lab.Heating","Building.Nav.ModifierObstacleArea","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":30,
-        "name":"Brick"
-      }],
-    "furnitureType":2,
-    "hc":4.0
+    }
   },{
+    "idName":"WoodTable",
     "id":401,
-    "secondaryType":0,
     "name":"Wooden Table",
     "desc":"A simple wooden table for displaying your Lab devices.",
-    "idName":"WoodTable",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":20
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
-    },
-    "costList":[{
-        "qty":20,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"WoodCrate",
     "id":402,
-    "secondaryType":0,
     "name":"Wooden Box",
     "desc":"A wooden box for stacking miscellaneous items — it might be a good alternative when a wooden table is too big.",
-    "idName":"WoodCrate",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":12
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":12,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"MediumStand",
     "id":403,
-    "secondaryType":0,
     "name":"Medium Shelf",
     "desc":"A shelf with two slots for displaying and selling sundries.",
-    "idName":"MediumStand",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":16
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
-    },
-    "costList":[{
-        "qty":16,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"CheckoutTable",
     "id":404,
-    "secondaryType":0,
     "name":"Checkout Table",
     "desc":"A checkout counter where customers complete their purchases. Install a Cashier to enable automatic checkout.",
-    "idName":"CheckoutTable",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":40
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
-    },
-    "costList":[{
-        "qty":40,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"LargeStand",
     "id":405,
-    "secondaryType":0,
     "name":"Large Shelf",
     "desc":"A shelf with three slots for displaying and selling sundries.",
-    "idName":"LargeStand",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":24
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
-    },
-    "costList":[{
-        "qty":24,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"PotionStand",
     "id":406,
-    "secondaryType":0,
     "name":"Potion Shelf",
     "desc":"A shelf with four slots for displaying and selling potions.",
-    "idName":"PotionStand",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":40
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
-    },
-    "costList":[{
-        "qty":40,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"JewelryStand",
     "id":407,
-    "secondaryType":0,
     "name":"Jewelry Shelf",
     "desc":"A shelf with three slots for displaying and selling jewelries.",
-    "idName":"JewelryStand",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":20
+      },{
+        "name":"Glass",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
-    },
-    "costList":[{
-        "qty":20,
-        "name":"WoodBoard"
-      },{
-        "qty":6,
-        "name":"Glass"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"WoodBed",
     "id":408,
-    "secondaryType":0,
     "name":"Wooden Bed",
     "desc":"A wooden bed you can sleep on until the next day — no overtime today.",
-    "idName":"WoodBed",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":35
+      },{
+        "name":"Linen",
+        "qty":20
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
-    },
-    "costList":[{
-        "qty":35,
-        "name":"WoodBoard"
-      },{
-        "qty":20,
-        "name":"Linen"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"CoasterEntrance",
     "id":410,
-    "secondaryType":9,
     "name":"Track Station",
     "desc":"A factory tour station that launches sightseeing carts after both track ends are connected and Transformation Potions are stocked. Customers are required to pay tickets and tips.",
-    "idName":"CoasterEntrance",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":9,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":30
+      },{
+        "name":"IronIngot",
+        "qty":10
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
-    },
-    "costList":[{
-        "qty":30,
-        "name":"WoodBoard"
-      },{
-        "qty":10,
-        "name":"IronIngot"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"RelicStandSmall",
     "id":411,
-    "secondaryType":0,
     "name":"Relic Shelf",
     "desc":"A shelf of adjustable size for displaying and selling relics.",
-    "idName":"RelicStandSmall",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
-    },
-    "costList":[{
-        "qty":10,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"Platform_Wood",
     "id":601,
-    "secondaryType":0,
     "name":"Wooden Platform",
     "desc":"A small platform half a floor high.",
-    "idName":"Platform_Wood",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"Stairs_Wood",
     "id":602,
-    "secondaryType":0,
     "name":"Wooden Stairs",
     "desc":"A small staircase with the height of half a floor.",
-    "idName":"Stairs_Wood",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":12
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"]
-    },
-    "costList":[{
-        "qty":12,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"Construct_Floor_Wood",
     "id":603,
-    "secondaryType":6,
     "name":"Wooden Floor",
     "desc":"A modular wooden floor which can have its size toggled.",
-    "idName":"Construct_Floor_Wood",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":20
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building","Building.Nav"],
       "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierDefaultArea"]
-    },
-    "costList":[{
-        "qty":20,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":4,
-    "hc":0.0
+    }
   },{
+    "idName":"Construct_Wall_Wood",
     "id":604,
-    "secondaryType":6,
     "name":"Wooden Wall",
     "desc":"Modular wooden wall that can be switched to a form with a door or a window.",
-    "idName":"Construct_Wall_Wood",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"Brick",
+        "qty":10
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab","Building.Nav"],
       "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
-    },
-    "costList":[{
-        "qty":10,
-        "name":"WoodBoard"
-      },{
-        "qty":10,
-        "name":"Brick"
-      }],
-    "furnitureType":4,
-    "hc":0.0
+    }
   },{
+    "idName":"Roof_Wood",
     "id":606,
-    "secondaryType":6,
     "name":"Sloped Roof",
     "desc":"Weather-resistant shingles on a plank base. Simple assembly, full protection.",
-    "idName":"Roof_Wood",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"Brick",
+        "qty":10
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building","Building.Nav"],
       "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
-    },
-    "costList":[{
-        "qty":10,
-        "name":"WoodBoard"
-      },{
-        "qty":10,
-        "name":"Brick"
-      }],
-    "furnitureType":4,
-    "hc":0.0
+    }
   },{
+    "idName":"Construct_Wall_Stone",
     "id":607,
-    "secondaryType":6,
     "name":"Stone Wall",
     "desc":"A modular stone wall that can be switched to forms with a door or a window.",
-    "idName":"Construct_Wall_Stone",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"Stone",
+        "qty":10
+      },{
+        "name":"Brick",
+        "qty":10
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab","Building.Nav"],
       "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
-    },
-    "costList":[{
-        "qty":10,
-        "name":"Stone"
-      },{
-        "qty":10,
-        "name":"Brick"
-      }],
-    "furnitureType":4,
-    "hc":0.0
+    }
   },{
+    "idName":"WoodRailing",
     "id":608,
-    "secondaryType":0,
     "name":"Wooden Railing",
     "desc":"Wooden railing with sturdy structure and practical use.",
-    "idName":"WoodRailing",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":8
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building","Building.Nav"],
       "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
-    },
-    "costList":[{
-        "qty":8,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"ShopEntrance",
     "id":614,
-    "secondaryType":6,
     "name":"Shop Entrance",
     "desc":"",
-    "idName":"ShopEntrance",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building","Building.Nav"],
       "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
-    },
-    "costList":[{
-        "qty":5,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":4,
-    "hc":0.0
+    }
   },{
+    "idName":"Stairs_Wood_0",
     "id":615,
-    "secondaryType":0,
     "name":"Wooden Stairs",
     "desc":"A wood staircase half a floor high.",
-    "idName":"Stairs_Wood_0",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"]
-    },
-    "costList":[],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"TableSaw",
     "id":701,
-    "secondaryType":0,
     "name":"Table Saw",
     "desc":"It consumes Logs to produce planks, with one conveyor belt input and one conveyor belt output.",
-    "idName":"TableSaw",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.RawProduction"]
-    },
-    "costList":[{
-        "qty":5,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"StoneCrusher",
     "id":702,
-    "secondaryType":0,
     "name":"Stone Crusher",
     "desc":"It consumes limestone to produce rubbles, and has one conveyor belt input and one conveyor belt output.",
-    "idName":"StoneCrusher",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      },{
+        "name":"LargeWoodGear",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.RawProduction"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"WoodBoard"
-      },{
-        "qty":6,
-        "name":"LargeWoodGear"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"SeedPlot",
     "id":703,
-    "secondaryType":0,
     "name":"Seed Plot",
     "desc":"A planting plot. After using plant seeds, you can wait to harvest.",
-    "idName":"SeedPlot",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Stone",
+        "qty":8
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.RawProduction"]
-    },
-    "costList":[{
-        "qty":8,
-        "name":"Stone"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"IronSmelter",
     "id":704,
-    "secondaryType":0,
     "name":"Iron Smelter",
     "desc":"It consumes iron ore to smelt iron ingots and can only be built on a furnace and has a conveyor belt output.",
-    "idName":"IronSmelter",
+    "hc":9.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Stone",
+        "qty":15
+      }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab"],
       "GameplayTags":["Building.Heating","Building.Lab.RawProduction"]
-    },
-    "costList":[{
-        "qty":15,
-        "name":"Stone"
-      }],
-    "furnitureType":2,
-    "hc":9.0
+    }
   },{
+    "idName":"AutoNursery",
     "id":705,
-    "secondaryType":0,
     "name":"Nursery",
     "desc":"An automatic herbal production device. Spread seeds and add fertilizer to grow the corresponding herbs.",
-    "idName":"AutoNursery",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":12
+      },{
+        "name":"Clay",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.RawProduction"]
-    },
-    "costList":[{
-        "qty":12,
-        "name":"IronIngot"
-      },{
-        "qty":6,
-        "name":"Clay"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"WorldTreeNursery",
     "id":706,
-    "secondaryType":0,
     "name":"World Tree Nursery",
     "desc":"A Nursery used specially to grow a World Tree. It consumes Fertilizer at a set rate and has nine conveyor belt inputs and one conveyor belt output.",
-    "idName":"WorldTreeNursery",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WorldTreeSeed",
+        "qty":1
+      },{
+        "name":"Clay",
+        "qty":100
+      },{
+        "name":"IronIngot",
+        "qty":100
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.RawProduction"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"WorldTreeSeed"
-      },{
-        "qty":100,
-        "name":"Clay"
-      },{
-        "qty":100,
-        "name":"IronIngot"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"Portal_AlchGuild",
     "id":707,
-    "secondaryType":0,
     "name":"Purchasing Portal",
     "desc":"A purchasing portal available only to senior members of the Alchemy Association. Input the required money to acquire the corresponding items.",
-    "idName":"Portal_AlchGuild",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"PortalSigil",
+        "qty":1
+      },{
+        "name":"WoodBoard",
+        "qty":5
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.RawProduction"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"PortalSigil"
-      },{
-        "qty":5,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"Portal_Bank",
     "id":708,
-    "secondaryType":0,
     "name":"Bank Portal",
     "desc":"A device used to convert back and forth between two different coins, with the ability to set the amount of coins output each time.",
-    "idName":"Portal_Bank",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"PortalSigil",
+        "qty":1
+      },{
+        "name":"IronIngot",
+        "qty":5
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.RawProduction"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"PortalSigil"
-      },{
-        "qty":5,
-        "name":"IronIngot"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"Portal_Wholesaling",
     "id":709,
-    "secondaryType":0,
     "name":"Dispatch Portal",
     "desc":"A portal that can send goods to the purchaser and receive payment. The corresponding purchase contract must first be unlocked.",
-    "idName":"Portal_Wholesaling",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"PortalSigil",
+        "qty":1
+      },{
+        "name":"WoodBoard",
+        "qty":5
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.RawProduction"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"PortalSigil"
-      },{
-        "qty":5,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"LiquidSupplier",
     "id":710,
-    "secondaryType":0,
     "name":"Purchasing Portal",
     "desc":"",
-    "idName":"LiquidSupplier",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[],
     "buildingTags":{
       "ParentTags":[],
       "GameplayTags":[]
-    },
-    "costList":[],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"SmallContainer",
     "id":801,
-    "secondaryType":0,
     "name":"Small Storage Box",
     "desc":"A small storage box configurable in multiple modes, with one conveyor belt input and one conveyor belt output.",
-    "idName":"SmallContainer",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Storage"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"WoodContainer",
     "id":806,
-    "secondaryType":0,
     "name":"Large Storage Box",
     "desc":"Automated storage box with two conveyor belt inputs and two conveyor belt outputs.",
-    "idName":"WoodContainer",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"WoodGear",
+        "qty":12
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Storage"]
-    },
-    "costList":[{
-        "qty":10,
-        "name":"WoodBoard"
-      },{
-        "qty":12,
-        "name":"WoodGear"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"MetalContainer",
     "id":809,
-    "secondaryType":0,
     "name":"Metal Storage Box",
     "desc":"A metal-reinforced advanced automated storage box with larger capacity.",
-    "idName":"MetalContainer",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":10
+      },{
+        "name":"WoodGear",
+        "qty":12
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Storage"]
-    },
-    "costList":[{
-        "qty":10,
-        "name":"IronIngot"
-      },{
-        "qty":12,
-        "name":"WoodGear"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"ConicalFlask",
     "id":810,
-    "secondaryType":0,
     "name":"Conical Flask",
     "desc":"A small Flask for liquids, with a pipeline input, switchable between a conical flask and a round-bottom flask.",
-    "idName":"ConicalFlask",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Glass",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Storage"]
-    },
-    "costList":[{
-        "qty":4,
-        "name":"Glass"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"SphereFlask",
     "id":812,
-    "secondaryType":0,
     "name":"Sphere Liquid Flask",
     "desc":"A spherical flask for storing liquids, with four pipeline connections.",
-    "idName":"SphereFlask",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":5
+      },{
+        "name":"Glass",
+        "qty":10
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Storage"]
-    },
-    "costList":[{
-        "qty":5,
-        "name":"IronIngot"
-      },{
-        "qty":10,
-        "name":"Glass"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"JunkBarrel",
     "id":816,
-    "secondaryType":0,
     "name":"Trash Barrel",
     "desc":"A trash barrel with four conveyor belt inputs, emptied each night.",
-    "idName":"JunkBarrel",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":16
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Storage"]
-    },
-    "costList":[{
-        "qty":16,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"FrameSingle",
     "id":901,
-    "secondaryType":0,
     "name":"Lab Stands",
     "desc":"Essential laboratory stands for efficient production-line setup.",
-    "idName":"FrameSingle",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":1
+      },{
+        "name":"Nails",
+        "qty":2
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Structure"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"WoodBoard"
-      },{
-        "qty":2,
-        "name":"Nails"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"IronStand",
     "id":903,
-    "secondaryType":0,
     "name":"Lab Stands",
     "desc":"",
-    "idName":"IronStand",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":2
+      },{
+        "name":"Nails",
+        "qty":8
+      },{
+        "name":"IronIngot",
+        "qty":4
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Structure"]
-    },
-    "costList":[{
-        "qty":2,
-        "name":"WoodBoard"
-      },{
-        "qty":8,
-        "name":"Nails"
-      },{
-        "qty":4,
-        "name":"IronIngot"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"Beam3",
     "id":905,
-    "secondaryType":0,
     "name":"Beam",
     "desc":"An auxiliary structure that only needs to be supported on both ends to build and that can be converted to different lengths.",
-    "idName":"Beam3",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":3
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":3,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"MetalStand",
     "id":909,
-    "secondaryType":0,
     "name":"Metal Stand",
     "desc":"Metal-framed laboratory stand with enhanced durability.",
-    "idName":"MetalStand",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":3
+      },{
+        "name":"Nails",
+        "qty":12
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Structure"]
-    },
-    "costList":[{
-        "qty":3,
-        "name":"SteelIngot"
-      },{
-        "qty":12,
-        "name":"Nails"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"SmallPlatform",
     "id":911,
-    "secondaryType":0,
     "name":"Reinforced Platform",
     "desc":"A nailed wood-metal reinforced platform for production line expansion.",
-    "idName":"SmallPlatform",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":4
+      },{
+        "name":"WoodBoard",
+        "qty":8
+      },{
+        "name":"BronzeRivet",
+        "qty":6
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Structure"]
-    },
-    "costList":[{
-        "qty":4,
-        "name":"SteelIngot"
-      },{
-        "qty":8,
-        "name":"WoodBoard"
-      },{
-        "qty":6,
-        "name":"BronzeRivet"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"WallShelf",
     "id":914,
-    "secondaryType":0,
     "name":"Wooden Shelf",
     "desc":"Wall-mounted support device that greatly improves space utilization.",
-    "idName":"WallShelf",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      },{
+        "name":"Nails",
+        "qty":10
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Structure","Building.WallMounted"]
-    },
-    "costList":[{
-        "qty":6,
-        "name":"WoodBoard"
-      },{
-        "qty":10,
-        "name":"Nails"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"Candle",
     "id":1001,
-    "secondaryType":0,
     "name":"Candle",
     "desc":"A simple lighting device that can be placed or wall-mounted.",
-    "idName":"Candle",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Decoration"]
-    },
-    "costList":[{
-        "qty":5,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"WoodBlock",
     "id":1101,
-    "secondaryType":0,
     "name":"Wood Block",
     "desc":"",
-    "idName":"WoodBlock",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"WoodBoard"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"StoneBlock",
     "id":1102,
-    "secondaryType":0,
     "name":"Stone Block",
     "desc":"",
-    "idName":"StoneBlock",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Stone",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"Stone"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"BrickBlock",
     "id":1103,
-    "secondaryType":0,
     "name":"Brick Block",
     "desc":"",
-    "idName":"BrickBlock",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Brick",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"Brick"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"IronBlock",
     "id":1104,
-    "secondaryType":0,
     "name":"Iron Block",
     "desc":"",
-    "idName":"IronBlock",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"IronIngot"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"MarbleBlock",
     "id":1105,
-    "secondaryType":0,
     "name":"Marble Block",
     "desc":"",
-    "idName":"MarbleBlock",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Marble",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"Marble"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"CopperBlock",
     "id":1106,
-    "secondaryType":0,
     "name":"Copper Block",
     "desc":"",
-    "idName":"CopperBlock",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"CopperIngot",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"CopperIngot"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"BronzeBlock",
     "id":1107,
-    "secondaryType":0,
     "name":"Bronze Block",
     "desc":"",
-    "idName":"BronzeBlock",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"BronzeIngot",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"BronzeIngot"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"SilverBlock",
     "id":1108,
-    "secondaryType":0,
     "name":"Silver Block",
     "desc":"",
-    "idName":"SilverBlock",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SilverIngot",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"SilverIngot"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"GoldBlock",
     "id":1109,
-    "secondaryType":0,
     "name":"Gold Block",
     "desc":"",
-    "idName":"GoldBlock",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"GoldIngot",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"GoldIngot"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"AutoCheckout",
     "id":1110,
-    "secondaryType":0,
     "name":"Automatic Cashier",
     "desc":"A cashier with automatic checkout. It stops working when the coin limit is reached and features two conveyor belts.",
-    "idName":"AutoCheckout",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"CashRegister",
+        "qty":1
+      }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
       "GameplayTags":["Building.Lab.Block"]
-    },
-    "costList":[{
-        "qty":1,
-        "name":"CashRegister"
-      }],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
+    "idName":"WorkBench",
     "id":400,
-    "secondaryType":0,
     "name":"Workbench",
     "desc":"A workbench for crafting and upgrading accessories.",
-    "idName":"WorkBench",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":20
+      },{
+        "name":"LinenRope",
+        "qty":20
+      },{
+        "name":"Nails",
+        "qty":20
+      }],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
       "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
-    },
-    "costList":[{
-        "qty":20,
-        "name":"WoodBoard"
-      },{
-        "qty":20,
-        "name":"LinenRope"
-      },{
-        "qty":20,
-        "name":"Nails"
-      }],
-    "furnitureType":2,
-    "hc":0.0
+    }
   },{
+    "idName":"WoodExpansion",
     "id":9018,
-    "secondaryType":0,
     "name":"Wooden Shelf",
     "desc":"",
-    "idName":"WoodExpansion",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[],
     "buildingTags":{
       "ParentTags":[],
       "GameplayTags":[]
-    },
-    "costList":[],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
-    "id":9019,
-    "secondaryType":0,
-    "name":"Track Station",
-    "desc":"",
     "idName":"SpawnTrain",
-    "buildingTags":{
-      "ParentTags":[],
-      "GameplayTags":[]
-    },
-    "costList":[],
-    "furnitureType":2,
-    "hc":0.0
-  },{
-    "id":9020,
-    "secondaryType":0,
+    "id":9019,
     "name":"Track Station",
     "desc":"",
-    "idName":"WoodFence",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[],
     "buildingTags":{
       "ParentTags":[],
       "GameplayTags":[]
-    },
-    "costList":[],
-    "furnitureType":1,
-    "hc":0.0
+    }
   },{
-    "id":0,
+    "idName":"WoodFence",
+    "id":9020,
+    "name":"Track Station",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
     "secondaryType":0,
+    "costList":[],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    }
+  },{
+    "idName":"PhantomTempBag",
+    "id":0,
     "name":"Inventory Expansion",
     "desc":"Inventory Capacity",
-    "idName":"PhantomTempBag",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[],
     "buildingTags":{
       "ParentTags":[],
       "GameplayTags":[]
-    },
-    "costList":[],
-    "furnitureType":1,
-    "hc":0.0
+    }
   }]
