@@ -7,9 +7,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":100,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":100
     },
     "unlockResearchPoints":30.0,
     "unlockItem":{
@@ -27,9 +27,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":100,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":100
     },
     "unlockResearchPoints":30.0,
     "unlockItem":{
@@ -47,9 +47,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":100,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":100
     },
     "unlockResearchPoints":30.0,
     "unlockItem":{
@@ -67,9 +67,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":100,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":100
     },
     "unlockResearchPoints":30.0,
     "unlockItem":{
@@ -87,9 +87,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":100,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":100
     },
     "unlockResearchPoints":30.0,
     "unlockItem":{
@@ -107,9 +107,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":100,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":100
     },
     "unlockResearchPoints":30.0,
     "unlockItem":{
@@ -127,9 +127,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":230,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":230
     },
     "unlockResearchPoints":57.0,
     "unlockItem":{
@@ -147,9 +147,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":230,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":230
     },
     "unlockResearchPoints":57.0,
     "unlockItem":{
@@ -167,9 +167,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":230,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":230
     },
     "unlockResearchPoints":57.0,
     "unlockItem":{
@@ -187,9 +187,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":230,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":230
     },
     "unlockResearchPoints":57.0,
     "unlockItem":{
@@ -207,9 +207,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":230,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":230
     },
     "unlockResearchPoints":57.0,
     "unlockItem":{
@@ -227,9 +227,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":230,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":230
     },
     "unlockResearchPoints":57.0,
     "unlockItem":{
@@ -247,9 +247,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":230,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":230
     },
     "unlockResearchPoints":57.0,
     "unlockItem":{
@@ -267,9 +267,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":230,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":230
     },
     "unlockResearchPoints":57.0,
     "unlockItem":{
@@ -287,9 +287,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":230,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":230
     },
     "unlockResearchPoints":57.0,
     "unlockItem":{
@@ -307,9 +307,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -327,9 +327,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -347,9 +347,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -367,9 +367,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -387,9 +387,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -407,9 +407,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -427,9 +427,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -447,9 +447,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -467,9 +467,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -487,9 +487,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -507,9 +507,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -527,9 +527,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -547,9 +547,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -567,9 +567,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -587,9 +587,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":570,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":570
     },
     "unlockResearchPoints":90.0,
     "unlockItem":{
@@ -607,9 +607,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -627,9 +627,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -647,9 +647,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -667,9 +667,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -687,9 +687,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -707,9 +707,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -727,9 +727,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -747,9 +747,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -767,9 +767,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -787,9 +787,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -807,9 +807,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -827,9 +827,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -847,9 +847,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -867,9 +867,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -887,9 +887,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -907,9 +907,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -927,9 +927,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -947,9 +947,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -967,9 +967,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":1600,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":1600
     },
     "unlockResearchPoints":129.0,
     "unlockItem":{
@@ -987,9 +987,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -997,6 +997,26 @@
       "type":0
     },
     "unlockItems":["RottenLog","CoalOre"],
+    "unlockConstructions":[]
+  },{
+    "idName":"BounceShroom",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["Level5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4400
+    },
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "name":"BounceShroom",
+      "type":3
+    },
+    "unlockItems":[],
     "unlockConstructions":[]
   },{
     "idName":"SphereFlask",
@@ -1007,9 +1027,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1027,9 +1047,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1047,9 +1067,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1067,9 +1087,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1087,9 +1107,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1107,9 +1127,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1127,9 +1147,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1147,9 +1167,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1167,9 +1187,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1187,9 +1207,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1207,9 +1227,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1227,9 +1247,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1247,9 +1267,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1267,9 +1287,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1287,9 +1307,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1307,9 +1327,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1327,9 +1347,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1347,9 +1367,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1367,9 +1387,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1387,9 +1407,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":4400,
+      "Gold":0,
       "Silver":0,
-      "Gold":0
+      "Copper":4400
     },
     "unlockResearchPoints":174.0,
     "unlockItem":{
@@ -1407,9 +1427,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1427,9 +1447,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1447,9 +1467,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1467,9 +1487,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1487,9 +1507,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1507,9 +1527,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1527,9 +1547,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1547,9 +1567,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1567,9 +1587,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1587,9 +1607,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1607,9 +1627,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1627,9 +1647,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1647,9 +1667,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1667,9 +1687,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1687,9 +1707,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1707,9 +1727,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1727,9 +1747,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1747,9 +1767,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1767,9 +1787,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1787,9 +1807,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1807,9 +1827,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1827,9 +1847,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":12,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
@@ -1847,9 +1867,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -1867,9 +1887,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -1887,9 +1907,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -1907,9 +1927,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -1927,9 +1947,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -1947,9 +1967,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -1967,9 +1987,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -1987,9 +2007,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -2007,9 +2027,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -2027,9 +2047,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -2047,9 +2067,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -2067,9 +2087,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -2087,9 +2107,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":43,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":282.0,
     "unlockItem":{
@@ -2107,9 +2127,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2127,9 +2147,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2147,9 +2167,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2167,9 +2187,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2187,9 +2207,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2207,9 +2227,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2227,9 +2247,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2247,9 +2267,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2267,9 +2287,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2287,9 +2307,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2307,9 +2327,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2327,9 +2347,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2347,9 +2367,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2367,9 +2387,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2387,9 +2407,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":0,
       "Silver":136,
-      "Gold":0
+      "Copper":0
     },
     "unlockResearchPoints":345.0,
     "unlockItem":{
@@ -2407,9 +2427,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2427,9 +2447,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2447,9 +2467,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2467,9 +2487,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2487,9 +2507,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2507,9 +2527,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2527,9 +2547,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2547,9 +2567,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2567,9 +2587,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2587,9 +2607,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2607,9 +2627,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2627,9 +2647,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2647,9 +2667,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2667,9 +2687,9 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":5,
       "Silver":0,
-      "Gold":5
+      "Copper":0
     },
     "unlockResearchPoints":414.0,
     "unlockItem":{
@@ -2687,14 +2707,2614 @@
     "bUnlimited":false,
     "requiredLevel":0,
     "unlockCost":{
-      "Copper":0,
+      "Gold":21,
       "Silver":0,
-      "Gold":21
+      "Copper":0
     },
     "unlockResearchPoints":489.0,
     "unlockItem":{
       "name":"None",
       "type":0
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer1",
+    "tier":1,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":[],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "unlockResearchPoints":60.0,
+    "unlockItem":{
+      "name":"Conveyer1",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer2",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer1"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1
+    },
+    "unlockResearchPoints":240.0,
+    "unlockItem":{
+      "name":"Conveyer2",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer3",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer2"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2
+    },
+    "unlockResearchPoints":540.0,
+    "unlockItem":{
+      "name":"Conveyer3",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer4",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":3
+    },
+    "unlockResearchPoints":960.0,
+    "unlockItem":{
+      "name":"Conveyer4",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer5",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4
+    },
+    "unlockResearchPoints":1500.0,
+    "unlockItem":{
+      "name":"Conveyer5",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer6",
+    "tier":6,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":5
+    },
+    "unlockResearchPoints":2160.0,
+    "unlockItem":{
+      "name":"Conveyer6",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer7",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":6
+    },
+    "unlockResearchPoints":2940.0,
+    "unlockItem":{
+      "name":"Conveyer7",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer8",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer7"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":7
+    },
+    "unlockResearchPoints":3840.0,
+    "unlockItem":{
+      "name":"Conveyer8",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer9",
+    "tier":9,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer8"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":8
+    },
+    "unlockResearchPoints":4860.0,
+    "unlockItem":{
+      "name":"Conveyer9",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer10",
+    "tier":10,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer9"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":9
+    },
+    "unlockResearchPoints":6000.0,
+    "unlockItem":{
+      "name":"Conveyer10",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer11",
+    "tier":11,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer10"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":10
+    },
+    "unlockResearchPoints":7260.0,
+    "unlockItem":{
+      "name":"Conveyer11",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer12",
+    "tier":12,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer11"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":11
+    },
+    "unlockResearchPoints":8640.0,
+    "unlockItem":{
+      "name":"Conveyer12",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Conveyer13",
+    "tier":13,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["Conveyer12"],
+    "bUnlimited":true,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":11
+    },
+    "unlockResearchPoints":10140.0,
+    "unlockItem":{
+      "name":"Conveyer13",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency1",
+    "tier":1,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":[],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":12
+    },
+    "unlockResearchPoints":60.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency1",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency2",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency1"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":13
+    },
+    "unlockResearchPoints":240.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency2",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency3",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency2"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":14
+    },
+    "unlockResearchPoints":540.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency3",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency4",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":15
+    },
+    "unlockResearchPoints":960.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency4",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency5",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":16
+    },
+    "unlockResearchPoints":1500.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency5",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency6",
+    "tier":6,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":17
+    },
+    "unlockResearchPoints":2160.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency6",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency7",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":18
+    },
+    "unlockResearchPoints":2940.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency7",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency8",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency7"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":19
+    },
+    "unlockResearchPoints":3840.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency8",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency9",
+    "tier":9,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency8"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":20
+    },
+    "unlockResearchPoints":4860.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency9",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency10",
+    "tier":10,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency9"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":21
+    },
+    "unlockResearchPoints":6000.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency10",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency11",
+    "tier":11,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency10"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":22
+    },
+    "unlockResearchPoints":7260.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency11",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency12",
+    "tier":12,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency11"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":23
+    },
+    "unlockResearchPoints":8640.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency12",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ThrowingEfficiency13",
+    "tier":13,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["ThrowingEfficiency12"],
+    "bUnlimited":true,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":23
+    },
+    "unlockResearchPoints":10140.0,
+    "unlockItem":{
+      "name":"ThrowingEfficiency13",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed1",
+    "tier":1,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":[],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":24
+    },
+    "unlockResearchPoints":60.0,
+    "unlockItem":{
+      "name":"FactorySpeed1",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed2",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed1"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":25
+    },
+    "unlockResearchPoints":240.0,
+    "unlockItem":{
+      "name":"FactorySpeed2",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed3",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed2"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":26
+    },
+    "unlockResearchPoints":540.0,
+    "unlockItem":{
+      "name":"FactorySpeed3",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed4",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":27
+    },
+    "unlockResearchPoints":960.0,
+    "unlockItem":{
+      "name":"FactorySpeed4",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed5",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":28
+    },
+    "unlockResearchPoints":1500.0,
+    "unlockItem":{
+      "name":"FactorySpeed5",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed6",
+    "tier":6,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":29
+    },
+    "unlockResearchPoints":2160.0,
+    "unlockItem":{
+      "name":"FactorySpeed6",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed7",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":30
+    },
+    "unlockResearchPoints":2940.0,
+    "unlockItem":{
+      "name":"FactorySpeed7",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed8",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed7"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":31
+    },
+    "unlockResearchPoints":3840.0,
+    "unlockItem":{
+      "name":"FactorySpeed8",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed9",
+    "tier":9,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed8"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":32
+    },
+    "unlockResearchPoints":4860.0,
+    "unlockItem":{
+      "name":"FactorySpeed9",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed10",
+    "tier":10,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed9"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":33
+    },
+    "unlockResearchPoints":6000.0,
+    "unlockItem":{
+      "name":"FactorySpeed10",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed11",
+    "tier":11,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed10"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":34
+    },
+    "unlockResearchPoints":7260.0,
+    "unlockItem":{
+      "name":"FactorySpeed11",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed12",
+    "tier":12,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed11"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":35
+    },
+    "unlockResearchPoints":8640.0,
+    "unlockItem":{
+      "name":"FactorySpeed12",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FactorySpeed13",
+    "tier":13,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FactorySpeed12"],
+    "bUnlimited":true,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":35
+    },
+    "unlockResearchPoints":10140.0,
+    "unlockItem":{
+      "name":"FactorySpeed13",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill1",
+    "tier":1,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":[],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":36
+    },
+    "unlockResearchPoints":60.0,
+    "unlockItem":{
+      "name":"AlchemySkill1",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill2",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill1"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":37
+    },
+    "unlockResearchPoints":240.0,
+    "unlockItem":{
+      "name":"AlchemySkill2",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill3",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill2"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":38
+    },
+    "unlockResearchPoints":540.0,
+    "unlockItem":{
+      "name":"AlchemySkill3",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill4",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":39
+    },
+    "unlockResearchPoints":960.0,
+    "unlockItem":{
+      "name":"AlchemySkill4",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill5",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":40
+    },
+    "unlockResearchPoints":1500.0,
+    "unlockItem":{
+      "name":"AlchemySkill5",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill6",
+    "tier":6,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":41
+    },
+    "unlockResearchPoints":2160.0,
+    "unlockItem":{
+      "name":"AlchemySkill6",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill7",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":42
+    },
+    "unlockResearchPoints":2940.0,
+    "unlockItem":{
+      "name":"AlchemySkill7",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill8",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill7"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":43
+    },
+    "unlockResearchPoints":3840.0,
+    "unlockItem":{
+      "name":"AlchemySkill8",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill9",
+    "tier":9,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill8"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":44
+    },
+    "unlockResearchPoints":4860.0,
+    "unlockItem":{
+      "name":"AlchemySkill9",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill10",
+    "tier":10,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill9"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":45
+    },
+    "unlockResearchPoints":6000.0,
+    "unlockItem":{
+      "name":"AlchemySkill10",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill11",
+    "tier":11,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill10"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":46
+    },
+    "unlockResearchPoints":7260.0,
+    "unlockItem":{
+      "name":"AlchemySkill11",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill12",
+    "tier":12,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill11"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":47
+    },
+    "unlockResearchPoints":8640.0,
+    "unlockItem":{
+      "name":"AlchemySkill12",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AlchemySkill13",
+    "tier":13,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AlchemySkill12"],
+    "bUnlimited":true,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":47
+    },
+    "unlockResearchPoints":10140.0,
+    "unlockItem":{
+      "name":"AlchemySkill13",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency1",
+    "tier":1,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":[],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":48
+    },
+    "unlockResearchPoints":60.0,
+    "unlockItem":{
+      "name":"FuelEfficiency1",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency2",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency1"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":49
+    },
+    "unlockResearchPoints":240.0,
+    "unlockItem":{
+      "name":"FuelEfficiency2",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency3",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency2"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":50
+    },
+    "unlockResearchPoints":540.0,
+    "unlockItem":{
+      "name":"FuelEfficiency3",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency4",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":51
+    },
+    "unlockResearchPoints":960.0,
+    "unlockItem":{
+      "name":"FuelEfficiency4",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency5",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":52
+    },
+    "unlockResearchPoints":1500.0,
+    "unlockItem":{
+      "name":"FuelEfficiency5",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency6",
+    "tier":6,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":53
+    },
+    "unlockResearchPoints":2160.0,
+    "unlockItem":{
+      "name":"FuelEfficiency6",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency7",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":54
+    },
+    "unlockResearchPoints":2940.0,
+    "unlockItem":{
+      "name":"FuelEfficiency7",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency8",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency7"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":55
+    },
+    "unlockResearchPoints":3840.0,
+    "unlockItem":{
+      "name":"FuelEfficiency8",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency9",
+    "tier":9,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency8"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":56
+    },
+    "unlockResearchPoints":4860.0,
+    "unlockItem":{
+      "name":"FuelEfficiency9",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency10",
+    "tier":10,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency9"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":57
+    },
+    "unlockResearchPoints":6000.0,
+    "unlockItem":{
+      "name":"FuelEfficiency10",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency11",
+    "tier":11,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency10"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":58
+    },
+    "unlockResearchPoints":7260.0,
+    "unlockItem":{
+      "name":"FuelEfficiency11",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency12",
+    "tier":12,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency11"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":59
+    },
+    "unlockResearchPoints":8640.0,
+    "unlockItem":{
+      "name":"FuelEfficiency12",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FuelEfficiency13",
+    "tier":13,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FuelEfficiency12"],
+    "bUnlimited":true,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":60
+    },
+    "unlockResearchPoints":10140.0,
+    "unlockItem":{
+      "name":"FuelEfficiency13",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency1",
+    "tier":1,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":[],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":61
+    },
+    "unlockResearchPoints":60.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency1",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency2",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency1"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":62
+    },
+    "unlockResearchPoints":240.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency2",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency3",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency2"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":63
+    },
+    "unlockResearchPoints":540.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency3",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency4",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":64
+    },
+    "unlockResearchPoints":960.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency4",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency5",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":65
+    },
+    "unlockResearchPoints":1500.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency5",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency6",
+    "tier":6,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":66
+    },
+    "unlockResearchPoints":2160.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency6",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency7",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":67
+    },
+    "unlockResearchPoints":2940.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency7",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency8",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency7"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":68
+    },
+    "unlockResearchPoints":3840.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency8",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency9",
+    "tier":9,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency8"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":69
+    },
+    "unlockResearchPoints":4860.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency9",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency10",
+    "tier":10,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency9"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":70
+    },
+    "unlockResearchPoints":6000.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency10",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency11",
+    "tier":11,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency10"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":71
+    },
+    "unlockResearchPoints":7260.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency11",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency12",
+    "tier":12,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency11"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":72
+    },
+    "unlockResearchPoints":8640.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency12",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"FertilizeEfficiency13",
+    "tier":13,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["FertilizeEfficiency12"],
+    "bUnlimited":true,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":73
+    },
+    "unlockResearchPoints":10140.0,
+    "unlockItem":{
+      "name":"FertilizeEfficiency13",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill1",
+    "tier":1,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":[],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":74
+    },
+    "unlockResearchPoints":60.0,
+    "unlockItem":{
+      "name":"BargainingSkill1",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill2",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill1"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":75
+    },
+    "unlockResearchPoints":240.0,
+    "unlockItem":{
+      "name":"BargainingSkill2",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill3",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill2"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":76
+    },
+    "unlockResearchPoints":540.0,
+    "unlockItem":{
+      "name":"BargainingSkill3",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill4",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":77
+    },
+    "unlockResearchPoints":960.0,
+    "unlockItem":{
+      "name":"BargainingSkill4",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill5",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":78
+    },
+    "unlockResearchPoints":1500.0,
+    "unlockItem":{
+      "name":"BargainingSkill5",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill6",
+    "tier":6,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":79
+    },
+    "unlockResearchPoints":2160.0,
+    "unlockItem":{
+      "name":"BargainingSkill6",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill7",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":80
+    },
+    "unlockResearchPoints":2940.0,
+    "unlockItem":{
+      "name":"BargainingSkill7",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill8",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill7"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":81
+    },
+    "unlockResearchPoints":3840.0,
+    "unlockItem":{
+      "name":"BargainingSkill8",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill9",
+    "tier":9,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill8"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":82
+    },
+    "unlockResearchPoints":4860.0,
+    "unlockItem":{
+      "name":"BargainingSkill9",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill10",
+    "tier":10,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill9"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":83
+    },
+    "unlockResearchPoints":6000.0,
+    "unlockItem":{
+      "name":"BargainingSkill10",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill11",
+    "tier":11,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill10"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":84
+    },
+    "unlockResearchPoints":7260.0,
+    "unlockItem":{
+      "name":"BargainingSkill11",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill12",
+    "tier":12,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill11"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":85
+    },
+    "unlockResearchPoints":8640.0,
+    "unlockItem":{
+      "name":"BargainingSkill12",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"BargainingSkill13",
+    "tier":13,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["BargainingSkill12"],
+    "bUnlimited":true,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":86
+    },
+    "unlockResearchPoints":10140.0,
+    "unlockItem":{
+      "name":"BargainingSkill13",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill1",
+    "tier":1,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":[],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":87
+    },
+    "unlockResearchPoints":60.0,
+    "unlockItem":{
+      "name":"NegotiationSkill1",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill2",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill1"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":88
+    },
+    "unlockResearchPoints":240.0,
+    "unlockItem":{
+      "name":"NegotiationSkill2",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill3",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill2"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":89
+    },
+    "unlockResearchPoints":540.0,
+    "unlockItem":{
+      "name":"NegotiationSkill3",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill4",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":90
+    },
+    "unlockResearchPoints":960.0,
+    "unlockItem":{
+      "name":"NegotiationSkill4",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill5",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":91
+    },
+    "unlockResearchPoints":1500.0,
+    "unlockItem":{
+      "name":"NegotiationSkill5",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill6",
+    "tier":6,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":92
+    },
+    "unlockResearchPoints":2160.0,
+    "unlockItem":{
+      "name":"NegotiationSkill6",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill7",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":93
+    },
+    "unlockResearchPoints":2940.0,
+    "unlockItem":{
+      "name":"NegotiationSkill7",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill8",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill7"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":94
+    },
+    "unlockResearchPoints":3840.0,
+    "unlockItem":{
+      "name":"NegotiationSkill8",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill9",
+    "tier":9,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill8"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":95
+    },
+    "unlockResearchPoints":4860.0,
+    "unlockItem":{
+      "name":"NegotiationSkill9",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill10",
+    "tier":10,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill9"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":96
+    },
+    "unlockResearchPoints":6000.0,
+    "unlockItem":{
+      "name":"NegotiationSkill10",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill11",
+    "tier":11,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill10"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":97
+    },
+    "unlockResearchPoints":7260.0,
+    "unlockItem":{
+      "name":"NegotiationSkill11",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill12",
+    "tier":12,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill11"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":98
+    },
+    "unlockResearchPoints":8640.0,
+    "unlockItem":{
+      "name":"NegotiationSkill12",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"NegotiationSkill13",
+    "tier":13,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["NegotiationSkill12"],
+    "bUnlimited":true,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":99
+    },
+    "unlockResearchPoints":10140.0,
+    "unlockItem":{
+      "name":"NegotiationSkill13",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill1",
+    "tier":1,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":[],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":100
+    },
+    "unlockResearchPoints":60.0,
+    "unlockItem":{
+      "name":"QuestSkill1",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill2",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill1"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":101
+    },
+    "unlockResearchPoints":240.0,
+    "unlockItem":{
+      "name":"QuestSkill2",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill3",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill2"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":102
+    },
+    "unlockResearchPoints":540.0,
+    "unlockItem":{
+      "name":"QuestSkill3",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill4",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":103
+    },
+    "unlockResearchPoints":960.0,
+    "unlockItem":{
+      "name":"QuestSkill4",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill5",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":104
+    },
+    "unlockResearchPoints":1500.0,
+    "unlockItem":{
+      "name":"QuestSkill5",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill6",
+    "tier":6,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":105
+    },
+    "unlockResearchPoints":2160.0,
+    "unlockItem":{
+      "name":"QuestSkill6",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill7",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":106
+    },
+    "unlockResearchPoints":2940.0,
+    "unlockItem":{
+      "name":"QuestSkill7",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill8",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill7"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":107
+    },
+    "unlockResearchPoints":3840.0,
+    "unlockItem":{
+      "name":"QuestSkill8",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill9",
+    "tier":9,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill8"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":108
+    },
+    "unlockResearchPoints":4860.0,
+    "unlockItem":{
+      "name":"QuestSkill9",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill10",
+    "tier":10,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill9"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":109
+    },
+    "unlockResearchPoints":6000.0,
+    "unlockItem":{
+      "name":"QuestSkill10",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill11",
+    "tier":11,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill10"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":110
+    },
+    "unlockResearchPoints":7260.0,
+    "unlockItem":{
+      "name":"QuestSkill11",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill12",
+    "tier":12,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill11"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":111
+    },
+    "unlockResearchPoints":8640.0,
+    "unlockItem":{
+      "name":"QuestSkill12",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"QuestSkill13",
+    "tier":13,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["QuestSkill12"],
+    "bUnlimited":true,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":112
+    },
+    "unlockResearchPoints":10140.0,
+    "unlockItem":{
+      "name":"QuestSkill13",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency1",
+    "tier":1,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":[],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":113
+    },
+    "unlockResearchPoints":60.0,
+    "unlockItem":{
+      "name":"AltarEfficiency1",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency2",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency1"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":114
+    },
+    "unlockResearchPoints":240.0,
+    "unlockItem":{
+      "name":"AltarEfficiency2",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency3",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency2"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":115
+    },
+    "unlockResearchPoints":540.0,
+    "unlockItem":{
+      "name":"AltarEfficiency3",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency4",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":116
+    },
+    "unlockResearchPoints":960.0,
+    "unlockItem":{
+      "name":"AltarEfficiency4",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency5",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":117
+    },
+    "unlockResearchPoints":1500.0,
+    "unlockItem":{
+      "name":"AltarEfficiency5",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency6",
+    "tier":6,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency5"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":118
+    },
+    "unlockResearchPoints":2160.0,
+    "unlockItem":{
+      "name":"AltarEfficiency6",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency7",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":119
+    },
+    "unlockResearchPoints":2940.0,
+    "unlockItem":{
+      "name":"AltarEfficiency7",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency8",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency7"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":120
+    },
+    "unlockResearchPoints":3840.0,
+    "unlockItem":{
+      "name":"AltarEfficiency8",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency9",
+    "tier":9,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency8"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":121
+    },
+    "unlockResearchPoints":4860.0,
+    "unlockItem":{
+      "name":"AltarEfficiency9",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency10",
+    "tier":10,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency9"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":122
+    },
+    "unlockResearchPoints":6000.0,
+    "unlockItem":{
+      "name":"AltarEfficiency10",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency11",
+    "tier":11,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency10"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":123
+    },
+    "unlockResearchPoints":7260.0,
+    "unlockItem":{
+      "name":"AltarEfficiency11",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency12",
+    "tier":12,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency11"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":124
+    },
+    "unlockResearchPoints":8640.0,
+    "unlockItem":{
+      "name":"AltarEfficiency12",
+      "type":4
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AltarEfficiency13",
+    "tier":13,
+    "skillLevel":false,
+    "bUpgrade":true,
+    "predecessors":["AltarEfficiency12"],
+    "bUnlimited":true,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":125
+    },
+    "unlockResearchPoints":10140.0,
+    "unlockItem":{
+      "name":"AltarEfficiency13",
+      "type":4
     },
     "unlockItems":[],
     "unlockConstructions":[]

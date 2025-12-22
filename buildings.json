@@ -11,8 +11,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"BeltSlopeUp",
@@ -27,8 +27,8 @@
         "qty":2
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"BeltInclinedUp",
@@ -43,8 +43,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"catapult",
@@ -65,8 +65,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"ConveyerLift_Upwards",
@@ -84,8 +84,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Pipe",
@@ -100,8 +100,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Railroad",
@@ -119,8 +119,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"RailroadTurn",
@@ -138,8 +138,8 @@
         "qty":12
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"RailroadRamp",
@@ -157,8 +157,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"RailroadInclientUp",
@@ -176,8 +176,8 @@
         "qty":8
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"RailroadInclientDown",
@@ -195,8 +195,8 @@
         "qty":8
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Cannon",
@@ -214,8 +214,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"DrawBridge",
@@ -233,8 +233,8 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"ConveyorTunnel",
@@ -252,8 +252,8 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics","Building.WallMounted"]
+      "GameplayTags":["Building.Lab.Logistics","Building.WallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Filter_Vert",
@@ -268,8 +268,8 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Hopper",
@@ -287,8 +287,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Splitter_Vert",
@@ -303,8 +303,8 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Merger_Vert",
@@ -319,8 +319,24 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Logistics"]
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
+    }
+  },{
+    "idName":"BounceShroom",
+    "id":36,
+    "name":"Bounce Shroom",
+    "desc":"A bouncy mushroom that can launch you high into the air after you step on it.",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":0,
+    "costList":[{
+        "name":"GloomFungus",
+        "qty":20
+      }],
+    "buildingTags":{
+      "GameplayTags":["Building.Lab.Logistics"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Grinder",
@@ -335,8 +351,8 @@
         "qty":8
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.PassiveCrafting"]
+      "GameplayTags":["Building.Lab.PassiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"EnhancedGrinder",
@@ -354,8 +370,8 @@
         "qty":3
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.PassiveCrafting"]
+      "GameplayTags":["Building.Lab.PassiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Crucible",
@@ -370,8 +386,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab"],
-      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"]
+      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"],
+      "ParentTags":["building","Building.Lab"]
     }
   },{
     "idName":"StackableCrucible",
@@ -392,8 +408,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab"],
-      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"]
+      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"],
+      "ParentTags":["building","Building.Lab"]
     }
   },{
     "idName":"Extractor",
@@ -411,8 +427,8 @@
         "qty":5
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.PassiveCrafting"]
+      "GameplayTags":["Building.Lab.PassiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"ThermalExtractor",
@@ -430,8 +446,8 @@
         "qty":5
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.PassiveCrafting","Building.Heating"]
+      "GameplayTags":["Building.Lab.PassiveCrafting","Building.Heating"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Refiner",
@@ -449,8 +465,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.PassiveCrafting"]
+      "GameplayTags":["Building.Lab.PassiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"ParadoxCrucible",
@@ -471,8 +487,8 @@
         "qty":16
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab"],
-      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"]
+      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"],
+      "ParentTags":["building","Building.Lab"]
     }
   },{
     "idName":"KnowledgeAltar",
@@ -487,8 +503,8 @@
         "qty":24
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.PassiveCrafting"]
+      "GameplayTags":["Building.Lab.PassiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Processor",
@@ -506,8 +522,8 @@
         "qty":3
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Lab.ActiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Kiln",
@@ -525,8 +541,8 @@
         "qty":10
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab"],
-      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"],
+      "ParentTags":["building","Building.Lab"]
     }
   },{
     "idName":"Blender",
@@ -544,8 +560,8 @@
         "qty":8
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Lab.ActiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Assembler",
@@ -566,8 +582,8 @@
         "qty":15
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Lab.ActiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Alembic",
@@ -588,8 +604,8 @@
         "qty":8
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab"],
-      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"],
+      "ParentTags":["building","Building.Lab"]
     }
   },{
     "idName":"Athanor",
@@ -607,8 +623,8 @@
         "qty":15
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab"],
-      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"],
+      "ParentTags":["building","Building.Lab"]
     }
   },{
     "idName":"AdvancedBlender",
@@ -629,8 +645,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Lab.ActiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"AdvancedAlembic",
@@ -651,8 +667,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab"],
-      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"],
+      "ParentTags":["building","Building.Lab"]
     }
   },{
     "idName":"Omni-Machine",
@@ -673,8 +689,8 @@
         "qty":8
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Lab.ActiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"AdvancedAthanor",
@@ -692,8 +708,8 @@
         "qty":12
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab"],
-      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"],
+      "ParentTags":["building","Building.Lab"]
     }
   },{
     "idName":"Shaper",
@@ -711,8 +727,8 @@
         "qty":16
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Lab.ActiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"AdvancedShaper",
@@ -730,8 +746,8 @@
         "qty":16
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Lab.ActiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"AetherShaper",
@@ -752,8 +768,8 @@
         "qty":18
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Lab.ActiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Cauldron",
@@ -768,8 +784,8 @@
         "qty":30
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.PassiveCrafting","Building.Heating"]
+      "GameplayTags":["Building.Lab.PassiveCrafting","Building.Heating"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"ArcaneProcessor",
@@ -790,8 +806,8 @@
         "qty":2
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.ActiveCrafting"]
+      "GameplayTags":["Building.Lab.ActiveCrafting"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"StoneStove",
@@ -806,8 +822,8 @@
         "qty":20
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building","Building.Nav"],
-      "GameplayTags":["Building.Lab.Heating","Building.Nav.ModifierObstacleArea","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Heating","Building.Nav.ModifierObstacleArea","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building","Building.Nav"]
     }
   },{
     "idName":"StoneFurnace",
@@ -822,8 +838,8 @@
         "qty":30
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building","Building.Nav"],
-      "GameplayTags":["Building.Lab.Heating","Building.Nav.ModifierObstacleArea","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Heating","Building.Nav.ModifierObstacleArea","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building","Building.Nav"]
     }
   },{
     "idName":"WoodTable",
@@ -838,8 +854,8 @@
         "qty":20
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"WoodCrate",
@@ -854,8 +870,8 @@
         "qty":12
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture","Building.CanWallMounted"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture","Building.CanWallMounted"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"MediumStand",
@@ -870,8 +886,8 @@
         "qty":16
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"CheckoutTable",
@@ -886,8 +902,8 @@
         "qty":40
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"LargeStand",
@@ -902,8 +918,8 @@
         "qty":24
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"PotionStand",
@@ -918,8 +934,8 @@
         "qty":40
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"JewelryStand",
@@ -937,8 +953,8 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"WoodBed",
@@ -956,8 +972,8 @@
         "qty":20
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"CoasterEntrance",
@@ -975,8 +991,8 @@
         "qty":10
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"RelicStandSmall",
@@ -991,8 +1007,8 @@
         "qty":10
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"Platform_Wood",
@@ -1007,8 +1023,8 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"Stairs_Wood",
@@ -1023,8 +1039,8 @@
         "qty":12
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"Construct_Floor_Wood",
@@ -1039,8 +1055,8 @@
         "qty":20
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building","Building.Nav"],
-      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierDefaultArea"]
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierDefaultArea"],
+      "ParentTags":["Building.Lab","building","Building.Nav"]
     }
   },{
     "idName":"Construct_Wall_Wood",
@@ -1058,8 +1074,8 @@
         "qty":10
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab","Building.Nav"],
-      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"],
+      "ParentTags":["building","Building.Lab","Building.Nav"]
     }
   },{
     "idName":"Roof_Wood",
@@ -1077,8 +1093,8 @@
         "qty":10
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building","Building.Nav"],
-      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"],
+      "ParentTags":["Building.Lab","building","Building.Nav"]
     }
   },{
     "idName":"Construct_Wall_Stone",
@@ -1096,8 +1112,8 @@
         "qty":10
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab","Building.Nav"],
-      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"],
+      "ParentTags":["building","Building.Lab","Building.Nav"]
     }
   },{
     "idName":"WoodRailing",
@@ -1112,8 +1128,8 @@
         "qty":8
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building","Building.Nav"],
-      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"],
+      "ParentTags":["Building.Lab","building","Building.Nav"]
     }
   },{
     "idName":"ShopEntrance",
@@ -1128,8 +1144,8 @@
         "qty":5
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building","Building.Nav"],
-      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"],
+      "ParentTags":["Building.Lab","building","Building.Nav"]
     }
   },{
     "idName":"Stairs_Wood_0",
@@ -1141,8 +1157,27 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
+    }
+  },{
+    "idName":"Pillar",
+    "id":616,
+    "name":"Pillar",
+    "desc":"A steel-reinforced pillar that can provide support for the floors.",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      },{
+        "name":"SteelIngot",
+        "qty":5
+      }],
+    "buildingTags":{
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"],
+      "ParentTags":["building","Building.Lab","Building.Nav"]
     }
   },{
     "idName":"TableSaw",
@@ -1157,8 +1192,8 @@
         "qty":5
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.RawProduction"]
+      "GameplayTags":["Building.Lab.RawProduction"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"StoneCrusher",
@@ -1176,8 +1211,8 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.RawProduction"]
+      "GameplayTags":["Building.Lab.RawProduction"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"SeedPlot",
@@ -1192,8 +1227,8 @@
         "qty":8
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.RawProduction"]
+      "GameplayTags":["Building.Lab.RawProduction"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"IronSmelter",
@@ -1208,8 +1243,8 @@
         "qty":15
       }],
     "buildingTags":{
-      "ParentTags":["building","Building.Lab"],
-      "GameplayTags":["Building.Heating","Building.Lab.RawProduction"]
+      "GameplayTags":["Building.Heating","Building.Lab.RawProduction"],
+      "ParentTags":["building","Building.Lab"]
     }
   },{
     "idName":"AutoNursery",
@@ -1227,8 +1262,8 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.RawProduction"]
+      "GameplayTags":["Building.Lab.RawProduction"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"WorldTreeNursery",
@@ -1249,8 +1284,8 @@
         "qty":100
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.RawProduction"]
+      "GameplayTags":["Building.Lab.RawProduction"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Portal_AlchGuild",
@@ -1268,8 +1303,8 @@
         "qty":5
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.RawProduction"]
+      "GameplayTags":["Building.Lab.RawProduction"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Portal_Bank",
@@ -1287,8 +1322,8 @@
         "qty":5
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.RawProduction"]
+      "GameplayTags":["Building.Lab.RawProduction"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Portal_Wholesaling",
@@ -1306,8 +1341,8 @@
         "qty":5
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.RawProduction"]
+      "GameplayTags":["Building.Lab.RawProduction"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"LiquidSupplier",
@@ -1319,8 +1354,8 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "ParentTags":[],
-      "GameplayTags":[]
+      "GameplayTags":[],
+      "ParentTags":[]
     }
   },{
     "idName":"SmallContainer",
@@ -1335,8 +1370,8 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Storage"]
+      "GameplayTags":["Building.Lab.Storage"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"WoodContainer",
@@ -1354,8 +1389,8 @@
         "qty":12
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Storage"]
+      "GameplayTags":["Building.Lab.Storage"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"MetalContainer",
@@ -1373,8 +1408,8 @@
         "qty":12
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Storage"]
+      "GameplayTags":["Building.Lab.Storage"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"ConicalFlask",
@@ -1389,8 +1424,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Storage"]
+      "GameplayTags":["Building.Lab.Storage"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"SphereFlask",
@@ -1408,8 +1443,8 @@
         "qty":10
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Storage"]
+      "GameplayTags":["Building.Lab.Storage"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"JunkBarrel",
@@ -1424,8 +1459,8 @@
         "qty":16
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Storage"]
+      "GameplayTags":["Building.Lab.Storage"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"FrameSingle",
@@ -1443,8 +1478,8 @@
         "qty":2
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Structure"]
+      "GameplayTags":["Building.Lab.Structure"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"IronStand",
@@ -1465,8 +1500,8 @@
         "qty":4
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Structure"]
+      "GameplayTags":["Building.Lab.Structure"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Beam3",
@@ -1481,8 +1516,8 @@
         "qty":3
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"MetalStand",
@@ -1500,8 +1535,8 @@
         "qty":12
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Structure"]
+      "GameplayTags":["Building.Lab.Structure"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"SmallPlatform",
@@ -1522,8 +1557,8 @@
         "qty":6
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Structure"]
+      "GameplayTags":["Building.Lab.Structure"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"WallShelf",
@@ -1541,8 +1576,8 @@
         "qty":10
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Structure","Building.WallMounted"]
+      "GameplayTags":["Building.Lab.Structure","Building.WallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"Candle",
@@ -1557,8 +1592,24 @@
         "qty":5
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Decoration"]
+      "GameplayTags":["Building.Lab.Decoration"],
+      "ParentTags":["Building.Lab","building"]
+    }
+  },{
+    "idName":"NoticeBoard",
+    "id":1003,
+    "name":"Notice Board",
+    "desc":"A freely editable notice board that can be switched to a wall-mounted form.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
+    "buildingTags":{
+      "GameplayTags":["Building.Lab.Decoration"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"WoodBlock",
@@ -1573,8 +1624,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"StoneBlock",
@@ -1589,8 +1640,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"BrickBlock",
@@ -1605,8 +1656,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"IronBlock",
@@ -1621,8 +1672,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"MarbleBlock",
@@ -1637,8 +1688,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"CopperBlock",
@@ -1653,8 +1704,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"BronzeBlock",
@@ -1669,8 +1720,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"SilverBlock",
@@ -1685,8 +1736,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"GoldBlock",
@@ -1701,8 +1752,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"AutoCheckout",
@@ -1717,8 +1768,8 @@
         "qty":1
       }],
     "buildingTags":{
-      "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Block"]
+      "GameplayTags":["Building.Lab.Block"],
+      "ParentTags":["Building.Lab","building"]
     }
   },{
     "idName":"WorkBench",
@@ -1739,8 +1790,8 @@
         "qty":20
       }],
     "buildingTags":{
-      "ParentTags":["Building.Nav","building","Building.Lab"],
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
+      "ParentTags":["Building.Nav","building","Building.Lab"]
     }
   },{
     "idName":"WoodExpansion",
@@ -1752,8 +1803,8 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "ParentTags":[],
-      "GameplayTags":[]
+      "GameplayTags":[],
+      "ParentTags":[]
     }
   },{
     "idName":"SpawnTrain",
@@ -1765,8 +1816,8 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "ParentTags":[],
-      "GameplayTags":[]
+      "GameplayTags":[],
+      "ParentTags":[]
     }
   },{
     "idName":"WoodFence",
@@ -1778,8 +1829,8 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "ParentTags":[],
-      "GameplayTags":[]
+      "GameplayTags":[],
+      "ParentTags":[]
     }
   },{
     "idName":"PhantomTempBag",
@@ -1791,7 +1842,7 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "ParentTags":[],
-      "GameplayTags":[]
+      "GameplayTags":[],
+      "ParentTags":[]
     }
   }]
