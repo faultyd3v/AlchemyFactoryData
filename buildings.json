@@ -11,9 +11,12 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"BeltSlopeUp",
     "id":2,
@@ -27,9 +30,31 @@
         "qty":2
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"BeltSlopeDown",
+    "hide":false
+  },{
+    "idName":"BeltSlopeDown",
+    "id":3,
+    "name":"Inclined Conveyor Belt",
+    "desc":"A conveyor belt that can send items to high or low places.",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":2,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":2
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"BeltSlopeUp",
+    "hide":true
   },{
     "idName":"BeltInclinedUp",
     "id":0,
@@ -43,9 +68,31 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"BeltInclinedDown",
+    "hide":false
+  },{
+    "idName":"BeltInclinedDown",
+    "id":0,
+    "name":"Inclined Conveyor Belt",
+    "desc":"A conveyor belt that can send items to high or low places.",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":2,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"BeltInclinedUp",
+    "hide":true
   },{
     "idName":"catapult",
     "id":4,
@@ -65,9 +112,12 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"ConveyerLift_Upwards",
     "id":5,
@@ -84,9 +134,116 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"ConveyerLift_Downwards",
+    "hide":false
+  },{
+    "idName":"ConveyerLift_Downwards",
+    "id":6,
+    "name":"Conveyor Lifter",
+    "desc":"A logistics device for transporting items vertically. Drag to adjust height. Can be switched to move items upwards or downwards.",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":3,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":2
+      },{
+        "name":"LinenRope",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"ConveyerLift_Upwards",
+    "hide":true
+  },{
+    "idName":"ConveyerLift_EndUpwards",
+    "id":7,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":3,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":2
+      },{
+        "name":"LinenRope",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":true
+  },{
+    "idName":"ConveyerLift_EndDownwards",
+    "id":8,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":3,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":2
+      },{
+        "name":"LinenRope",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"ConveyerLift_Body",
+    "hide":true
+  },{
+    "idName":"ConveyerLift_Body",
+    "id":9,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":3,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":2
+      },{
+        "name":"LinenRope",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"ConveyerLift_Downwards",
+    "hide":true
+  },{
+    "idName":"ConveyerLift_Payload",
+    "id":10,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":3,
+    "costList":[],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":true
   },{
     "idName":"Pipe",
     "id":11,
@@ -100,9 +257,31 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Pipe_Vertical",
+    "hide":false
+  },{
+    "idName":"Pipe_Vertical",
+    "id":12,
+    "name":"Pipeline",
+    "desc":"Pipeline for transporting liquids, configurable in vertical or horizontal mode.",
+    "hc":0.0,
+    "furnitureType":5,
+    "secondaryType":7,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"Pipe",
+    "hide":true
   },{
     "idName":"Railroad",
     "id":13,
@@ -119,9 +298,12 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"RailroadTurn",
     "id":14,
@@ -138,9 +320,34 @@
         "qty":12
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":2,
+    "alterBuildOption":"RailroadTurn_Sym",
+    "hide":false
+  },{
+    "idName":"RailroadTurn_Sym",
+    "id":15,
+    "name":"Curved Track",
+    "desc":"Iron tracks for factory vehicles.",
+    "hc":0.0,
+    "furnitureType":6,
+    "secondaryType":9,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":6
+      },{
+        "name":"WoodBoard",
+        "qty":12
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":3,
+    "alterBuildOption":"RailroadTurn",
+    "hide":true
   },{
     "idName":"RailroadRamp",
     "id":16,
@@ -157,9 +364,34 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":4,
+    "alterBuildOption":"RailroadRampUp",
+    "hide":false
+  },{
+    "idName":"RailroadRampUp",
+    "id":17,
+    "name":"Banked Track",
+    "desc":"Iron tracks for factory vehicles.",
+    "hc":0.0,
+    "furnitureType":6,
+    "secondaryType":9,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":2
+      },{
+        "name":"WoodBoard",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":5,
+    "alterBuildOption":"RailroadRamp",
+    "hide":true
   },{
     "idName":"RailroadInclientUp",
     "id":18,
@@ -176,9 +408,12 @@
         "qty":8
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":7,
+    "alterBuildOption":"RailroadInclientUp_Sym",
+    "hide":false
   },{
     "idName":"RailroadInclientDown",
     "id":19,
@@ -195,9 +430,56 @@
         "qty":8
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":8,
+    "alterBuildOption":"RailroadInclientDown_Sym",
+    "hide":false
+  },{
+    "idName":"RailroadInclientUp_Sym",
+    "id":20,
+    "name":"Ascent Track",
+    "desc":"Iron tracks for factory vehicles.",
+    "hc":0.0,
+    "furnitureType":6,
+    "secondaryType":9,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":4
+      },{
+        "name":"WoodBoard",
+        "qty":8
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":9,
+    "alterBuildOption":"RailroadInclientUp",
+    "hide":true
+  },{
+    "idName":"RailroadInclientDown_Sym",
+    "id":21,
+    "name":"Descent Track",
+    "desc":"Iron tracks for factory vehicles.",
+    "hc":0.0,
+    "furnitureType":6,
+    "secondaryType":9,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":4
+      },{
+        "name":"WoodBoard",
+        "qty":8
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":10,
+    "alterBuildOption":"RailroadInclientDown",
+    "hide":true
   },{
     "idName":"Cannon",
     "id":22,
@@ -214,9 +496,12 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"DrawBridge",
     "id":23,
@@ -233,9 +518,34 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"DrawBridgeR",
+    "hide":false
+  },{
+    "idName":"DrawBridgeR",
+    "id":24,
+    "name":"Drawbridge Conveyor",
+    "desc":"A special conveyor belt pulled by linen ropes, requiring no extra support.",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":2,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      },{
+        "name":"LinenRope",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"DrawBridge",
+    "hide":true
   },{
     "idName":"ConveyorTunnel",
     "id":24,
@@ -252,9 +562,34 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics","Building.WallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics","Building.WallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"ConveyorTunnel_Sym",
+    "hide":false
+  },{
+    "idName":"ConveyorTunnel_Sym",
+    "id":24,
+    "name":"Tunnel Conveyor",
+    "desc":"A conveyor passage that can be mounted on walls.",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":2,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":6
+      },{
+        "name":"Nails",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics","Building.WallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"ConveyorTunnel",
+    "hide":true
   },{
     "idName":"Filter_Vert",
     "id":25,
@@ -268,9 +603,50 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Filter",
+    "hide":false
+  },{
+    "idName":"Filter",
+    "id":26,
+    "name":"Filter Splitter",
+    "desc":"A splitter designed to filter out chosen items.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Filter_Sym",
+    "hide":true
+  },{
+    "idName":"Filter_Sym",
+    "id":27,
+    "name":"Filter Splitter",
+    "desc":"A splitter designed to filter out chosen items.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Filter_Vert",
+    "hide":true
   },{
     "idName":"Hopper",
     "id":28,
@@ -287,9 +663,34 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
+  },{
+    "idName":"Balance",
+    "id":29,
+    "name":"Scale",
+    "desc":"Features one conveyor belt input and two conveyor belt outputs. Input coins or raw materials are split evenly into the two outputs.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":5
+      },{
+        "name":"Nails",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":true
   },{
     "idName":"Splitter_Vert",
     "id":30,
@@ -303,9 +704,50 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Splitter",
+    "hide":false
+  },{
+    "idName":"Splitter",
+    "id":31,
+    "name":"Priority Splitter",
+    "desc":"Features one conveyor belt input and two conveyor belt outputs. Input items are prioritized for the first output.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Splitter_Sym",
+    "hide":true
+  },{
+    "idName":"Splitter_Sym",
+    "id":32,
+    "name":"Priority Splitter",
+    "desc":"Features one conveyor belt input and two conveyor belt outputs. Input items are prioritized for the first output.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Splitter_Vert",
+    "hide":true
   },{
     "idName":"Merger_Vert",
     "id":33,
@@ -319,9 +761,50 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Merger",
+    "hide":false
+  },{
+    "idName":"Merger",
+    "id":34,
+    "name":"Priority Merger",
+    "desc":"Features two conveyor belt inputs and one conveyor belt output. Items put into the first input are prioritized.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Merger_Sym",
+    "hide":true
+  },{
+    "idName":"Merger_Sym",
+    "id":35,
+    "name":"Priority Merger",
+    "desc":"Features two conveyor belt inputs and one conveyor belt output. Items put into the first input are prioritized.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Merger_Vert",
+    "hide":true
   },{
     "idName":"BounceShroom",
     "id":36,
@@ -335,9 +818,12 @@
         "qty":20
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Logistics"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Grinder",
     "id":101,
@@ -351,9 +837,12 @@
         "qty":8
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.PassiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.PassiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"EnhancedGrinder",
     "id":103,
@@ -370,9 +859,12 @@
         "qty":3
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.PassiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.PassiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Crucible",
     "id":104,
@@ -386,9 +878,12 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"],
-      "ParentTags":["building","Building.Lab"]
-    }
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"StackableCrucible",
     "id":105,
@@ -408,9 +903,12 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"],
-      "ParentTags":["building","Building.Lab"]
-    }
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Extractor",
     "id":106,
@@ -427,9 +925,12 @@
         "qty":5
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.PassiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.PassiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"ThermalExtractor",
     "id":107,
@@ -446,9 +947,12 @@
         "qty":5
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.PassiveCrafting","Building.Heating"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.PassiveCrafting","Building.Heating"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Refiner",
     "id":108,
@@ -465,9 +969,34 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.PassiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.PassiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Refiner_Sym",
+    "hide":false
+  },{
+    "idName":"Refiner_Sym",
+    "id":109,
+    "name":"Refiner",
+    "desc":"An automated refining device with two conveyor belt inputs and one conveyor belt output.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":8
+      },{
+        "name":"SteelGear",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.PassiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Refiner",
+    "hide":true
   },{
     "idName":"ParadoxCrucible",
     "id":110,
@@ -487,9 +1016,12 @@
         "qty":16
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"],
-      "ParentTags":["building","Building.Lab"]
-    }
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.PassiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"KnowledgeAltar",
     "id":111,
@@ -503,9 +1035,12 @@
         "qty":24
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.PassiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.PassiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Processor",
     "id":201,
@@ -522,9 +1057,34 @@
         "qty":3
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.ActiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Processor_Sym",
+    "hide":false
+  },{
+    "idName":"Processor_Sym",
+    "id":202,
+    "name":"Processor",
+    "desc":"An advanced processing device that requires a recipe. It has one conveyor belt input and one conveyor belt output.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":12
+      },{
+        "name":"LargeWoodGear",
+        "qty":3
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Processor",
+    "hide":true
   },{
     "idName":"Kiln",
     "id":203,
@@ -541,9 +1101,12 @@
         "qty":10
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"],
-      "ParentTags":["building","Building.Lab"]
-    }
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Blender",
     "id":204,
@@ -560,9 +1123,12 @@
         "qty":8
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.ActiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Assembler",
     "id":205,
@@ -582,9 +1148,37 @@
         "qty":15
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.ActiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Assembler_Sym",
+    "hide":false
+  },{
+    "idName":"Assembler_Sym",
+    "id":206,
+    "name":"Assembler",
+    "desc":"An advanced processing device that requires a recipe. It has two conveyor belt inputs and one conveyor belt output.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"LargeWoodGear",
+        "qty":5
+      },{
+        "name":"WoodGear",
+        "qty":15
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Assembler",
+    "hide":true
   },{
     "idName":"Alembic",
     "id":207,
@@ -604,9 +1198,12 @@
         "qty":8
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"],
-      "ParentTags":["building","Building.Lab"]
-    }
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Athanor",
     "id":208,
@@ -623,9 +1220,34 @@
         "qty":15
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"],
-      "ParentTags":["building","Building.Lab"]
-    }
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Athanor_Sym",
+    "hide":false
+  },{
+    "idName":"Athanor_Sym",
+    "id":209,
+    "name":"Athanor",
+    "desc":"An advanced athanor with a chance of failure. It has two conveyor outputs, and failed products go through the second output.",
+    "hc":32.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":10
+      },{
+        "name":"Nails",
+        "qty":15
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Athanor",
+    "hide":true
   },{
     "idName":"AdvancedBlender",
     "id":210,
@@ -645,9 +1267,37 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.ActiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"AdvancedBlender_Sym",
+    "hide":false
+  },{
+    "idName":"AdvancedBlender_Sym",
+    "id":211,
+    "name":"Advanced Blender",
+    "desc":"An advanced blender that requires a recipe. It has two conveyor belt inputs, one pipeline input and one conveyor belt output.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":8
+      },{
+        "name":"Glass",
+        "qty":16
+      },{
+        "name":"CopperBearing",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"AdvancedBlender",
+    "hide":true
   },{
     "idName":"AdvancedAlembic",
     "id":212,
@@ -667,9 +1317,37 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"],
-      "ParentTags":["building","Building.Lab"]
-    }
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"AdvancedAlembic_Sym",
+    "hide":false
+  },{
+    "idName":"AdvancedAlembic_Sym",
+    "id":213,
+    "name":"Advanced Alembic",
+    "desc":"An advanced alembic that requires a recipe. It can only be built on a furnace, with two conveyor belt inputs, one pipeline input and one pipeline output.",
+    "hc":270.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":8
+      },{
+        "name":"Glass",
+        "qty":16
+      },{
+        "name":"CopperBearing",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"AdvancedAlembic",
+    "hide":true
   },{
     "idName":"Omni-Machine",
     "id":214,
@@ -689,9 +1367,12 @@
         "qty":8
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.ActiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"AdvancedAthanor",
     "id":215,
@@ -708,9 +1389,12 @@
         "qty":12
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"],
-      "ParentTags":["building","Building.Lab"]
-    }
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Shaper",
     "id":216,
@@ -727,9 +1411,12 @@
         "qty":16
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.ActiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"AdvancedShaper",
     "id":217,
@@ -746,9 +1433,12 @@
         "qty":16
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.ActiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"AetherShaper",
     "id":218,
@@ -768,9 +1458,12 @@
         "qty":18
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.ActiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Cauldron",
     "id":112,
@@ -784,9 +1477,12 @@
         "qty":30
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.PassiveCrafting","Building.Heating"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.PassiveCrafting","Building.Heating"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"ArcaneProcessor",
     "id":219,
@@ -806,9 +1502,12 @@
         "qty":2
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.ActiveCrafting"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.ActiveCrafting"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Processor_Sym",
+    "hide":false
   },{
     "idName":"StoneStove",
     "id":301,
@@ -822,9 +1521,12 @@
         "qty":20
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Heating","Building.Nav.ModifierObstacleArea","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building","Building.Nav"]
-    }
+      "ParentTags":["Building.Lab","building","Building.Nav"],
+      "GameplayTags":["Building.Lab.Heating","Building.Nav.ModifierObstacleArea","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"StoneFurnace",
     "id":302,
@@ -838,9 +1540,12 @@
         "qty":30
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Heating","Building.Nav.ModifierObstacleArea","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building","Building.Nav"]
-    }
+      "ParentTags":["Building.Lab","building","Building.Nav"],
+      "GameplayTags":["Building.Lab.Heating","Building.Nav.ModifierObstacleArea","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"WoodTable",
     "id":401,
@@ -854,9 +1559,12 @@
         "qty":20
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"WoodCrate",
     "id":402,
@@ -870,9 +1578,12 @@
         "qty":12
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture","Building.CanWallMounted"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"MediumStand",
     "id":403,
@@ -886,9 +1597,12 @@
         "qty":16
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"CheckoutTable",
     "id":404,
@@ -902,9 +1616,12 @@
         "qty":40
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"LargeStand",
     "id":405,
@@ -918,9 +1635,12 @@
         "qty":24
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"PotionStand",
     "id":406,
@@ -934,9 +1654,12 @@
         "qty":40
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"JewelryStand",
     "id":407,
@@ -953,9 +1676,12 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"WoodBed",
     "id":408,
@@ -972,9 +1698,12 @@
         "qty":20
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"CoasterEntrance",
     "id":410,
@@ -991,9 +1720,12 @@
         "qty":10
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":6,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"RelicStandSmall",
     "id":411,
@@ -1007,9 +1739,59 @@
         "qty":10
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"RelicStandMedium",
+    "hide":false
+  },{
+    "idName":"RelicStandMedium",
+    "id":412,
+    "name":"Relic Shelf",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"SteelIngot",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"RelicStandLarge",
+    "hide":true
+  },{
+    "idName":"RelicStandLarge",
+    "id":413,
+    "name":"Relic Shelf",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":20
+      },{
+        "name":"SteelIngot",
+        "qty":10
+      },{
+        "name":"GoldIngot",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"RelicStandSmall",
+    "hide":true
   },{
     "idName":"Platform_Wood",
     "id":601,
@@ -1023,9 +1805,12 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Stairs_Wood",
     "id":602,
@@ -1039,9 +1824,12 @@
         "qty":12
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Construct_Floor_Wood",
     "id":603,
@@ -1055,9 +1843,31 @@
         "qty":20
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierDefaultArea"],
-      "ParentTags":["Building.Lab","building","Building.Nav"]
-    }
+      "ParentTags":["Building.Lab","building","Building.Nav"],
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierDefaultArea"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Construct_Floor_Wood_8x8",
+    "hide":false
+  },{
+    "idName":"Construct_Floor_Wood_8x8",
+    "id":603,
+    "name":"Wooden Floor",
+    "desc":"A modular wooden floor which can have its size toggled.",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building","Building.Nav"],
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierDefaultArea"]
+    },
+    "secondaryIndirect":2,
+    "alterBuildOption":"Construct_Floor_Wood",
+    "hide":true
   },{
     "idName":"Construct_Wall_Wood",
     "id":604,
@@ -1074,9 +1884,78 @@
         "qty":10
       }],
     "buildingTags":{
-      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"],
-      "ParentTags":["building","Building.Lab","Building.Nav"]
-    }
+      "ParentTags":["building","Building.Lab","Building.Nav"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"Construct_Wall_Wood_Window",
+    "hide":false
+  },{
+    "idName":"Construct_Wall_Wood_8x16",
+    "id":604,
+    "name":"Wooden Wall",
+    "desc":"Modular wooden wall that can be switched to a form with a door or a window.",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      },{
+        "name":"Brick",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab","Building.Nav"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":3,
+    "alterBuildOption":"Wall_Wood_Tri",
+    "hide":true
+  },{
+    "idName":"Construct_Wall_Stone_8x16",
+    "id":604,
+    "name":"Stone Wall",
+    "desc":"Modular wooden wall that can be switched to a form with a door or a window.",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"Stone",
+        "qty":5
+      },{
+        "name":"Brick",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab","Building.Nav"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":3,
+    "alterBuildOption":"Construct_Wall_Stone",
+    "hide":true
+  },{
+    "idName":"Wall_Wood_Tri",
+    "id":605,
+    "name":"Gable Wall",
+    "desc":"Modular wooden wall that can be switched to a form with a door or a window.",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"Brick",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab","Building.Nav"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":4,
+    "alterBuildOption":"Construct_Wall_Wood",
+    "hide":true
   },{
     "idName":"Roof_Wood",
     "id":606,
@@ -1093,9 +1972,34 @@
         "qty":10
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"],
-      "ParentTags":["Building.Lab","building","Building.Nav"]
-    }
+      "ParentTags":["Building.Lab","building","Building.Nav"],
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":5,
+    "alterBuildOption":"Roof_Wood_2",
+    "hide":false
+  },{
+    "idName":"Roof_Wood_2",
+    "id":606,
+    "name":"Sloped Roof",
+    "desc":"Weather-resistant shingles on a plank base. Simple assembly, full protection.",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"Brick",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building","Building.Nav"],
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":5,
+    "alterBuildOption":"Roof_Wood",
+    "hide":true
   },{
     "idName":"Construct_Wall_Stone",
     "id":607,
@@ -1112,9 +2016,12 @@
         "qty":10
       }],
     "buildingTags":{
-      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"],
-      "ParentTags":["building","Building.Lab","Building.Nav"]
-    }
+      "ParentTags":["building","Building.Lab","Building.Nav"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"Construct_Wall_Stone_Window",
+    "hide":false
   },{
     "idName":"WoodRailing",
     "id":608,
@@ -1128,9 +2035,119 @@
         "qty":8
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"],
-      "ParentTags":["Building.Lab","building","Building.Nav"]
-    }
+      "ParentTags":["Building.Lab","building","Building.Nav"],
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"WoodRailing_Half",
+    "hide":false
+  },{
+    "idName":"WoodRailing_Half",
+    "id":609,
+    "name":"Wooden Railing",
+    "desc":"Wooden railing with sturdy structure and practical use.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":8
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building","Building.Nav"],
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"WoodRailing",
+    "hide":true
+  },{
+    "idName":"Construct_Wall_Wood_Window",
+    "id":610,
+    "name":"Wooden Wall",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"Brick",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab","Building.Nav"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"Construct_Wall_Wood_Door",
+    "hide":true
+  },{
+    "idName":"Construct_Wall_Stone_Window",
+    "id":611,
+    "name":"Stone Wall",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"Stone",
+        "qty":10
+      },{
+        "name":"Brick",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab","Building.Nav"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"Construct_Wall_Stone_Door",
+    "hide":true
+  },{
+    "idName":"Construct_Wall_Wood_Door",
+    "id":612,
+    "name":"Wooden Wall",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"Brick",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab","Building.Nav"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"Construct_Wall_Wood_8x16",
+    "hide":true
+  },{
+    "idName":"Construct_Wall_Stone_Door",
+    "id":613,
+    "name":"Stone Wall",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":4,
+    "secondaryType":6,
+    "costList":[{
+        "name":"Stone",
+        "qty":10
+      },{
+        "name":"Brick",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab","Building.Nav"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"Construct_Wall_Stone_8x16",
+    "hide":true
   },{
     "idName":"ShopEntrance",
     "id":614,
@@ -1144,9 +2161,12 @@
         "qty":5
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"],
-      "ParentTags":["Building.Lab","building","Building.Nav"]
-    }
+      "ParentTags":["Building.Lab","building","Building.Nav"],
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Stairs_Wood_0",
     "id":615,
@@ -1157,9 +2177,12 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Building"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Pillar",
     "id":616,
@@ -1176,9 +2199,12 @@
         "qty":5
       }],
     "buildingTags":{
-      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"],
-      "ParentTags":["building","Building.Lab","Building.Nav"]
-    }
+      "ParentTags":["building","Building.Lab","Building.Nav"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Building","Building.Nav.ModifierNullArea"]
+    },
+    "secondaryIndirect":6,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"TableSaw",
     "id":701,
@@ -1192,9 +2218,12 @@
         "qty":5
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.RawProduction"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.RawProduction"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"StoneCrusher",
     "id":702,
@@ -1211,9 +2240,12 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.RawProduction"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.RawProduction"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"SeedPlot",
     "id":703,
@@ -1227,9 +2259,12 @@
         "qty":8
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.RawProduction"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.RawProduction"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"IronSmelter",
     "id":704,
@@ -1243,9 +2278,12 @@
         "qty":15
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Heating","Building.Lab.RawProduction"],
-      "ParentTags":["building","Building.Lab"]
-    }
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.Heating","Building.Lab.RawProduction"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"AutoNursery",
     "id":705,
@@ -1262,9 +2300,12 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.RawProduction"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.RawProduction"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"WorldTreeNursery",
     "id":706,
@@ -1284,9 +2325,12 @@
         "qty":100
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.RawProduction"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.RawProduction"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Portal_AlchGuild",
     "id":707,
@@ -1303,9 +2347,12 @@
         "qty":5
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.RawProduction"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.RawProduction"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Portal_Bank",
     "id":708,
@@ -1322,9 +2369,12 @@
         "qty":5
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.RawProduction"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.RawProduction"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Portal_Wholesaling",
     "id":709,
@@ -1341,9 +2391,12 @@
         "qty":5
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.RawProduction"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.RawProduction"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"LiquidSupplier",
     "id":710,
@@ -1354,9 +2407,12 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "GameplayTags":[],
-      "ParentTags":[]
-    }
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"SmallContainer",
     "id":801,
@@ -1370,9 +2426,88 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Storage"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"SmallContainer_Sym",
+    "hide":false
+  },{
+    "idName":"SmallContainer_Sym",
+    "id":802,
+    "name":"Small Storage Box",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"SmallContainer_Side",
+    "hide":true
+  },{
+    "idName":"SmallContainer_Side",
+    "id":803,
+    "name":"Small Storage Box",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"SmallContainer_Vert",
+    "hide":true
+  },{
+    "idName":"SmallContainer_Vert",
+    "id":804,
+    "name":"Small Storage Box",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"SmallContainer_Vert_Sym",
+    "hide":true
+  },{
+    "idName":"SmallContainer_Vert_Sym",
+    "id":805,
+    "name":"Small Storage Box",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"SmallContainer",
+    "hide":true
   },{
     "idName":"WoodContainer",
     "id":806,
@@ -1389,9 +2524,56 @@
         "qty":12
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Storage"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"WoodContainer_Vert",
+    "hide":false
+  },{
+    "idName":"WoodContainer_Open",
+    "id":807,
+    "name":"Large Storage Box",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":8
+      },{
+        "name":"WoodGear",
+        "qty":12
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"WoodContainer_Vert",
+    "hide":true
+  },{
+    "idName":"WoodContainer_Vert",
+    "id":808,
+    "name":"Large Storage Box",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"WoodGear",
+        "qty":12
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"WoodContainer",
+    "hide":true
   },{
     "idName":"MetalContainer",
     "id":809,
@@ -1408,9 +2590,12 @@
         "qty":12
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Storage"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"ConicalFlask",
     "id":810,
@@ -1424,9 +2609,31 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Storage"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"RoundBottomFlask",
+    "hide":false
+  },{
+    "idName":"RoundBottomFlask",
+    "id":811,
+    "name":"Round-bottom Flask",
+    "desc":"A small Flask for liquids, with a pipeline input, switchable between a conical flask and a round-bottom flask.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"Glass",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"ConicalFlask",
+    "hide":true
   },{
     "idName":"SphereFlask",
     "id":812,
@@ -1443,9 +2650,12 @@
         "qty":10
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Storage"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"JunkBarrel",
     "id":816,
@@ -1459,9 +2669,12 @@
         "qty":16
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Storage"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"FrameSingle",
     "id":901,
@@ -1478,9 +2691,34 @@
         "qty":2
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Structure"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FrameDuo",
+    "hide":false
+  },{
+    "idName":"FrameDuo",
+    "id":902,
+    "name":"Lab Stands",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":2
+      },{
+        "name":"Nails",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FrameSingle",
+    "hide":true
   },{
     "idName":"IronStand",
     "id":903,
@@ -1500,9 +2738,37 @@
         "qty":4
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Structure"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"IronStandDuo",
+    "hide":false
+  },{
+    "idName":"IronStandDuo",
+    "id":904,
+    "name":"Lab Stands",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":2
+      },{
+        "name":"Nails",
+        "qty":8
+      },{
+        "name":"IronIngot",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"IronStand",
+    "hide":true
   },{
     "idName":"Beam3",
     "id":905,
@@ -1516,9 +2782,72 @@
         "qty":3
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Beam5",
+    "hide":false
+  },{
+    "idName":"Beam5",
+    "id":906,
+    "name":"Beam",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      },{
+        "name":"IronIngot",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Beam10",
+    "hide":true
+  },{
+    "idName":"Beam10",
+    "id":907,
+    "name":"Beam",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Beam18",
+    "hide":true
+  },{
+    "idName":"Beam18",
+    "id":908,
+    "name":"Beam",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":18
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Beam3",
+    "hide":true
   },{
     "idName":"MetalStand",
     "id":909,
@@ -1535,9 +2864,34 @@
         "qty":12
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Structure"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"MetalStandEmpty",
+    "hide":false
+  },{
+    "idName":"MetalStandEmpty",
+    "id":910,
+    "name":"Metal Stand",
+    "desc":"Metal-framed laboratory stand with enhanced durability.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":3
+      },{
+        "name":"Nails",
+        "qty":12
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"MetalStand",
+    "hide":true
   },{
     "idName":"SmallPlatform",
     "id":911,
@@ -1557,9 +2911,62 @@
         "qty":6
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Structure"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"MediumPlatform",
+    "hide":false
+  },{
+    "idName":"MediumPlatform",
+    "id":912,
+    "name":"Reinforced Platform",
+    "desc":"A nailed wood-metal reinforced platform for production line expansion.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":6
+      },{
+        "name":"WoodBoard",
+        "qty":12
+      },{
+        "name":"BronzeRivet",
+        "qty":8
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"CrossPlatform",
+    "hide":true
+  },{
+    "idName":"CrossPlatform",
+    "id":913,
+    "name":"Reinforced Platform",
+    "desc":"A nailed wood-metal reinforced platform for production line expansion.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"SteelIngot",
+        "qty":5
+      },{
+        "name":"WoodBoard",
+        "qty":10
+      },{
+        "name":"BronzeRivet",
+        "qty":7
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"SmallPlatform",
+    "hide":true
   },{
     "idName":"WallShelf",
     "id":914,
@@ -1576,9 +2983,12 @@
         "qty":10
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Structure","Building.WallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Structure","Building.WallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"Candle",
     "id":1001,
@@ -1592,9 +3002,31 @@
         "qty":5
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Decoration"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"CandleHanging",
+    "hide":false
+  },{
+    "idName":"CandleHanging",
+    "id":1002,
+    "name":"Candle (Wall-mounted)",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.WallMounted","Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Candle",
+    "hide":true
   },{
     "idName":"NoticeBoard",
     "id":1003,
@@ -1608,9 +3040,31 @@
         "qty":5
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Decoration"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"NoticeBoard_2",
+    "hide":false
+  },{
+    "idName":"NoticeBoard_2",
+    "id":1004,
+    "name":"Notice Board",
+    "desc":"A freely editable notice board that can be switched to a wall-mounted form.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration","Building.WallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"NoticeBoard",
+    "hide":true
   },{
     "idName":"WoodBlock",
     "id":1101,
@@ -1624,9 +3078,12 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"StoneBlock",
     "id":1102,
@@ -1640,9 +3097,12 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"BrickBlock",
     "id":1103,
@@ -1656,9 +3116,12 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"IronBlock",
     "id":1104,
@@ -1672,9 +3135,12 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"MarbleBlock",
     "id":1105,
@@ -1688,9 +3154,12 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"CopperBlock",
     "id":1106,
@@ -1704,9 +3173,12 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"BronzeBlock",
     "id":1107,
@@ -1720,9 +3192,12 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"SilverBlock",
     "id":1108,
@@ -1736,9 +3211,12 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"GoldBlock",
     "id":1109,
@@ -1752,9 +3230,225 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block","Building.CanWallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
+  },{
+    "idName":"QueueStall",
+    "id":9001,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":20
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Nav","building"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":true
+  },{
+    "idName":"Floor_Wood",
+    "id":9002,
+    "name":"Wooden Floor",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":3,
+    "secondaryType":4,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":1,
+    "alterBuildOption":"None",
+    "hide":true
+  },{
+    "idName":"FloorEdge_Wood",
+    "id":9003,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":3,
+    "secondaryType":5,
+    "costList":[],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":2,
+    "alterBuildOption":"None",
+    "hide":true
+  },{
+    "idName":"FloorCorner_Wood",
+    "id":9004,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":3,
+    "secondaryType":5,
+    "costList":[],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":4,
+    "alterBuildOption":"None",
+    "hide":true
+  },{
+    "idName":"Wall_Wood",
+    "id":9005,
+    "name":"Wooden Wall",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":3,
+    "secondaryType":4,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"WallWithDoor_Wood",
+    "hide":true
+  },{
+    "idName":"WallHorizontal_Wood",
+    "id":9006,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":3,
+    "secondaryType":5,
+    "costList":[],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":2,
+    "alterBuildOption":"None",
+    "hide":true
+  },{
+    "idName":"WallVertical_Wood",
+    "id":9007,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":3,
+    "secondaryType":5,
+    "costList":[],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":3,
+    "alterBuildOption":"None",
+    "hide":true
+  },{
+    "idName":"WallCorner_Wood",
+    "id":9008,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":3,
+    "secondaryType":5,
+    "costList":[],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":4,
+    "alterBuildOption":"None",
+    "hide":true
+  },{
+    "idName":"WallWithDoor_Wood",
+    "id":9009,
+    "name":"Wooden Wall with a Door",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":3,
+    "secondaryType":4,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"WallWithWindow_Wood",
+    "hide":true
+  },{
+    "idName":"WallWithWindow_Wood",
+    "id":9010,
+    "name":"Wooden Wall with a Window",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":3,
+    "secondaryType":4,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Wall_Wood",
+    "hide":true
+  },{
+    "idName":"SupplyDepot",
+    "id":9012,
+    "name":"",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":20
+      }],
+    "buildingTags":{
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":true
+  },{
+    "idName":"SimpleCrate",
+    "id":9013,
+    "name":"Wooden Crate",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Storage"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":true
   },{
     "idName":"AutoCheckout",
     "id":1110,
@@ -1768,9 +3462,12 @@
         "qty":1
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Lab.Block"],
-      "ParentTags":["Building.Lab","building"]
-    }
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"WorkBench",
     "id":400,
@@ -1790,9 +3487,31 @@
         "qty":20
       }],
     "buildingTags":{
-      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"],
-      "ParentTags":["Building.Nav","building","Building.Lab"]
-    }
+      "ParentTags":["Building.Nav","building","Building.Lab"],
+      "GameplayTags":["Building.Nav.ModifierObstacleArea","Building.Lab.Furniture"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
+  },{
+    "idName":"WoodRail",
+    "id":9016,
+    "name":"Wooden Railing",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":8
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building","Building.Nav"],
+      "GameplayTags":["Building.Lab.Structure","Building.Nav.ModifierObstacleArea"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":true
   },{
     "idName":"WoodExpansion",
     "id":9018,
@@ -1803,9 +3522,12 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "GameplayTags":[],
-      "ParentTags":[]
-    }
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"SpawnTrain",
     "id":9019,
@@ -1816,9 +3538,12 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "GameplayTags":[],
-      "ParentTags":[]
-    }
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"WoodFence",
     "id":9020,
@@ -1829,9 +3554,12 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "GameplayTags":[],
-      "ParentTags":[]
-    }
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   },{
     "idName":"PhantomTempBag",
     "id":0,
@@ -1842,7 +3570,10 @@
     "secondaryType":0,
     "costList":[],
     "buildingTags":{
-      "GameplayTags":[],
-      "ParentTags":[]
-    }
+      "ParentTags":[],
+      "GameplayTags":[]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
   }]
