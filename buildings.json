@@ -591,6 +591,28 @@
     "alterBuildOption":"ConveyorTunnel",
     "hide":true
   },{
+    "idName":"CrossTunnel",
+    "id":24,
+    "name":"Crossway Tunnel",
+    "desc":"A conveyor tunnel that allows items to cross paths.",
+    "hc":0.0,
+    "furnitureType":0,
+    "secondaryType":2,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":5
+      },{
+        "name":"Nails",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false
+  },{
     "idName":"Filter_Vert",
     "id":25,
     "name":"Filter Splitter",

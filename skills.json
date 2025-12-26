@@ -819,6 +819,26 @@
     "unlockItems":[],
     "unlockConstructions":[]
   },{
+    "idName":"CrossTunnel",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["DrawBridge"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1600
+    },
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "name":"CrossTunnel",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
     "idName":"BasicFertilizer",
     "tier":3,
     "skillLevel":false,
