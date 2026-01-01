@@ -4,6 +4,16 @@
     "displayName":"Portal Sigil",
     "value":1500,
     "cost":1500,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1500
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1500
+    },
     "baseCost":1500.0,
     "cauldronCost":750.0,
     "cauldronTarget":1500.0,
@@ -18,13 +28,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_PortalSigil"
   },{
     "id":2002,
     "name":"GelatinousGridlock",
     "displayName":"Gelatinous Gridlock",
     "value":100,
     "cost":100,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":100
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":100
+    },
     "baseCost":100.0,
     "cauldronCost":100.0,
     "cauldronTarget":100.0,
@@ -39,13 +60,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_GelatinousGridlock"
   },{
     "id":2003,
     "name":"CashRegister",
     "displayName":"Automatic Cashier",
     "value":3000,
     "cost":3000,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":3000
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":3000
+    },
     "baseCost":3000.0,
     "cauldronCost":1400.0,
     "cauldronTarget":3000.0,
@@ -60,13 +92,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Furnitures/T_UI_CashRegister"
   },{
     "id":1,
     "name":"Wood",
     "displayName":"Logs",
     "value":200,
     "cost":200,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":200
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":200
+    },
     "baseCost":1.0,
     "cauldronCost":0.8,
     "cauldronTarget":1.0,
@@ -81,13 +124,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_Wood"
   },{
     "id":2,
     "name":"Limestone",
     "displayName":"Limestone",
     "value":600,
     "cost":600,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":600
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":600
+    },
     "baseCost":4.0,
     "cauldronCost":3.0,
     "cauldronTarget":4.0,
@@ -102,13 +156,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_Stone"
   },{
     "id":3,
     "name":"IronOre",
     "displayName":"Iron Ore",
     "value":1200,
     "cost":1200,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1200
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1200
+    },
     "baseCost":12.0,
     "cauldronCost":10.0,
     "cauldronTarget":12.0,
@@ -123,13 +188,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_IronOre"
   },{
     "id":4,
     "name":"FlaxSeed",
     "displayName":"Flax Seeds",
     "value":280,
     "cost":280,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":280
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":280
+    },
     "baseCost":280.0,
     "cauldronCost":115.0,
     "cauldronTarget":280.0,
@@ -144,13 +220,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_FlaxSeedBag"
   },{
     "id":5,
     "name":"Flax",
     "displayName":"Flax",
     "value":2,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":2.0,
     "cauldronCost":2.0,
     "cauldronTarget":2.0,
@@ -165,13 +252,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Flax"
   },{
     "id":6,
     "name":"Sage",
     "displayName":"Sage",
     "value":3,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":3
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":3.0,
     "cauldronCost":3.0,
     "cauldronTarget":3.0,
@@ -186,13 +284,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Sage"
   },{
     "id":7,
     "name":"SageSeed",
     "displayName":"Sage Seeds",
     "value":360,
     "cost":360,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":360
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":360
+    },
     "baseCost":360.0,
     "cauldronCost":175.0,
     "cauldronTarget":360.0,
@@ -207,13 +316,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_SageSeedBag"
   },{
     "id":11,
     "name":"Redcurrant",
     "displayName":"Redcurrant",
     "value":12,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":12
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":12.0,
     "cauldronCost":12.0,
     "cauldronTarget":12.0,
@@ -228,13 +348,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Redcurrant"
   },{
     "id":12,
     "name":"RedcurrantSeed",
     "displayName":"Redcurrant Seeds",
     "value":1300,
     "cost":1300,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1300
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1300
+    },
     "baseCost":1300.0,
     "cauldronCost":650.0,
     "cauldronTarget":1300.0,
@@ -249,13 +380,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_RedcurrantSeedBag"
   },{
     "id":13,
     "name":"Lavender",
     "displayName":"Lavender",
     "value":180,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":180
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":180.0,
     "cauldronCost":180.0,
     "cauldronTarget":180.0,
@@ -270,13 +412,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Lavender"
   },{
     "id":14,
     "name":"LavenderSeed",
     "displayName":"Lavender Seeds",
-    "value":0,
-    "cost":0,
+    "value":16000,
+    "cost":16000,
+    "gameValue":{
+      "Gold":0,
+      "Silver":16,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":16,
+      "Copper":0
+    },
     "baseCost":16000.0,
     "cauldronCost":6000.0,
     "cauldronTarget":16000.0,
@@ -291,13 +444,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_LavenderSeedBag"
   },{
     "id":15,
     "name":"Chamomile",
     "displayName":"Chamomile",
     "value":60,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":60
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":60.0,
     "cauldronCost":55.0,
     "cauldronTarget":60.0,
@@ -312,13 +476,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Chamomile"
   },{
     "id":16,
     "name":"ChamomileSeed",
     "displayName":"Chamomile Seeds",
-    "value":0,
-    "cost":0,
+    "value":6000,
+    "cost":6000,
+    "gameValue":{
+      "Gold":0,
+      "Silver":6,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":6,
+      "Copper":0
+    },
     "baseCost":6000.0,
     "cauldronCost":2300.0,
     "cauldronTarget":6000.0,
@@ -333,13 +508,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_ChamomileSeedBag"
   },{
     "id":17,
     "name":"Gentian",
     "displayName":"Gentian",
     "value":500,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":500
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":500.0,
     "cauldronCost":400.0,
     "cauldronTarget":500.0,
@@ -354,13 +540,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Gentian"
   },{
     "id":802,
     "name":"GentianNectar",
     "displayName":"Gentian Nectar",
     "value":500,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":500
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":500.0,
     "cauldronCost":420.0,
     "cauldronTarget":500.0,
@@ -375,13 +572,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GentianNectar"
   },{
     "id":19,
     "name":"GentianSeed",
     "displayName":"Gentian Seeds",
-    "value":0,
-    "cost":0,
+    "value":64000,
+    "cost":64000,
+    "gameValue":{
+      "Gold":0,
+      "Silver":64,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":64,
+      "Copper":0
+    },
     "baseCost":64000.0,
     "cauldronCost":29000.0,
     "cauldronTarget":64000.0,
@@ -396,13 +604,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_GentianSeedBag"
   },{
     "id":23,
     "name":"Pyrite",
     "displayName":"Pyrite Ore",
-    "value":0,
-    "cost":0,
+    "value":11000,
+    "cost":11000,
+    "gameValue":{
+      "Gold":0,
+      "Silver":11,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":11,
+      "Copper":0
+    },
     "baseCost":70.0,
     "cauldronCost":45.0,
     "cauldronTarget":70.0,
@@ -417,13 +636,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_PyriteOre"
   },{
     "id":22,
     "name":"RockSalt",
     "displayName":"Rock Salt",
-    "value":0,
-    "cost":0,
+    "value":9000,
+    "cost":9000,
+    "gameValue":{
+      "Gold":0,
+      "Silver":9,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":9,
+      "Copper":0
+    },
     "baseCost":45.0,
     "cauldronCost":35.0,
     "cauldronTarget":45.0,
@@ -438,13 +668,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_RockSalt"
   },{
     "id":21,
     "name":"CoalOre",
     "displayName":"Coal Ore",
     "value":4800,
     "cost":4800,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4800
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4800
+    },
     "baseCost":40.0,
     "cauldronCost":37.0,
     "cauldronTarget":40.0,
@@ -459,13 +700,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_CoalOre"
   },{
     "id":20,
     "name":"RottenLog",
     "displayName":"Rotten Log",
     "value":2000,
     "cost":2000,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2000
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2000
+    },
     "baseCost":10.0,
     "cauldronCost":6.5,
     "cauldronTarget":10.0,
@@ -480,13 +732,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_RottenLog"
   },{
     "id":25,
     "name":"QuartzOre",
     "displayName":"Quartz Ore",
-    "value":0,
-    "cost":0,
+    "value":44000,
+    "cost":44000,
+    "gameValue":{
+      "Gold":0,
+      "Silver":44,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":44,
+      "Copper":0
+    },
     "baseCost":550.0,
     "cauldronCost":230.0,
     "cauldronTarget":550.0,
@@ -501,13 +764,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_QuartzOre"
   },{
     "id":26,
     "name":"Meteorite",
     "displayName":"Meteorite",
-    "value":0,
-    "cost":0,
+    "value":2000000,
+    "cost":2000000,
+    "gameValue":{
+      "Gold":20,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":20,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":2000.0,
     "cauldronCost":800.0,
     "cauldronTarget":2000.0,
@@ -522,13 +796,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_Meteorite"
   },{
     "id":27,
     "name":"WorldTreeLeaf",
     "displayName":"World Tree Leaf",
     "value":2500,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2500
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":2500.0,
     "cauldronCost":2500.0,
     "cauldronTarget":2500.0,
@@ -543,13 +828,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_YggdrasillLeaf"
   },{
     "id":28,
     "name":"WorldTreeCore",
     "displayName":"World Tree Core",
-    "value":0,
+    "value":250000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":250,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":250000.0,
     "cauldronCost":250000.0,
     "cauldronTarget":250000.0,
@@ -564,13 +860,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_YggdrasillCore"
   },{
     "id":29,
     "name":"WorldTreeSeed",
     "displayName":"World Tree Seed",
-    "value":0,
-    "cost":0,
+    "value":5000000,
+    "cost":5000000,
+    "gameValue":{
+      "Gold":50,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":50,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":5000000.0,
     "cauldronCost":5000000.0,
     "cauldronTarget":5000000.0,
@@ -585,13 +892,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":true
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_YggdrasillSeed"
   },{
     "id":30,
     "name":"Ruby",
     "displayName":"Ruby",
-    "value":0,
+    "value":250000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":250,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":200000.0,
     "cauldronCost":200000.0,
     "cauldronTarget":200000.0,
@@ -606,13 +924,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Ruby"
   },{
     "id":31,
     "name":"Sapphire",
     "displayName":"Sapphire",
-    "value":0,
+    "value":480000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":480,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":400000.0,
     "cauldronCost":400000.0,
     "cauldronTarget":400000.0,
@@ -627,13 +956,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Sapphire"
   },{
     "id":32,
     "name":"Emerald",
     "displayName":"Emerald",
-    "value":0,
+    "value":700000,
     "cost":0,
+    "gameValue":{
+      "Gold":7,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":600000.0,
     "cauldronCost":600000.0,
     "cauldronTarget":600000.0,
@@ -648,13 +988,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Emerald"
   },{
     "id":33,
     "name":"PhilosopherStone",
     "displayName":"Philosopher's Stone",
-    "value":0,
+    "value":1000000,
     "cost":0,
+    "gameValue":{
+      "Gold":10,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1000000.0,
     "cauldronCost":1000000.0,
     "cauldronTarget":1000000.0,
@@ -669,13 +1020,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_PhilosopherStone"
   },{
     "id":101,
     "name":"WoodBoard",
     "displayName":"Plank",
     "value":1,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1.0,
     "cauldronCost":1.0,
     "cauldronTarget":0.1,
@@ -690,13 +1052,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_WoodBoard"
   },{
     "id":102,
     "name":"LargeWoodGear",
     "displayName":"Large Wooden Gear",
     "value":5,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":5
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1.0,
     "cauldronCost":1.5,
     "cauldronTarget":1.0,
@@ -711,13 +1084,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_LargeWoodenGear"
   },{
     "id":201,
     "name":"Stone",
     "displayName":"Stone",
     "value":4,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":4.0,
     "cauldronCost":4.0,
     "cauldronTarget":4.0,
@@ -732,13 +1116,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Limestone"
   },{
     "id":202,
     "name":"Sand",
     "displayName":"Sand",
     "value":4,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":4.0,
     "cauldronCost":4.5,
     "cauldronTarget":4.0,
@@ -753,13 +1148,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Sand"
   },{
     "id":203,
     "name":"Mortar",
     "displayName":"Mortar",
     "value":48,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":48
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":20.0,
     "cauldronCost":18.0,
     "cauldronTarget":20.0,
@@ -774,13 +1180,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Mortar"
   },{
     "id":204,
     "name":"FlaxFiber",
     "displayName":"Flax Fiber",
     "value":2,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":2.0,
     "cauldronCost":2.5,
     "cauldronTarget":2.0,
@@ -795,13 +1212,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FlaxFiber"
   },{
     "id":205,
     "name":"LinenThread",
     "displayName":"Linen Thread",
     "value":6,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":6
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":6.0,
     "cauldronCost":9.0,
     "cauldronTarget":6.0,
@@ -816,13 +1244,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_LinenThread"
   },{
     "id":206,
     "name":"LinenRope",
     "displayName":"Linen Rope",
     "value":36,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":36
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":12.0,
     "cauldronCost":13.0,
     "cauldronTarget":12.0,
@@ -837,13 +1276,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FlaxRope"
   },{
     "id":207,
     "name":"WoodGear",
     "displayName":"Small Wooden Gear",
     "value":8,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":8
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":0.33333333333333,
     "cauldronCost":0.33333333333333,
     "cauldronTarget":0.33333333333333,
@@ -858,13 +1308,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SmallWoodenGear"
   },{
     "id":301,
     "name":"IronIngot",
     "displayName":"Iron Ingot",
     "value":15,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":15
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":15.0,
     "cauldronCost":15.0,
     "cauldronTarget":15.0,
@@ -879,13 +1340,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_IronIngot"
   },{
     "id":302,
     "name":"Nails",
     "displayName":"Iron Nails",
     "value":16,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":16
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":5.0,
     "cauldronCost":5.0,
     "cauldronTarget":5.0,
@@ -900,13 +1372,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Nails"
   },{
     "id":303,
     "name":"IronSand",
     "displayName":"Iron Sand",
     "value":15,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":15
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":15.0,
     "cauldronCost":15.5,
     "cauldronTarget":15.0,
@@ -921,13 +1404,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_IronSand"
   },{
     "id":304,
     "name":"PlantAsh",
     "displayName":"Plant Ash",
     "value":4,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":4.0,
     "cauldronCost":4.0,
     "cauldronTarget":4.0,
@@ -942,13 +1436,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_PlantAsh"
   },{
     "id":305,
     "name":"SagePowder",
     "displayName":"Sage Powder",
     "value":3,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":3
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":3.0,
     "cauldronCost":3.5,
     "cauldronTarget":3.0,
@@ -963,13 +1468,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SagePowder"
   },{
     "id":306,
     "name":"HealingPotion",
     "displayName":"Healing Potion",
     "value":85,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":85
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":30.0,
     "cauldronCost":30.0,
     "cauldronTarget":30.0,
@@ -984,13 +1500,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_HealingPotion"
   },{
     "id":307,
     "name":"Linen",
     "displayName":"Linen",
     "value":165,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":165
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":60.0,
     "cauldronCost":60.0,
     "cauldronTarget":60.0,
@@ -1005,13 +1532,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Linen"
   },{
     "id":308,
     "name":"Bandage",
     "displayName":"Bandage",
     "value":350,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":350
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":120.0,
     "cauldronCost":120.0,
     "cauldronTarget":120.0,
@@ -1026,13 +1564,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Bandage"
   },{
     "id":401,
     "name":"Quicklime",
     "displayName":"Quicklime",
     "value":6,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":6
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":6.0,
     "cauldronCost":6.0,
     "cauldronTarget":6.0,
@@ -1047,13 +1596,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_QuickLime"
   },{
     "id":402,
     "name":"QuicklimePowder",
     "displayName":"Quicklime Powder",
     "value":6,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":6
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":6.0,
     "cauldronCost":7.0,
     "cauldronTarget":6.0,
@@ -1068,13 +1628,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_QuicklimePowder"
   },{
     "id":403,
     "name":"Charcoal",
     "displayName":"Charcoal",
     "value":2,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":2.0,
     "cauldronCost":2.0,
     "cauldronTarget":2.0,
@@ -1089,13 +1660,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Charcoal"
   },{
     "id":404,
     "name":"CharcoalPowder",
     "displayName":"Charcoal Powder",
     "value":2,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":2.0,
     "cauldronCost":2.5,
     "cauldronTarget":2.0,
@@ -1110,13 +1692,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_CharcoalPowder"
   },{
     "id":405,
     "name":"WoodPulley",
     "displayName":"Wooden Pulley",
     "value":44,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":44
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":14.0,
     "cauldronCost":14.0,
     "cauldronTarget":14.0,
@@ -1131,13 +1724,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_WoodPulley"
   },{
     "id":406,
     "name":"Clay",
     "displayName":"Clay",
     "value":20,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":20
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":20.0,
     "cauldronCost":21.0,
     "cauldronTarget":20.0,
@@ -1152,13 +1756,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Clay"
   },{
     "id":407,
     "name":"ClayPowder",
     "displayName":"Clay Powder",
     "value":20,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":20
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":20.0,
     "cauldronCost":22.0,
     "cauldronTarget":20.0,
@@ -1173,13 +1788,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_ClayPowder"
   },{
     "id":408,
     "name":"Brick",
     "displayName":"Brick",
     "value":70,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":70
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":25.0,
     "cauldronCost":25.0,
     "cauldronTarget":25.0,
@@ -1194,13 +1820,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Brick"
   },{
     "id":409,
     "name":"LinseedOil",
     "displayName":"Linseed Oil",
     "value":0,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":0.04,
     "cauldronCost":0.04,
     "cauldronTarget":0.04,
@@ -1215,13 +1852,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_LinseedOil"
   },{
     "id":410,
     "name":"FruitWine",
     "displayName":"Fruit Wine",
     "value":1,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1.2,
     "cauldronCost":1.2,
     "cauldronTarget":1.2,
@@ -1236,13 +1884,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FruitWine"
   },{
     "id":411,
     "name":"Limewater",
     "displayName":"Limewater",
     "value":0,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":0.2,
     "cauldronCost":0.2,
     "cauldronTarget":0.2,
@@ -1257,13 +1916,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Limewater"
   },{
     "id":412,
     "name":"Glass",
     "displayName":"Glass",
     "value":75,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":75
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":29.0,
     "cauldronCost":27.0,
     "cauldronTarget":29.0,
@@ -1278,13 +1948,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Glass"
   },{
     "id":413,
     "name":"Soap",
     "displayName":"Soap",
     "value":60,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":60
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":20.0,
     "cauldronCost":23.0,
     "cauldronTarget":20.0,
@@ -1299,13 +1980,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Soap"
   },{
     "id":414,
     "name":"SoapPowder",
     "displayName":"Soap Powder",
     "value":60,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":60
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":20.0,
     "cauldronCost":24.0,
     "cauldronTarget":20.0,
@@ -1320,13 +2012,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SoapPowder"
   },{
     "id":415,
     "name":"VitalityPotion",
     "displayName":"Vitality Potion",
     "value":330,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":330
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":120.0,
     "cauldronCost":125.0,
     "cauldronTarget":120.0,
@@ -1341,13 +2044,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_VitalityPotion"
   },{
     "id":416,
     "name":"BasicFertilizer",
     "displayName":"Basic Fertilizer",
     "value":14,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":14
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":14.0,
     "cauldronCost":14.0,
     "cauldronTarget":14.0,
@@ -1362,13 +2076,24 @@
     "ns":12.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FertilizerSack"
   },{
     "id":501,
     "name":"Turquoise",
     "displayName":"Turquoise",
     "value":290,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":290
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":108.0,
     "cauldronCost":108.0,
     "cauldronTarget":108.0,
@@ -1383,13 +2108,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Turquoise"
   },{
     "id":502,
     "name":"Jupiter",
     "displayName":"Jupiter",
-    "value":0,
+    "value":30000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":30,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":34.0,
     "cauldronCost":34.0,
     "cauldronTarget":34.0,
@@ -1404,13 +2140,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Jupiter"
   },{
     "id":503,
     "name":"Coke",
     "displayName":"Coke",
     "value":30,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":30
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":30.0,
     "cauldronCost":29.0,
     "cauldronTarget":30.0,
@@ -1425,13 +2172,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Coke"
   },{
     "id":504,
     "name":"CokePowder",
     "displayName":"Coke Powder",
     "value":30,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":30
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":30.0,
     "cauldronCost":31.0,
     "cauldronTarget":30.0,
@@ -1446,13 +2204,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_CokePowder"
   },{
     "id":505,
     "name":"SteelIngot",
     "displayName":"Steel Ingot",
     "value":161,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":161
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":161.0,
     "cauldronCost":161.0,
     "cauldronTarget":161.0,
@@ -1467,13 +2236,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_LeadIngot"
   },{
     "id":506,
     "name":"SteelGear",
     "displayName":"Steel Gear",
     "value":450,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":450
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":161.0,
     "cauldronCost":170.0,
     "cauldronTarget":161.0,
@@ -1488,13 +2268,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SteelGear"
   },{
     "id":507,
     "name":"YeastPowder",
     "displayName":"Yeast Powder",
     "value":168,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":168
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":88.0,
     "cauldronCost":88.0,
     "cauldronTarget":88.0,
@@ -1509,13 +2300,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_YeastPowder"
   },{
     "id":508,
     "name":"ManaPotion",
     "displayName":"Transformation Potion",
     "value":620,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":620
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":240.0,
     "cauldronCost":240.0,
     "cauldronTarget":240.0,
@@ -1530,13 +2332,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_ManaPotion"
   },{
     "id":509,
     "name":"GloomFungus",
     "displayName":"Gloom Fungus",
     "value":46,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":46
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":46.0,
     "cauldronCost":26.0,
     "cauldronTarget":46.0,
@@ -1551,13 +2364,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GloomFungus"
   },{
     "id":510,
     "name":"GloomSpores",
     "displayName":"Gloom Spores",
     "value":260,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":260
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":180.0,
     "cauldronCost":220.0,
     "cauldronTarget":280.0,
@@ -1572,13 +2396,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GloomSpores"
   },{
     "id":511,
     "name":"AdvancedFertilizer",
     "displayName":"Advanced Fertilizer",
     "value":60,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":60
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":60.0,
     "cauldronCost":62.0,
     "cauldronTarget":60.0,
@@ -1593,13 +2428,24 @@
     "ns":144.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_AdFertilizerSack"
   },{
     "id":601,
     "name":"ChamomilePowder",
     "displayName":"Chamomile Powder",
     "value":60,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":60
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":60.0,
     "cauldronCost":57.0,
     "cauldronTarget":60.0,
@@ -1614,13 +2460,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_ChamomilePowder"
   },{
     "id":602,
     "name":"Sulfur",
     "displayName":"Sulfur",
     "value":246,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":246
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":246.0,
     "cauldronCost":166.0,
     "cauldronTarget":246.0,
@@ -1635,13 +2492,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Sulfur"
   },{
     "id":603,
     "name":"SulfurPowder",
     "displayName":"Sulfur Powder",
     "value":246,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":246
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":246.0,
     "cauldronCost":200.0,
     "cauldronTarget":246.0,
@@ -1656,13 +2524,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SulfurPowder"
   },{
     "id":604,
     "name":"Coal",
     "displayName":"Coal",
     "value":40,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":40
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":40.0,
     "cauldronCost":40.0,
     "cauldronTarget":40.0,
@@ -1677,13 +2556,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Coal"
   },{
     "id":605,
     "name":"Salt",
     "displayName":"Salt",
     "value":100,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":100
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":65.0,
     "cauldronCost":65.0,
     "cauldronTarget":65.0,
@@ -1698,13 +2588,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Salt"
   },{
     "id":606,
     "name":"SaltWater",
     "displayName":"Brine",
     "value":5,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":5
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":3.25,
     "cauldronCost":3.25,
     "cauldronTarget":3.25,
@@ -1719,13 +2620,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SaltWater"
   },{
     "id":607,
     "name":"CopperPowder",
     "displayName":"Impure Copper Powder",
     "value":310,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":310
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":150.0,
     "cauldronCost":150.0,
     "cauldronTarget":180.0,
@@ -1740,13 +2652,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_CopperPowder_2"
   },{
     "id":608,
     "name":"CopperPowder2",
     "displayName":"Copper Powder",
     "value":610,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":610
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":290.0,
     "cauldronCost":290.0,
     "cauldronTarget":350.0,
@@ -1761,13 +2684,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_CopperPowder"
   },{
     "id":609,
     "name":"BronzeIngot",
     "displayName":"Bronze Ingot",
     "value":313,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":313
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":153.0,
     "cauldronCost":155.0,
     "cauldronTarget":153.0,
@@ -1782,13 +2716,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_BronzeIngot"
   },{
     "id":610,
     "name":"CopperIngot",
     "displayName":"Copper Ingot",
     "value":613,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":613
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":293.0,
     "cauldronCost":300.0,
     "cauldronTarget":293.0,
@@ -1803,13 +2748,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_CopperIngot"
   },{
     "id":611,
     "name":"CopperCoin",
     "displayName":"Copper Coin",
     "value":2,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":0.97666666666667,
     "cauldronCost":0.67666666666667,
     "cauldronTarget":0.97666666666667,
@@ -1824,13 +2780,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_CopperCoin"
   },{
     "id":612,
     "name":"CopperBearing",
     "displayName":"Copper Bearing",
     "value":300,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":300
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":146.5,
     "cauldronCost":136.5,
     "cauldronTarget":146.5,
@@ -1845,13 +2812,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_CopperBearing"
   },{
     "id":613,
     "name":"BronzeRivet",
     "displayName":"Bronze Rivet",
     "value":120,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":120
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":51.0,
     "cauldronCost":51.0,
     "cauldronTarget":51.0,
@@ -1866,13 +2844,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_BronzeRivet"
   },{
     "id":614,
     "name":"BlackPowder",
     "displayName":"Black Powder",
     "value":330,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":330
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":150.0,
     "cauldronCost":145.0,
     "cauldronTarget":150.0,
@@ -1887,13 +2876,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Gunpowder"
   },{
     "id":615,
     "name":"GrowthPotion",
     "displayName":"Growth Potion",
     "value":1224,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1224
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":500.0,
     "cauldronCost":500.0,
     "cauldronTarget":500.0,
@@ -1908,13 +2908,24 @@
     "ns":2160.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GrowthPotion"
   },{
     "id":616,
     "name":"Catalyst1",
     "displayName":"Unstable Catalyst",
     "value":566,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":566
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":486.0,
     "cauldronCost":746.0,
     "cauldronTarget":746.0,
@@ -1929,13 +2940,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_UnstableCatalyst"
   },{
     "id":617,
     "name":"PocketWatch",
     "displayName":"Pocket Watch",
     "value":1950,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1950
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":789.0,
     "cauldronCost":789.0,
     "cauldronTarget":789.0,
@@ -1950,13 +2972,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_PocketWatch"
   },{
     "id":618,
     "name":"Malachite",
     "displayName":"Malachite",
     "value":1020,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1020
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":367.0,
     "cauldronCost":367.0,
     "cauldronTarget":427.0,
@@ -1971,13 +3004,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Malachite"
   },{
     "id":619,
     "name":"Saturn",
     "displayName":"Saturn",
-    "value":0,
+    "value":150000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":150,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":714.0,
     "cauldronCost":714.0,
     "cauldronTarget":714.0,
@@ -1992,13 +3036,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Saturn"
   },{
     "id":620,
     "name":"Mars",
     "displayName":"Mars",
-    "value":0,
+    "value":280000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":280,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1678.0,
     "cauldronCost":1678.0,
     "cauldronTarget":1678.0,
@@ -2013,13 +3068,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Mars"
   },{
     "id":627,
     "name":"Shard1",
     "displayName":"Crude Shard",
     "value":512,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":512
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":512.0,
     "cauldronCost":272.0,
     "cauldronTarget":512.0,
@@ -2034,13 +3100,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_CrudeShard"
   },{
     "id":628,
     "name":"Shard2",
     "displayName":"Broken Shard",
     "value":1024,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1024
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1024.0,
     "cauldronCost":824.0,
     "cauldronTarget":1024.0,
@@ -2055,13 +3132,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_ChippedShard"
   },{
     "id":629,
     "name":"Shard3",
     "displayName":"Dull Shard",
     "value":2048,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2048
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":2048.0,
     "cauldronCost":1548.0,
     "cauldronTarget":2048.0,
@@ -2076,13 +3164,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_DullShard"
   },{
     "id":630,
     "name":"Crystal1",
     "displayName":"Shattered Crystal",
     "value":4096,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4096
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":4096.0,
     "cauldronCost":3496.0,
     "cauldronTarget":4096.0,
@@ -2097,13 +3196,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FracturedCrystal"
   },{
     "id":631,
     "name":"Crystal2",
     "displayName":"Crude Crystal",
-    "value":0,
+    "value":8000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":8,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":8192.0,
     "cauldronCost":6692.0,
     "cauldronTarget":8192.0,
@@ -2118,13 +3228,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_RoughCrystal"
   },{
     "id":632,
     "name":"Crystal3",
     "displayName":"Polished Crystal",
-    "value":0,
+    "value":16000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":16,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":16384.0,
     "cauldronCost":14384.0,
     "cauldronTarget":16384.0,
@@ -2139,13 +3260,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_PolishedCrystal"
   },{
     "id":633,
     "name":"Diamond1",
     "displayName":"Adamant",
-    "value":0,
+    "value":32000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":32,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":32768.0,
     "cauldronCost":30768.0,
     "cauldronTarget":32768.0,
@@ -2160,13 +3292,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_RadiantDiamond"
   },{
     "id":634,
     "name":"Diamond2",
     "displayName":"Diamond",
-    "value":0,
+    "value":100000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":100,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":65536.0,
     "cauldronCost":65536.0,
     "cauldronTarget":65536.0,
@@ -2181,13 +3324,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FlawlessDiamond"
   },{
     "id":635,
     "name":"Diamond3",
     "displayName":"Perfect Diamond",
-    "value":0,
+    "value":201000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":201,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":131072.0,
     "cauldronCost":131072.0,
     "cauldronTarget":131072.0,
@@ -2202,13 +3356,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_PerfectDiamond"
   },{
     "id":701,
     "name":"LavenderEssentialOil",
     "displayName":"Lavender Essential Oil",
     "value":37,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":37
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":37.88,
     "cauldronCost":37.88,
     "cauldronTarget":37.88,
@@ -2223,13 +3388,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_LavenderEssentialOil"
   },{
     "id":702,
     "name":"Brandy",
     "displayName":"Brandy",
     "value":7,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":7
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":7.425,
     "cauldronCost":7.425,
     "cauldronTarget":7.425,
@@ -2244,13 +3420,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Brandy"
   },{
     "id":703,
     "name":"SulfuricAcid",
     "displayName":"Sulfuric Acid",
     "value":28,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":28
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":23.13,
     "cauldronCost":23.13,
     "cauldronTarget":23.13,
@@ -2265,13 +3452,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SulfuricAcid"
   },{
     "id":704,
     "name":"Topaz",
     "displayName":"Topaz",
     "value":2800,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2800
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1205.9,
     "cauldronCost":1205.9,
     "cauldronTarget":1405.9,
@@ -2286,13 +3484,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Topaz"
   },{
     "id":705,
     "name":"BlastPotion",
     "displayName":"Blast Potion",
     "value":2557,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2557
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1197.0,
     "cauldronCost":1197.0,
     "cauldronTarget":1197.0,
@@ -2307,13 +3516,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_BlastPotion"
   },{
     "id":706,
     "name":"Catalyst2",
     "displayName":"Fertile Catalyst",
     "value":2147,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2147
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":2067.84,
     "cauldronCost":4067.84,
     "cauldronTarget":3567.84,
@@ -2328,13 +3548,24 @@
     "ns":6000.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FertileCatalyst"
   },{
     "id":707,
     "name":"PerfumedSoap",
     "displayName":"Perfumed Soap",
     "value":2590,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2590
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1216.4,
     "cauldronCost":1216.4,
     "cauldronTarget":1216.4,
@@ -2349,13 +3580,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_PerfumedSoap"
   },{
     "id":708,
     "name":"PerfumedSoapPowder",
     "displayName":"Perfumed Soap Powder",
     "value":2590,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":2590
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1216.4,
     "cauldronCost":1216.4,
     "cauldronTarget":1216.4,
@@ -2370,13 +3612,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_PerfumedSoapPowder"
   },{
     "id":25,
     "name":"Mors",
     "displayName":"Oblivion Essence",
     "value":600,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":600
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":600.0,
     "cauldronCost":600.0,
     "cauldronTarget":600.0,
@@ -2391,13 +3644,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_MorsEssence"
   },{
     "id":709,
     "name":"Vitae",
     "displayName":"Vitality Essence",
     "value":900,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":900
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":900.0,
     "cauldronCost":900.0,
     "cauldronTarget":900.0,
@@ -2412,13 +3676,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_VitaeEssence"
   },{
     "id":710,
     "name":"Venus",
     "displayName":"Venus",
-    "value":0,
+    "value":1000000,
     "cost":0,
+    "gameValue":{
+      "Gold":10,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":2549.6,
     "cauldronCost":2549.6,
     "cauldronTarget":2549.6,
@@ -2433,13 +3708,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Venus"
   },{
     "id":801,
     "name":"GentianPowder",
     "displayName":"Gentian Powder",
     "value":500,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":500
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":500.0,
     "cauldronCost":430.0,
     "cauldronTarget":500.0,
@@ -2454,13 +3740,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GentianPowder"
   },{
     "id":803,
     "name":"SilverPowder",
     "displayName":"Crude Silver Powder",
     "value":1998,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1998
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1273.5,
     "cauldronCost":1273.5,
     "cauldronTarget":1673.5,
@@ -2475,13 +3772,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SilverPowder_1"
   },{
     "id":804,
     "name":"SilverPowder2",
     "displayName":"Impure Silver Powder",
     "value":3997,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":3997
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":2547.0,
     "cauldronCost":2547.0,
     "cauldronTarget":3347.0,
@@ -2496,13 +3804,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SilverPowder_2"
   },{
     "id":805,
     "name":"SilverPowder3",
     "displayName":"Silver Powder",
-    "value":0,
+    "value":7000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":7,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":4742.0,
     "cauldronCost":4742.0,
     "cauldronTarget":4742.0,
@@ -2517,13 +3836,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SilverPowder"
   },{
     "id":806,
     "name":"Obsidian",
     "displayName":"Obsidian",
-    "value":0,
+    "value":11000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":11,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":5290.0,
     "cauldronCost":5290.0,
     "cauldronTarget":5290.0,
@@ -2538,13 +3868,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Obsidian"
   },{
     "id":29,
     "name":"VolcanicAsh",
     "displayName":"Volcanic Ash",
-    "value":0,
+    "value":5000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":5,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":5290.0,
     "cauldronCost":5290.0,
     "cauldronTarget":5290.0,
@@ -2559,13 +3900,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_VolcanicAsh"
   },{
     "id":808,
     "name":"SilverIngot",
     "displayName":"Silver Ingot",
-    "value":0,
+    "value":7000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":7,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":4746.0,
     "cauldronCost":4746.0,
     "cauldronTarget":4746.0,
@@ -2580,13 +3932,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SilverIngot"
   },{
     "id":809,
     "name":"SilverCoin",
     "displayName":"Silver Coin",
     "value":1529,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1529
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":949.2,
     "cauldronCost":949.2,
     "cauldronTarget":949.2,
@@ -2601,13 +3964,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SilverCoin"
   },{
     "id":810,
     "name":"SilverAmulet",
     "displayName":"Silver Amulet",
-    "value":0,
+    "value":48000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":48,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":25317.0,
     "cauldronCost":25317.0,
     "cauldronTarget":25317.0,
@@ -2622,13 +3996,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_SilverAmulet"
   },{
     "id":811,
     "name":"Mercury",
     "displayName":"Quicksilver",
     "value":527,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":527
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":413.19,
     "cauldronCost":413.19,
     "cauldronTarget":413.19,
@@ -2643,13 +4028,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Quicksilver"
   },{
     "id":812,
     "name":"AquaVitae",
     "displayName":"Aqua Vitae",
     "value":459,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":459
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":459.3,
     "cauldronCost":459.3,
     "cauldronTarget":459.3,
@@ -2664,13 +4060,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_AquaVitae"
   },{
     "id":813,
     "name":"LapisLazuli",
     "displayName":"Lapis Lazuli",
-    "value":0,
+    "value":32000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":32,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":15825.0,
     "cauldronCost":15825.0,
     "cauldronTarget":18825.0,
@@ -2685,13 +4092,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_LapisLazuli"
   },{
     "id":814,
     "name":"MercuryP",
     "displayName":"Mercury",
-    "value":0,
+    "value":5200000,
     "cost":0,
+    "gameValue":{
+      "Gold":52,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":26927.8,
     "cauldronCost":26927.8,
     "cauldronTarget":26927.8,
@@ -2706,13 +4124,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Mercury"
   },{
     "id":815,
     "name":"Catalyst3",
     "displayName":"Resonant Catalyst",
-    "value":0,
+    "value":12000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":12,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":12869.44,
     "cauldronCost":23869.44,
     "cauldronTarget":22869.44,
@@ -2727,13 +4156,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_ResonantCatalyst"
   },{
     "id":816,
     "name":"PanaceaElixir",
     "displayName":"Panacea Potion",
-    "value":0,
+    "value":30000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":30,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":15306.12,
     "cauldronCost":15306.12,
     "cauldronTarget":15306.12,
@@ -2748,13 +4188,24 @@
     "ns":20000.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_PanaceaElixir"
   },{
     "id":901,
     "name":"GoldDust",
     "displayName":"Crude Gold Dust",
-    "value":0,
+    "value":13000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":13,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":10805.325,
     "cauldronCost":10805.325,
     "cauldronTarget":13805.325,
@@ -2769,13 +4220,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GoldDust_1"
   },{
     "id":902,
     "name":"GoldDust2",
     "displayName":"Impure Gold Dust",
-    "value":0,
+    "value":27000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":27,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":21610.65,
     "cauldronCost":21610.65,
     "cauldronTarget":27610.65,
@@ -2790,13 +4252,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GoldDust_2"
   },{
     "id":903,
     "name":"GoldDust3",
     "displayName":"Gold Dust",
-    "value":0,
+    "value":53000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":53,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":42357.3,
     "cauldronCost":42357.3,
     "cauldronTarget":52357.3,
@@ -2811,13 +4284,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GoldDust"
   },{
     "id":904,
     "name":"GoldDust5",
     "displayName":"Pure Gold Dust",
-    "value":0,
+    "value":106000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":106,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":84714.6,
     "cauldronCost":84714.6,
     "cauldronTarget":99714.6,
@@ -2832,13 +4316,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GoldDust_4"
   },{
     "id":905,
     "name":"GoldIngot",
     "displayName":"Gold Ingot",
-    "value":0,
+    "value":106000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":106,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":84722.6,
     "cauldronCost":87222.6,
     "cauldronTarget":84722.6,
@@ -2853,13 +4348,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GoldIngot"
   },{
     "id":906,
     "name":"GoldCoin",
     "displayName":"Gold Coin",
-    "value":0,
+    "value":106000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":106,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":84722.6,
     "cauldronCost":89722.6,
     "cauldronTarget":84722.6,
@@ -2874,13 +4380,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GoldCoin"
   },{
     "id":907,
     "name":"Crown",
     "displayName":"Crown",
-    "value":0,
+    "value":1600000,
     "cost":0,
+    "gameValue":{
+      "Gold":16,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":854167.8,
     "cauldronCost":854167.8,
     "cauldronTarget":854167.8,
@@ -2895,13 +4412,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Crown"
   },{
     "id":908,
     "name":"Catalyst4",
     "displayName":"Eternal Catalyst",
-    "value":0,
+    "value":1100000,
     "cost":0,
+    "gameValue":{
+      "Gold":11,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":1193041.6,
     "cauldronCost":1193041.6,
     "cauldronTarget":1193041.6,
@@ -2916,13 +4444,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_EternalCatalyst"
   },{
     "id":909,
     "name":"StarDust",
     "displayName":"Star Dust",
-    "value":0,
+    "value":9000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":9,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":4149.0,
     "cauldronCost":4149.0,
     "cauldronTarget":6149.0,
@@ -2937,13 +4476,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_StarDust"
   },{
     "id":910,
     "name":"FairyDust",
     "displayName":"Fairy Dust",
     "value":3060,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":3060
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":3060.0,
     "cauldronCost":3060.0,
     "cauldronTarget":3760.0,
@@ -2958,13 +4508,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FairyDust"
   },{
     "id":911,
     "name":"FairyTear",
     "displayName":"Fairy Tear",
     "value":3060,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":3060
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":3060.0,
     "cauldronCost":3060.0,
     "cauldronTarget":3060.0,
@@ -2979,13 +4540,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FairyTear"
   },{
     "id":912,
     "name":"MoonTear",
     "displayName":"Moon Tear",
-    "value":0,
+    "value":178000,
     "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":178,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":97092.0,
     "cauldronCost":97092.0,
     "cauldronTarget":97092.0,
@@ -3000,13 +4572,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":true,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_MoonTear"
   },{
     "id":913,
     "name":"MoonlitSoap",
     "displayName":"Moonlit Soap",
-    "value":0,
+    "value":900000,
     "cost":0,
+    "gameValue":{
+      "Gold":9,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":487892.8,
     "cauldronCost":487892.8,
     "cauldronTarget":487892.8,
@@ -3021,13 +4604,24 @@
     "ns":0.0,
     "sellStack":false,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_MoonlitSoap"
   },{
     "id":914,
     "name":"Luna",
     "displayName":"Luna",
-    "value":0,
+    "value":18500000,
     "cost":0,
+    "gameValue":{
+      "Gold":185,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":187167.6,
     "cauldronCost":187167.6,
     "cauldronTarget":187167.6,
@@ -3042,13 +4636,24 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Luna"
   },{
     "id":1001,
     "name":"Sol",
     "displayName":"Sol",
-    "value":0,
+    "value":42000000,
     "cost":0,
+    "gameValue":{
+      "Gold":420,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
     "baseCost":5587945.6,
     "cauldronCost":5587945.6,
     "cauldronTarget":5587945.6,
@@ -3063,5 +4668,6 @@
     "ns":0.0,
     "sellStack":true,
     "liquid":false,
-    "portal":false
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Sol"
   }]
