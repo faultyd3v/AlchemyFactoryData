@@ -6,6 +6,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":1,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":1
@@ -26,6 +27,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":2,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":2
@@ -46,6 +48,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":2,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":2
@@ -66,6 +69,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":2,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":4
@@ -86,6 +90,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":2,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":4
@@ -106,6 +111,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -132,6 +138,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":3,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":2
@@ -155,6 +162,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":3,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":2
@@ -178,6 +186,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":3,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":2
@@ -201,6 +210,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":3,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":2
@@ -213,7 +223,7 @@
       "GameplayTags":["Building.Lab.Logistics"]
     },
     "secondaryIndirect":0,
-    "alterBuildOption":"ConveyerLift_Body",
+    "alterBuildOption":"None",
     "hide":true,
     "iconPath":""
   },{
@@ -224,6 +234,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":3,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":2
@@ -236,7 +247,7 @@
       "GameplayTags":["Building.Lab.Logistics"]
     },
     "secondaryIndirect":0,
-    "alterBuildOption":"ConveyerLift_Downwards",
+    "alterBuildOption":"None",
     "hide":true,
     "iconPath":""
   },{
@@ -247,6 +258,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":3,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
@@ -264,6 +276,7 @@
     "hc":0.0,
     "furnitureType":5,
     "secondaryType":7,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":1
@@ -284,6 +297,7 @@
     "hc":0.0,
     "furnitureType":5,
     "secondaryType":7,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":1
@@ -304,6 +318,7 @@
     "hc":0.0,
     "furnitureType":6,
     "secondaryType":9,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":2
@@ -327,6 +342,7 @@
     "hc":0.0,
     "furnitureType":6,
     "secondaryType":9,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":6
@@ -350,6 +366,7 @@
     "hc":0.0,
     "furnitureType":6,
     "secondaryType":9,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":6
@@ -373,6 +390,7 @@
     "hc":0.0,
     "furnitureType":6,
     "secondaryType":9,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":2
@@ -396,6 +414,7 @@
     "hc":0.0,
     "furnitureType":6,
     "secondaryType":9,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":2
@@ -419,6 +438,7 @@
     "hc":0.0,
     "furnitureType":6,
     "secondaryType":9,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":4
@@ -442,6 +462,7 @@
     "hc":0.0,
     "furnitureType":6,
     "secondaryType":9,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":4
@@ -465,6 +486,7 @@
     "hc":0.0,
     "furnitureType":6,
     "secondaryType":9,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":4
@@ -488,6 +510,7 @@
     "hc":0.0,
     "furnitureType":6,
     "secondaryType":9,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":4
@@ -511,6 +534,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SteelIngot",
         "qty":4
@@ -534,6 +558,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":2,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -557,6 +582,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":2,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -580,6 +606,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":2,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":6
@@ -603,6 +630,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":2,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":6
@@ -626,6 +654,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":2,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":5
@@ -649,6 +678,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -669,6 +699,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -689,6 +720,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -709,6 +741,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -721,8 +754,80 @@
       "GameplayTags":["Building.Lab.Logistics"]
     },
     "secondaryIndirect":0,
-    "alterBuildOption":"None",
+    "alterBuildOption":"Hopper2",
     "hide":false,
+    "iconPath":"/Furnitures/T_UI_Hopper"
+  },{
+    "idName":"Hopper2",
+    "id":28,
+    "name":"Hopper Conveyor",
+    "desc":"Designed to catch thrown items, it features a single conveyor belt output.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      },{
+        "name":"Nails",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Hopper2_2",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Hopper"
+  },{
+    "idName":"Hopper2_2",
+    "id":28,
+    "name":"Hopper Conveyor",
+    "desc":"Designed to catch thrown items, it features a single conveyor belt output.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      },{
+        "name":"Nails",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Hopper4",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Hopper"
+  },{
+    "idName":"Hopper4",
+    "id":28,
+    "name":"Hopper Conveyor",
+    "desc":"Designed to catch thrown items, it features a single conveyor belt output.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":5
+      },{
+        "name":"Nails",
+        "qty":4
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Logistics"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"Hopper",
+    "hide":true,
     "iconPath":"/Furnitures/T_UI_Hopper"
   },{
     "idName":"Balance",
@@ -732,6 +837,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":5
@@ -755,6 +861,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -775,6 +882,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -795,6 +903,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -815,6 +924,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -835,6 +945,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -855,6 +966,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -875,6 +987,7 @@
     "hc":0.0,
     "furnitureType":0,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"GloomFungus",
         "qty":20
@@ -895,6 +1008,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":4,
     "costList":[{
         "name":"WoodBoard",
         "qty":8
@@ -915,6 +1029,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":4,
     "costList":[{
         "name":"WoodBoard",
         "qty":12
@@ -938,6 +1053,7 @@
     "hc":4.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":6,
     "costList":[{
         "name":"Stone",
         "qty":4
@@ -958,6 +1074,7 @@
     "hc":6.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":6,
     "costList":[{
         "name":"Stone",
         "qty":6
@@ -984,6 +1101,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":5
@@ -1007,6 +1125,7 @@
     "hc":80.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SteelIngot",
         "qty":5
@@ -1030,6 +1149,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":7,
     "costList":[{
         "name":"WoodBoard",
         "qty":8
@@ -1053,6 +1173,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":7,
     "costList":[{
         "name":"WoodBoard",
         "qty":8
@@ -1076,6 +1197,7 @@
     "hc":1200.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SteelIngot",
         "qty":8
@@ -1102,6 +1224,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"Stone",
         "qty":24
@@ -1122,6 +1245,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":9,
     "costList":[{
         "name":"WoodBoard",
         "qty":12
@@ -1145,6 +1269,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":9,
     "costList":[{
         "name":"WoodBoard",
         "qty":12
@@ -1168,6 +1293,7 @@
     "hc":15.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":8,
     "costList":[{
         "name":"Stone",
         "qty":20
@@ -1191,6 +1317,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":11,
     "costList":[{
         "name":"IronIngot",
         "qty":8
@@ -1214,6 +1341,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":10,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -1240,6 +1368,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":10,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -1266,6 +1395,7 @@
     "hc":108.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":13,
     "costList":[{
         "name":"SteelIngot",
         "qty":4
@@ -1292,6 +1422,7 @@
     "hc":32.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":15,
     "costList":[{
         "name":"IronIngot",
         "qty":10
@@ -1315,6 +1446,7 @@
     "hc":32.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":15,
     "costList":[{
         "name":"IronIngot",
         "qty":10
@@ -1338,6 +1470,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":12,
     "costList":[{
         "name":"SteelIngot",
         "qty":8
@@ -1364,6 +1497,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":12,
     "costList":[{
         "name":"SteelIngot",
         "qty":8
@@ -1390,6 +1524,7 @@
     "hc":270.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":14,
     "costList":[{
         "name":"SteelIngot",
         "qty":8
@@ -1416,6 +1551,7 @@
     "hc":270.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":14,
     "costList":[{
         "name":"SteelIngot",
         "qty":8
@@ -1442,6 +1578,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":17,
     "costList":[{
         "name":"SteelIngot",
         "qty":12
@@ -1468,6 +1605,7 @@
     "hc":360.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":16,
     "costList":[{
         "name":"SteelIngot",
         "qty":12
@@ -1491,6 +1629,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":18,
     "costList":[{
         "name":"IronIngot",
         "qty":8
@@ -1514,6 +1653,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":19,
     "costList":[{
         "name":"SteelIngot",
         "qty":8
@@ -1537,6 +1677,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":20,
     "costList":[{
         "name":"GoldIngot",
         "qty":12
@@ -1563,6 +1704,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"BronzeIngot",
         "qty":30
@@ -1583,6 +1725,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":23,
     "costList":[{
         "name":"SteelIngot",
         "qty":6
@@ -1598,7 +1741,7 @@
       "GameplayTags":["Building.Lab.ActiveCrafting"]
     },
     "secondaryIndirect":0,
-    "alterBuildOption":"Processor_Sym",
+    "alterBuildOption":"None",
     "hide":false,
     "iconPath":"/Furnitures/T_UI_AetherProcessor"
   },{
@@ -1609,6 +1752,7 @@
     "hc":1.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"Stone",
         "qty":20
@@ -1629,6 +1773,7 @@
     "hc":4.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"Brick",
         "qty":30
@@ -1649,6 +1794,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":20
@@ -1669,6 +1815,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":12
@@ -1689,6 +1836,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":16
@@ -1709,6 +1857,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":40
@@ -1729,6 +1878,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":24
@@ -1749,6 +1899,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":40
@@ -1769,6 +1920,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":20
@@ -1792,6 +1944,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":35
@@ -1815,6 +1968,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":9,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":30
@@ -1838,6 +1992,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -1858,6 +2013,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -1881,6 +2037,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":20
@@ -1907,6 +2064,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -1927,6 +2085,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":12
@@ -1947,13 +2106,14 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":20
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building","Building.Nav"],
-      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierDefaultArea"]
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierDefaultArea","Building.CanWallMountedVertical"]
     },
     "secondaryIndirect":0,
     "alterBuildOption":"Construct_Floor_Wood_8x8",
@@ -1967,18 +2127,19 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building","Building.Nav"],
-      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierDefaultArea"]
+      "GameplayTags":["Building.Lab.Building","Building.Nav.ModifierDefaultArea","Building.CanWallMountedVertical"]
     },
     "secondaryIndirect":2,
     "alterBuildOption":"Construct_Floor_Wood",
     "hide":true,
-    "iconPath":"/Interaction/T_UI_Omni-Craft"
+    "iconPath":"/Furnitures/T_UI_Modular_Floor"
   },{
     "idName":"Construct_Wall_Wood",
     "id":604,
@@ -1987,6 +2148,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -2010,6 +2172,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -2033,6 +2196,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"Stone",
         "qty":5
@@ -2056,6 +2220,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -2079,6 +2244,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -2102,6 +2268,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -2125,6 +2292,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"Stone",
         "qty":10
@@ -2148,6 +2316,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":8
@@ -2168,6 +2337,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":8
@@ -2188,6 +2358,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -2211,6 +2382,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"Stone",
         "qty":10
@@ -2234,6 +2406,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -2257,6 +2430,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"Stone",
         "qty":10
@@ -2280,6 +2454,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -2300,6 +2475,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":["Building.Nav","building","Building.Lab"],
@@ -2317,6 +2493,7 @@
     "hc":0.0,
     "furnitureType":4,
     "secondaryType":6,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -2340,6 +2517,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":0,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -2360,6 +2538,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -2383,6 +2562,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"Stone",
         "qty":8
@@ -2403,6 +2583,7 @@
     "hc":9.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":2,
     "costList":[{
         "name":"Stone",
         "qty":15
@@ -2423,6 +2604,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":12
@@ -2446,6 +2628,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WorldTreeSeed",
         "qty":1
@@ -2472,6 +2655,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"PortalSigil",
         "qty":1
@@ -2495,6 +2679,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"PortalSigil",
         "qty":1
@@ -2518,6 +2703,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"PortalSigil",
         "qty":1
@@ -2541,6 +2727,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":[],
@@ -2558,6 +2745,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -2578,6 +2766,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -2598,6 +2787,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -2618,6 +2808,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -2638,6 +2829,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -2658,6 +2850,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -2681,6 +2874,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":8
@@ -2704,6 +2898,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -2727,6 +2922,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":10
@@ -2750,6 +2946,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"Glass",
         "qty":4
@@ -2770,6 +2967,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"Glass",
         "qty":4
@@ -2790,6 +2988,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":5
@@ -2813,6 +3012,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":16
@@ -2833,6 +3033,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":1
@@ -2852,10 +3053,11 @@
     "idName":"FrameDuo",
     "id":902,
     "name":"Lab Stands",
-    "desc":"",
+    "desc":"Essential laboratory stands for efficient production-line setup.",
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":2
@@ -2875,10 +3077,11 @@
     "idName":"IronStand",
     "id":903,
     "name":"Lab Stands",
-    "desc":"",
+    "desc":"Essential laboratory stands for efficient production-line setup.",
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":2
@@ -2901,10 +3104,11 @@
     "idName":"IronStandDuo",
     "id":904,
     "name":"Lab Stands",
-    "desc":"",
+    "desc":"Essential laboratory stands for efficient production-line setup.",
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":2
@@ -2931,13 +3135,14 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":3
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted","Building.CanWallMountedVertical"]
     },
     "secondaryIndirect":0,
     "alterBuildOption":"Beam5",
@@ -2951,6 +3156,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -2960,7 +3166,7 @@
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted","Building.CanWallMountedVertical"]
     },
     "secondaryIndirect":0,
     "alterBuildOption":"Beam10",
@@ -2974,13 +3180,14 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SteelIngot",
         "qty":10
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted","Building.CanWallMountedVertical"]
     },
     "secondaryIndirect":0,
     "alterBuildOption":"Beam18",
@@ -2994,13 +3201,14 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SteelIngot",
         "qty":18
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
-      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted"]
+      "GameplayTags":["Building.Lab.Structure","Building.CanWallMounted","Building.CanWallMountedVertical"]
     },
     "secondaryIndirect":0,
     "alterBuildOption":"Beam3",
@@ -3014,6 +3222,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SteelIngot",
         "qty":3
@@ -3037,6 +3246,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SteelIngot",
         "qty":3
@@ -3060,6 +3270,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SteelIngot",
         "qty":4
@@ -3086,6 +3297,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SteelIngot",
         "qty":6
@@ -3112,6 +3324,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SteelIngot",
         "qty":5
@@ -3138,6 +3351,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":6
@@ -3161,6 +3375,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -3181,6 +3396,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -3201,6 +3417,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -3221,6 +3438,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -3234,6 +3452,177 @@
     "hide":true,
     "iconPath":"/Furnitures/T_UI_Blackboard"
   },{
+    "idName":"Chandelier",
+    "id":1005,
+    "name":"Chandelier",
+    "desc":"A lighting device that can only be hung from the ceiling.",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"WoodBoard",
+        "qty":18
+      },{
+        "name":"Nails",
+        "qty":6
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration","Building.WallMountedVertical","Building.WallMounted"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Furnitures/T_UI_Candle_3"
+  },{
+    "idName":"JupiterD",
+    "id":1006,
+    "name":"Jupiter",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Jupiter",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Ingredients/T_UI_Jupiter"
+  },{
+    "idName":"SaturnD",
+    "id":1007,
+    "name":"Saturn",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Saturn",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Ingredients/T_UI_Saturn"
+  },{
+    "idName":"MarsD",
+    "id":1008,
+    "name":"Mars",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Mars",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Ingredients/T_UI_Mars"
+  },{
+    "idName":"VenusD",
+    "id":1009,
+    "name":"Venus",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Venus",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Ingredients/T_UI_Venus"
+  },{
+    "idName":"MercuryD",
+    "id":1010,
+    "name":"Mercury",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"MercuryP",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Ingredients/T_UI_Mercury"
+  },{
+    "idName":"LunaD",
+    "id":1011,
+    "name":"Luna",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Luna",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Ingredients/T_UI_Luna"
+  },{
+    "idName":"SolD",
+    "id":1012,
+    "name":"Sol",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Sol",
+        "qty":1
+      }],
+    "buildingTags":{
+      "ParentTags":["building","Building.Lab"],
+      "GameplayTags":["Building.CanWallMounted","Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Ingredients/T_UI_Sol"
+  },{
     "idName":"WoodBlock",
     "id":1101,
     "name":"Wood Block",
@@ -3241,6 +3630,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":1
@@ -3261,6 +3651,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"Stone",
         "qty":1
@@ -3281,6 +3672,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"Brick",
         "qty":1
@@ -3301,6 +3693,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
         "qty":1
@@ -3321,6 +3714,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"Marble",
         "qty":1
@@ -3341,6 +3735,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"CopperIngot",
         "qty":1
@@ -3361,6 +3756,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"BronzeIngot",
         "qty":1
@@ -3381,6 +3777,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"SilverIngot",
         "qty":1
@@ -3401,6 +3798,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"GoldIngot",
         "qty":1
@@ -3421,6 +3819,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":20
@@ -3441,6 +3840,7 @@
     "hc":0.0,
     "furnitureType":3,
     "secondaryType":4,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -3461,6 +3861,7 @@
     "hc":0.0,
     "furnitureType":3,
     "secondaryType":5,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":[],
@@ -3478,6 +3879,7 @@
     "hc":0.0,
     "furnitureType":3,
     "secondaryType":5,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":[],
@@ -3495,6 +3897,7 @@
     "hc":0.0,
     "furnitureType":3,
     "secondaryType":4,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -3515,6 +3918,7 @@
     "hc":0.0,
     "furnitureType":3,
     "secondaryType":5,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":[],
@@ -3532,6 +3936,7 @@
     "hc":0.0,
     "furnitureType":3,
     "secondaryType":5,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":[],
@@ -3549,6 +3954,7 @@
     "hc":0.0,
     "furnitureType":3,
     "secondaryType":5,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":[],
@@ -3566,6 +3972,7 @@
     "hc":0.0,
     "furnitureType":3,
     "secondaryType":4,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -3586,6 +3993,7 @@
     "hc":0.0,
     "furnitureType":3,
     "secondaryType":4,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":5
@@ -3606,6 +4014,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":20
@@ -3626,6 +4035,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":10
@@ -3646,6 +4056,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"CashRegister",
         "qty":1
@@ -3666,6 +4077,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":20
@@ -3692,6 +4104,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
         "qty":8
@@ -3712,6 +4125,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":[],
@@ -3729,6 +4143,7 @@
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":[],
@@ -3746,6 +4161,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":[],
@@ -3763,6 +4179,7 @@
     "hc":0.0,
     "furnitureType":1,
     "secondaryType":0,
+    "craftingType":-1,
     "costList":[],
     "buildingTags":{
       "ParentTags":[],

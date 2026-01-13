@@ -857,7 +857,7 @@
       "type":2
     },
     "unlockItems":[],
-    "unlockConstructions":["BrickBlock"]
+    "unlockConstructions":[]
   },{
     "idName":"Brick",
     "tier":3,
@@ -1297,7 +1297,7 @@
       "type":2
     },
     "unlockItems":[],
-    "unlockConstructions":[]
+    "unlockConstructions":["JupiterD"]
   },{
     "idName":"SteelIngot",
     "tier":4,
@@ -1577,7 +1577,7 @@
       "type":2
     },
     "unlockItems":[],
-    "unlockConstructions":[]
+    "unlockConstructions":["SaturnD"]
   },{
     "idName":"Malachite",
     "tier":5,
@@ -1737,7 +1737,7 @@
       "type":2
     },
     "unlockItems":[],
-    "unlockConstructions":[]
+    "unlockConstructions":["MarsD"]
   },{
     "idName":"StackableCrucible",
     "tier":5,
@@ -2057,7 +2057,7 @@
       "type":2
     },
     "unlockItems":[],
-    "unlockConstructions":[]
+    "unlockConstructions":["VenusD"]
   },{
     "idName":"Topaz",
     "tier":6,
@@ -2397,7 +2397,7 @@
       "type":2
     },
     "unlockItems":[],
-    "unlockConstructions":[]
+    "unlockConstructions":["MercuryD"]
   },{
     "idName":"PanaceaElixir",
     "tier":7,
@@ -2677,7 +2677,7 @@
       "type":2
     },
     "unlockItems":[],
-    "unlockConstructions":[]
+    "unlockConstructions":["LunaD"]
   },{
     "idName":"AetherShaper",
     "tier":8,
@@ -2717,7 +2717,7 @@
       "type":2
     },
     "unlockItems":[],
-    "unlockConstructions":[]
+    "unlockConstructions":["SolD"]
   },{
     "idName":"Level10",
     "tier":9,
