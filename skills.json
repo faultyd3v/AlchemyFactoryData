@@ -1559,6 +1559,26 @@
     "unlockItems":[],
     "unlockConstructions":[]
   },{
+    "idName":"FlowerVase1",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["Level6"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":12,
+      "Copper":0
+    },
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "name":"FlowerVase1",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":["FlowerPot1","FlowerBed1"]
+  },{
     "idName":"Saturn",
     "tier":5,
     "skillLevel":false,

@@ -141,7 +141,7 @@
     "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
-        "qty":2
+        "qty":1
       },{
         "name":"LinenRope",
         "qty":1
@@ -165,7 +165,7 @@
     "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
-        "qty":2
+        "qty":1
       },{
         "name":"LinenRope",
         "qty":1
@@ -189,7 +189,7 @@
     "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
-        "qty":2
+        "qty":1
       },{
         "name":"LinenRope",
         "qty":1
@@ -213,7 +213,7 @@
     "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
-        "qty":2
+        "qty":1
       },{
         "name":"LinenRope",
         "qty":1
@@ -237,7 +237,7 @@
     "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
-        "qty":2
+        "qty":1
       },{
         "name":"LinenRope",
         "qty":1
@@ -1011,7 +1011,7 @@
     "craftingType":4,
     "costList":[{
         "name":"WoodBoard",
-        "qty":8
+        "qty":6
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
@@ -1083,7 +1083,7 @@
         "qty":2
       },{
         "name":"BronzeRivet",
-        "qty":4
+        "qty":2
       }],
     "buildingTags":{
       "ParentTags":["building","Building.Lab"],
@@ -1649,7 +1649,7 @@
     "idName":"AdvancedShaper",
     "id":217,
     "name":"Advanced Shaper",
-    "desc":"An advanced shaper requires that a recipe. It has five conveyor belt inputs, two pipeline inputs and one conveyor belt output, and the product is crafted gradually as materials are fed in.",
+    "desc":"An advanced shaper that requires a recipe. It has five conveyor belt inputs, two pipeline inputs and one conveyor belt output, and the product is crafted gradually as materials are fed in.",
     "hc":0.0,
     "furnitureType":2,
     "secondaryType":0,
@@ -2340,7 +2340,7 @@
     "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
-        "qty":8
+        "qty":4
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building","Building.Nav"],
@@ -2607,10 +2607,10 @@
     "craftingType":-1,
     "costList":[{
         "name":"IronIngot",
-        "qty":12
+        "qty":8
       },{
         "name":"Clay",
-        "qty":6
+        "qty":4
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
@@ -2737,6 +2737,102 @@
     "alterBuildOption":"None",
     "hide":false,
     "iconPath":"/Furnitures/T_UI_Extractor"
+  },{
+    "idName":"Portal_Output",
+    "id":711,
+    "name":"Portal (Output)",
+    "desc":"A portal capable of outputting any items.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"PortalSigil",
+        "qty":1
+      },{
+        "name":"WoodBoard",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Buildings/T_UI_AlchGuildPortal_3"
+  },{
+    "idName":"Portal_Input",
+    "id":712,
+    "name":"Portal (Input)",
+    "desc":"A portal capable of receiving any item input.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"PortalSigil",
+        "qty":1
+      },{
+        "name":"WoodBoard",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Buildings/T_UI_AlchGuildPortal_4"
+  },{
+    "idName":"Flask_Output",
+    "id":713,
+    "name":"Flask (Output)",
+    "desc":"A flask capable of outputting any liquid.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":6
+      },{
+        "name":"Glass",
+        "qty":2
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Furnitures/T_UI_Inputflask"
+  },{
+    "idName":"Flask_Input",
+    "id":714,
+    "name":"Flask (Input)",
+    "desc":"A flask capable of receiving any liquid input.",
+    "hc":0.0,
+    "furnitureType":2,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"IronIngot",
+        "qty":6
+      },{
+        "name":"Glass",
+        "qty":2
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Block"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"None",
+    "hide":false,
+    "iconPath":"/Furnitures/T_UI_Outputflask"
   },{
     "idName":"SmallContainer",
     "id":801,
@@ -3039,7 +3135,7 @@
         "qty":1
       },{
         "name":"Nails",
-        "qty":2
+        "qty":1
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
@@ -3063,7 +3159,7 @@
         "qty":2
       },{
         "name":"Nails",
-        "qty":4
+        "qty":2
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
@@ -3084,12 +3180,9 @@
     "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
-        "qty":2
+        "qty":4
       },{
         "name":"Nails",
-        "qty":8
-      },{
-        "name":"IronIngot",
         "qty":4
       }],
     "buildingTags":{
@@ -3111,13 +3204,10 @@
     "craftingType":-1,
     "costList":[{
         "name":"WoodBoard",
-        "qty":2
+        "qty":8
       },{
         "name":"Nails",
         "qty":8
-      },{
-        "name":"IronIngot",
-        "qty":4
       }],
     "buildingTags":{
       "ParentTags":["Building.Lab","building"],
@@ -3161,7 +3251,7 @@
         "name":"WoodBoard",
         "qty":5
       },{
-        "name":"IronIngot",
+        "name":"Nails",
         "qty":5
       }],
     "buildingTags":{
@@ -3622,6 +3712,276 @@
     "alterBuildOption":"None",
     "hide":false,
     "iconPath":"/Ingredients/T_UI_Sol"
+  },{
+    "idName":"FlowerVase1",
+    "id":1013,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Stone",
+        "qty":2
+      },{
+        "name":"Chamomile",
+        "qty":2
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerVase2",
+    "hide":false,
+    "iconPath":"/Furnitures/T_UI_Vase"
+  },{
+    "idName":"FlowerVase2",
+    "id":1014,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Stone",
+        "qty":2
+      },{
+        "name":"Lavender",
+        "qty":2
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerVase3",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Vase"
+  },{
+    "idName":"FlowerVase3",
+    "id":1015,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Stone",
+        "qty":2
+      },{
+        "name":"Gentian",
+        "qty":2
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerVase1",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Vase"
+  },{
+    "idName":"FlowerPot1",
+    "id":1016,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Stone",
+        "qty":5
+      },{
+        "name":"Chamomile",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerPot2",
+    "hide":false,
+    "iconPath":"/Furnitures/T_UI_Vase_2"
+  },{
+    "idName":"FlowerPot2",
+    "id":1017,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Stone",
+        "qty":5
+      },{
+        "name":"Lavender",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerPot3",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Vase_2"
+  },{
+    "idName":"FlowerPot3",
+    "id":1018,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Stone",
+        "qty":5
+      },{
+        "name":"Gentian",
+        "qty":5
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerPot1",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Vase_2"
+  },{
+    "idName":"FlowerBed1",
+    "id":1019,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Stone",
+        "qty":10
+      },{
+        "name":"Chamomile",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerBed2",
+    "hide":false,
+    "iconPath":"/Furnitures/T_UI_Vase_3"
+  },{
+    "idName":"FlowerBed2",
+    "id":1020,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Stone",
+        "qty":10
+      },{
+        "name":"Lavender",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerBed3",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Vase_3"
+  },{
+    "idName":"FlowerBed3",
+    "id":1021,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[{
+        "name":"Stone",
+        "qty":10
+      },{
+        "name":"Gentian",
+        "qty":10
+      }],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerBed1",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Vase_3"
+  },{
+    "idName":"FlowerDuoBed1",
+    "id":1022,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerDuoBed2",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Vase_3"
+  },{
+    "idName":"FlowerDuoBed2",
+    "id":1023,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerDuoBed3",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Vase_3"
+  },{
+    "idName":"FlowerDuoBed3",
+    "id":1024,
+    "name":"Floral Decoration",
+    "desc":"",
+    "hc":0.0,
+    "furnitureType":1,
+    "secondaryType":0,
+    "craftingType":-1,
+    "costList":[],
+    "buildingTags":{
+      "ParentTags":["Building.Lab","building"],
+      "GameplayTags":["Building.Lab.Decoration"]
+    },
+    "secondaryIndirect":0,
+    "alterBuildOption":"FlowerBed1",
+    "hide":true,
+    "iconPath":"/Furnitures/T_UI_Vase_3"
   },{
     "idName":"WoodBlock",
     "id":1101,
