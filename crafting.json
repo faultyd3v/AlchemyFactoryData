@@ -2120,8 +2120,44 @@
     "alternate":false,
     "ProductSequence":[1,0]
   },{
-    "craftIdName":"Saturn",
+    "craftIdName":"ClockworkBird",
     "craftId":619,
+    "ingredientList":[{
+        "name":"SteelIngot",
+        "qty":6
+      },{
+        "name":"SteelGear",
+        "qty":2
+      },{
+        "name":"Malachite",
+        "qty":2
+      }],
+    "productInfo":{
+      "name":"ClockworkBird",
+      "qty":1
+    },
+    "craftType":17,
+    "craftTime":12.0,
+    "fractionNum":1,
+    "failRate1":0.0,
+    "failProduct1":{
+      "name":"None",
+      "qty":0
+    },
+    "failRate2":0.0,
+    "failProduct2":{
+      "name":"None",
+      "qty":0
+    },
+    "sideProduct":{
+      "name":"None",
+      "qty":0
+    },
+    "alternate":false,
+    "ProductSequence":[]
+  },{
+    "craftIdName":"Saturn",
+    "craftId":620,
     "ingredientList":[{
         "name":"Salt",
         "qty":6
@@ -2157,7 +2193,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Mars",
-    "craftId":620,
+    "craftId":621,
     "ingredientList":[{
         "name":"Nails",
         "qty":8
@@ -2196,7 +2232,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Sand2",
-    "craftId":621,
+    "craftId":622,
     "ingredientList":[{
         "name":"Sand",
         "qty":2
@@ -2226,7 +2262,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Sand3",
-    "craftId":622,
+    "craftId":623,
     "ingredientList":[{
         "name":"Sand2",
         "qty":2
@@ -2256,7 +2292,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Sand4",
-    "craftId":623,
+    "craftId":624,
     "ingredientList":[{
         "name":"Sand3",
         "qty":2
@@ -2286,7 +2322,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Sand5",
-    "craftId":624,
+    "craftId":625,
     "ingredientList":[{
         "name":"Sand4",
         "qty":2
@@ -2316,7 +2352,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Sand6",
-    "craftId":625,
+    "craftId":626,
     "ingredientList":[{
         "name":"Sand5",
         "qty":2
@@ -2346,7 +2382,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Sand8",
-    "craftId":626,
+    "craftId":627,
     "ingredientList":[{
         "name":"Sand6",
         "qty":2
@@ -2376,7 +2412,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Shard1",
-    "craftId":627,
+    "craftId":628,
     "ingredientList":[{
         "name":"Sand8",
         "qty":2
@@ -2406,7 +2442,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Shard2",
-    "craftId":628,
+    "craftId":629,
     "ingredientList":[{
         "name":"Shard1",
         "qty":2
@@ -2436,7 +2472,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Shard3",
-    "craftId":629,
+    "craftId":630,
     "ingredientList":[{
         "name":"Shard2",
         "qty":2
@@ -2466,7 +2502,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Crystal1",
-    "craftId":630,
+    "craftId":631,
     "ingredientList":[{
         "name":"Shard3",
         "qty":2
@@ -2496,7 +2532,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Crystal2",
-    "craftId":631,
+    "craftId":632,
     "ingredientList":[{
         "name":"Crystal1",
         "qty":2
@@ -2526,7 +2562,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Crystal3",
-    "craftId":632,
+    "craftId":633,
     "ingredientList":[{
         "name":"Crystal2",
         "qty":2
@@ -2556,7 +2592,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Diamond1",
-    "craftId":633,
+    "craftId":634,
     "ingredientList":[{
         "name":"Crystal3",
         "qty":2
@@ -2586,7 +2622,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Diamond2",
-    "craftId":634,
+    "craftId":635,
     "ingredientList":[{
         "name":"Diamond1",
         "qty":2
@@ -2616,7 +2652,7 @@
     "ProductSequence":[]
   },{
     "craftIdName":"Diamond3",
-    "craftId":635,
+    "craftId":636,
     "ingredientList":[{
         "name":"Diamond2",
         "qty":2

@@ -895,7 +895,7 @@
     "portal":true,
     "iconPath":"/Ingredients/T_UI_YggdrasillSeed"
   },{
-    "id":30,
+    "id":31,
     "name":"Ruby",
     "displayName":"Ruby",
     "value":250000,
@@ -927,7 +927,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_Ruby"
   },{
-    "id":31,
+    "id":32,
     "name":"Sapphire",
     "displayName":"Sapphire",
     "value":480000,
@@ -959,7 +959,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_Sapphire"
   },{
-    "id":32,
+    "id":33,
     "name":"Emerald",
     "displayName":"Emerald",
     "value":700000,
@@ -991,7 +991,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_Emerald"
   },{
-    "id":33,
+    "id":34,
     "name":"PhilosopherStone",
     "displayName":"Philosopher's Stone",
     "value":1000000,
@@ -3008,6 +3008,38 @@
     "iconPath":"/Ingredients/T_UI_Malachite"
   },{
     "id":619,
+    "name":"ClockworkBird",
+    "displayName":"Clockwork Bird",
+    "value":5000,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":5,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":2022.0,
+    "cauldronCost":2022.0,
+    "cauldronTarget":2022.0,
+    "cauldronMulti":0.0,
+    "questCost":5000,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":50,
+    "sellType":2,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_ClockworkBird"
+  },{
+    "id":620,
     "name":"Saturn",
     "displayName":"Saturn",
     "value":150000,
@@ -3039,7 +3071,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_Saturn"
   },{
-    "id":620,
+    "id":621,
     "name":"Mars",
     "displayName":"Mars",
     "value":280000,
@@ -3071,7 +3103,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_Mars"
   },{
-    "id":627,
+    "id":628,
     "name":"Shard1",
     "displayName":"Crude Shard",
     "value":512,
@@ -3103,7 +3135,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_CrudeShard"
   },{
-    "id":628,
+    "id":629,
     "name":"Shard2",
     "displayName":"Broken Shard",
     "value":1024,
@@ -3135,7 +3167,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_ChippedShard"
   },{
-    "id":629,
+    "id":630,
     "name":"Shard3",
     "displayName":"Dull Shard",
     "value":2048,
@@ -3167,7 +3199,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_DullShard"
   },{
-    "id":630,
+    "id":631,
     "name":"Crystal1",
     "displayName":"Shattered Crystal",
     "value":4096,
@@ -3199,7 +3231,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_FracturedCrystal"
   },{
-    "id":631,
+    "id":632,
     "name":"Crystal2",
     "displayName":"Crude Crystal",
     "value":8000,
@@ -3231,7 +3263,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_RoughCrystal"
   },{
-    "id":632,
+    "id":633,
     "name":"Crystal3",
     "displayName":"Polished Crystal",
     "value":16000,
@@ -3263,7 +3295,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_PolishedCrystal"
   },{
-    "id":633,
+    "id":634,
     "name":"Diamond1",
     "displayName":"Adamant",
     "value":32000,
@@ -3295,7 +3327,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_RadiantDiamond"
   },{
-    "id":634,
+    "id":635,
     "name":"Diamond2",
     "displayName":"Diamond",
     "value":100000,
@@ -3327,7 +3359,7 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_FlawlessDiamond"
   },{
-    "id":635,
+    "id":636,
     "name":"Diamond3",
     "displayName":"Perfect Diamond",
     "value":201000,
@@ -3710,6 +3742,38 @@
     "liquid":false,
     "portal":false,
     "iconPath":"/Ingredients/T_UI_Venus"
+  },{
+    "id":30,
+    "name":"STEAM",
+    "displayName":"Steam",
+    "value":1,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":1.0,
+    "cauldronCost":1.0,
+    "cauldronTarget":1.0,
+    "cauldronMulti":0.0,
+    "questCost":1,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":0,
+    "hv":20.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":true,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_steam"
   },{
     "id":801,
     "name":"GentianPowder",

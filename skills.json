@@ -479,26 +479,6 @@
     "unlockItems":[],
     "unlockConstructions":[]
   },{
-    "idName":"Linen",
-    "tier":2,
-    "skillLevel":false,
-    "bUpgrade":false,
-    "predecessors":["Assembler"],
-    "bUnlimited":false,
-    "requiredLevel":0,
-    "unlockCost":{
-      "Gold":0,
-      "Silver":0,
-      "Copper":570
-    },
-    "unlockResearchPoints":90.0,
-    "unlockItem":{
-      "name":"Linen",
-      "type":2
-    },
-    "unlockItems":[],
-    "unlockConstructions":[]
-  },{
     "idName":"WorkBench",
     "tier":2,
     "skillLevel":false,
@@ -515,6 +495,26 @@
     "unlockItem":{
       "name":"WorkBench",
       "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Linen",
+    "tier":2,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["Assembler"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":570
+    },
+    "unlockResearchPoints":90.0,
+    "unlockItem":{
+      "name":"Linen",
+      "type":2
     },
     "unlockItems":[],
     "unlockConstructions":[]
@@ -619,26 +619,6 @@
     "unlockItems":["RedcurrantSeed","PortalSigil","CashRegister"],
     "unlockConstructions":["AutoCheckout"]
   },{
-    "idName":"ConveyorTunnel",
-    "tier":3,
-    "skillLevel":false,
-    "bUpgrade":false,
-    "predecessors":["Level4"],
-    "bUnlimited":false,
-    "requiredLevel":0,
-    "unlockCost":{
-      "Gold":0,
-      "Silver":0,
-      "Copper":1600
-    },
-    "unlockResearchPoints":129.0,
-    "unlockItem":{
-      "name":"ConveyorTunnel",
-      "type":3
-    },
-    "unlockItems":[],
-    "unlockConstructions":[]
-  },{
     "idName":"Portal_AlchGuild",
     "tier":3,
     "skillLevel":false,
@@ -654,6 +634,26 @@
     "unlockResearchPoints":129.0,
     "unlockItem":{
       "name":"Portal_AlchGuild",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ConveyorTunnel",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["Level4"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1600
+    },
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "name":"ConveyorTunnel",
       "type":3
     },
     "unlockItems":[],
@@ -739,6 +739,26 @@
     "unlockItems":[],
     "unlockConstructions":[]
   },{
+    "idName":"BasicFertilizer",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["Crucible"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1600
+    },
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "name":"BasicFertilizer",
+      "type":2
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
     "idName":"Clay",
     "tier":3,
     "skillLevel":false,
@@ -774,6 +794,26 @@
     "unlockResearchPoints":129.0,
     "unlockItem":{
       "name":"DrawBridge",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ExpandableDrawBridge",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["WoodPulley"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1600
+    },
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "name":"ExpandableDrawBridge",
       "type":3
     },
     "unlockItems":[],
@@ -839,26 +879,6 @@
     "unlockItems":[],
     "unlockConstructions":[]
   },{
-    "idName":"BasicFertilizer",
-    "tier":3,
-    "skillLevel":false,
-    "bUpgrade":false,
-    "predecessors":["Crucible"],
-    "bUnlimited":false,
-    "requiredLevel":0,
-    "unlockCost":{
-      "Gold":0,
-      "Silver":0,
-      "Copper":1600
-    },
-    "unlockResearchPoints":129.0,
-    "unlockItem":{
-      "name":"BasicFertilizer",
-      "type":2
-    },
-    "unlockItems":[],
-    "unlockConstructions":[]
-  },{
     "idName":"Brick",
     "tier":3,
     "skillLevel":false,
@@ -895,6 +915,26 @@
     "unlockItem":{
       "name":"Glass",
       "type":2
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"StoneFurnace",
+    "tier":3,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["Brick"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1600
+    },
+    "unlockResearchPoints":129.0,
+    "unlockItem":{
+      "name":"StoneFurnace",
+      "type":3
     },
     "unlockItems":[],
     "unlockConstructions":[]
@@ -1159,46 +1199,6 @@
     "unlockItems":[],
     "unlockConstructions":[]
   },{
-    "idName":"Merger_Vert",
-    "tier":4,
-    "skillLevel":false,
-    "bUpgrade":false,
-    "predecessors":["Filter_Vert"],
-    "bUnlimited":false,
-    "requiredLevel":0,
-    "unlockCost":{
-      "Gold":0,
-      "Silver":0,
-      "Copper":4400
-    },
-    "unlockResearchPoints":174.0,
-    "unlockItem":{
-      "name":"Merger_Vert",
-      "type":3
-    },
-    "unlockItems":[],
-    "unlockConstructions":[]
-  },{
-    "idName":"Splitter_Vert",
-    "tier":4,
-    "skillLevel":false,
-    "bUpgrade":false,
-    "predecessors":["Filter_Vert"],
-    "bUnlimited":false,
-    "requiredLevel":0,
-    "unlockCost":{
-      "Gold":0,
-      "Silver":0,
-      "Copper":4400
-    },
-    "unlockResearchPoints":174.0,
-    "unlockItem":{
-      "name":"Splitter_Vert",
-      "type":3
-    },
-    "unlockItems":[],
-    "unlockConstructions":[]
-  },{
     "idName":"Filter_Vert",
     "tier":4,
     "skillLevel":false,
@@ -1298,6 +1298,46 @@
     },
     "unlockItems":[],
     "unlockConstructions":["JupiterD"]
+  },{
+    "idName":"Merger_Vert",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["Filter_Vert"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4400
+    },
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "name":"Merger_Vert",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"Splitter_Vert",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["Filter_Vert"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4400
+    },
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "name":"Splitter_Vert",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
   },{
     "idName":"SteelIngot",
     "tier":4,
@@ -1439,6 +1479,66 @@
     "unlockItems":[],
     "unlockConstructions":[]
   },{
+    "idName":"ShrinkMachine",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["ManaPotion"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4400
+    },
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "name":"ShrinkMachine",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ExpandableConveyorTunnel",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["SteelGear"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4400
+    },
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "name":"ExpandableConveyorTunnel",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ExpandableBeam",
+    "tier":4,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["SteelGear"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4400
+    },
+    "unlockResearchPoints":174.0,
+    "unlockItem":{
+      "name":"ExpandableBeam",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
     "idName":"Level6",
     "tier":5,
     "skillLevel":true,
@@ -1479,7 +1579,7 @@
     "unlockItems":[],
     "unlockConstructions":[]
   },{
-    "idName":"StoneFurnace",
+    "idName":"SteamBoiler",
     "tier":5,
     "skillLevel":false,
     "bUpgrade":false,
@@ -1493,7 +1593,7 @@
     },
     "unlockResearchPoints":225.0,
     "unlockItem":{
-      "name":"StoneFurnace",
+      "name":"SteamBoiler",
       "type":3
     },
     "unlockItems":[],
@@ -1598,6 +1698,26 @@
     },
     "unlockItems":[],
     "unlockConstructions":["SaturnD"]
+  },{
+    "idName":"SteamHeater",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["SteamBoiler"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":12,
+      "Copper":0
+    },
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "name":"SteamHeater",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
   },{
     "idName":"Malachite",
     "tier":5,
@@ -1854,6 +1974,26 @@
     "unlockResearchPoints":225.0,
     "unlockItem":{
       "name":"PocketWatch",
+      "type":2
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"ClockworkBird",
+    "tier":5,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["Omni-Machine"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":12,
+      "Copper":0
+    },
+    "unlockResearchPoints":225.0,
+    "unlockItem":{
+      "name":"ClockworkBird",
       "type":2
     },
     "unlockItems":[],
@@ -2335,6 +2475,26 @@
     "unlockItem":{
       "name":"AquaVitae",
       "type":2
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
+    "idName":"AdvancedCauldron",
+    "tier":7,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["SilverPowder3"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":0,
+      "Silver":136,
+      "Copper":0
+    },
+    "unlockResearchPoints":345.0,
+    "unlockItem":{
+      "name":"AdvancedCauldron",
+      "type":3
     },
     "unlockItems":[],
     "unlockConstructions":[]
