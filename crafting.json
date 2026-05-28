@@ -27,7 +27,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sage",
     "craftId":6,
@@ -57,7 +59,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Redcurrant",
     "craftId":11,
@@ -87,7 +91,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Lavender",
     "craftId":13,
@@ -117,7 +123,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Chamomile",
     "craftId":15,
@@ -147,7 +155,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Gentian",
     "craftId":17,
@@ -177,7 +187,9 @@
       "qty":80
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"WoodBoard",
     "craftId":101,
@@ -207,7 +219,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"LargeWoodGear",
     "craftId":102,
@@ -237,7 +251,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Stone",
     "craftId":201,
@@ -267,7 +283,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sand",
     "craftId":202,
@@ -297,7 +315,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Mortar",
     "craftId":203,
@@ -327,7 +347,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"FlaxFiber",
     "craftId":204,
@@ -357,7 +379,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"LinenThread",
     "craftId":205,
@@ -387,7 +411,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"LinenRope",
     "craftId":206,
@@ -417,7 +443,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"WoodGear",
     "craftId":207,
@@ -447,7 +475,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"IronIngot",
     "craftId":301,
@@ -477,7 +507,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Nails",
     "craftId":302,
@@ -507,7 +539,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"IronSand",
     "craftId":303,
@@ -537,7 +571,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"PlantAsh",
     "craftId":304,
@@ -567,7 +603,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SagePowder",
     "craftId":305,
@@ -597,7 +635,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"HealingPotion",
     "craftId":306,
@@ -630,7 +670,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Linen",
     "craftId":307,
@@ -660,7 +702,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Bandage",
     "craftId":308,
@@ -693,7 +737,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Quicklime",
     "craftId":401,
@@ -723,7 +769,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"QuicklimePowder",
     "craftId":402,
@@ -753,7 +801,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Charcoal",
     "craftId":403,
@@ -783,7 +833,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CharcoalPowder",
     "craftId":404,
@@ -813,7 +865,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"WoodPulley",
     "craftId":405,
@@ -846,7 +900,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Clay",
     "craftId":406,
@@ -879,7 +935,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"ClayPowder",
     "craftId":407,
@@ -909,7 +967,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Brick",
     "craftId":408,
@@ -939,7 +999,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"LinseedOil",
     "craftId":409,
@@ -969,7 +1031,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"FruitWine",
     "craftId":410,
@@ -999,7 +1063,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Limewater",
     "craftId":411,
@@ -1029,7 +1095,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Glass",
     "craftId":412,
@@ -1059,7 +1127,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Soap",
     "craftId":413,
@@ -1092,7 +1162,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SoapPowder",
     "craftId":414,
@@ -1122,7 +1194,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"VitalityPotion",
     "craftId":415,
@@ -1155,7 +1229,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"BasicFertilizer",
     "craftId":416,
@@ -1188,7 +1264,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Turquoise",
     "craftId":501,
@@ -1221,7 +1299,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Jupiter",
     "craftId":502,
@@ -1257,7 +1337,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Coke",
     "craftId":503,
@@ -1287,7 +1369,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[1,0]
+    "ProductSequence":[1,0],
+    "CatalystCost":1,
+    "UnstableSequence":[1,0,0,0]
   },{
     "craftIdName":"CokePowder",
     "craftId":504,
@@ -1317,7 +1401,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SteelIngot",
     "craftId":505,
@@ -1350,7 +1436,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[1,1,1,0]
+    "ProductSequence":[1,1,1,0],
+    "CatalystCost":4,
+    "UnstableSequence":[1,0]
   },{
     "craftIdName":"SteelGear",
     "craftId":506,
@@ -1380,7 +1468,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"YeastPowder",
     "craftId":507,
@@ -1413,7 +1503,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"ManaPotion",
     "craftId":508,
@@ -1446,7 +1538,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GloomFungus",
     "craftId":509,
@@ -1476,7 +1570,9 @@
       "qty":4
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GloomSpores",
     "craftId":510,
@@ -1509,7 +1605,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"AdvancedFertilizer",
     "craftId":511,
@@ -1542,7 +1640,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"ChamomilePowder",
     "craftId":601,
@@ -1572,7 +1672,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sulfur",
     "craftId":602,
@@ -1602,7 +1704,9 @@
       "qty":3
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SulfurPowder",
     "craftId":603,
@@ -1632,7 +1736,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Coal",
     "craftId":604,
@@ -1662,7 +1768,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Salt",
     "craftId":605,
@@ -1695,7 +1803,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[1,1,0]
+    "ProductSequence":[1,1,0],
+    "CatalystCost":2,
+    "UnstableSequence":[1,0,0]
   },{
     "craftIdName":"SaltWater",
     "craftId":606,
@@ -1725,7 +1835,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CopperPowder",
     "craftId":607,
@@ -1758,7 +1870,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CopperPowder2",
     "craftId":608,
@@ -1791,7 +1905,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[1,0]
+    "ProductSequence":[1,0],
+    "CatalystCost":18,
+    "UnstableSequence":[1,1]
   },{
     "craftIdName":"BronzeIngot",
     "craftId":609,
@@ -1821,7 +1937,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CopperIngot",
     "craftId":610,
@@ -1851,7 +1969,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CopperCoin",
     "craftId":611,
@@ -1881,7 +2001,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CopperBearing",
     "craftId":612,
@@ -1911,7 +2033,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"BronzeRivet",
     "craftId":613,
@@ -1941,7 +2065,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"BlackPowder",
     "craftId":614,
@@ -1977,7 +2103,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GrowthPotion",
     "craftId":615,
@@ -2013,7 +2141,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Catalyst1",
     "craftId":616,
@@ -2046,7 +2176,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"PocketWatch",
     "craftId":617,
@@ -2082,7 +2214,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Malachite",
     "craftId":618,
@@ -2115,7 +2249,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[1,0]
+    "ProductSequence":[1,0],
+    "CatalystCost":36,
+    "UnstableSequence":[0,0]
   },{
     "craftIdName":"ClockworkBird",
     "craftId":619,
@@ -2151,7 +2287,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Saturn",
     "craftId":620,
@@ -2187,7 +2325,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Mars",
     "craftId":621,
@@ -2226,7 +2366,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sand2",
     "craftId":622,
@@ -2256,7 +2398,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sand3",
     "craftId":623,
@@ -2286,7 +2430,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sand4",
     "craftId":624,
@@ -2316,7 +2462,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sand5",
     "craftId":625,
@@ -2346,7 +2494,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sand6",
     "craftId":626,
@@ -2376,7 +2526,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sand8",
     "craftId":627,
@@ -2406,7 +2558,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Shard1",
     "craftId":628,
@@ -2436,7 +2590,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Shard2",
     "craftId":629,
@@ -2466,7 +2622,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Shard3",
     "craftId":630,
@@ -2496,7 +2654,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Crystal1",
     "craftId":631,
@@ -2526,7 +2686,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Crystal2",
     "craftId":632,
@@ -2556,7 +2718,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Crystal3",
     "craftId":633,
@@ -2586,7 +2750,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Diamond1",
     "craftId":634,
@@ -2616,7 +2782,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Diamond2",
     "craftId":635,
@@ -2646,7 +2814,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Diamond3",
     "craftId":636,
@@ -2676,7 +2846,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"LavenderEssentialOil",
     "craftId":701,
@@ -2709,7 +2881,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Brandy",
     "craftId":702,
@@ -2742,7 +2916,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SulfuricAcid",
     "craftId":703,
@@ -2775,7 +2951,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Topaz",
     "craftId":704,
@@ -2808,7 +2986,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"BlastPotion",
     "craftId":705,
@@ -2844,7 +3024,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Catalyst2",
     "craftId":706,
@@ -2880,7 +3062,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"PerfumedSoap",
     "craftId":707,
@@ -2913,7 +3097,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"PerfumedSoapPowder",
     "craftId":708,
@@ -2943,7 +3129,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Vitae",
     "craftId":709,
@@ -2973,7 +3161,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Venus",
     "craftId":710,
@@ -3018,7 +3208,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GentianPowder",
     "craftId":801,
@@ -3048,7 +3240,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GentianNectar",
     "craftId":802,
@@ -3078,7 +3272,9 @@
       "qty":80
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SilverPowder",
     "craftId":803,
@@ -3111,7 +3307,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SilverPowder2",
     "craftId":804,
@@ -3141,7 +3339,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SilverPowder3",
     "craftId":805,
@@ -3174,7 +3374,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[1,1,1,1,0]
+    "ProductSequence":[1,1,1,1,0],
+    "CatalystCost":150,
+    "UnstableSequence":[1,0]
   },{
     "craftIdName":"VolcanicAsh_Alt",
     "craftId":2017,
@@ -3204,7 +3406,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Obsidian",
     "craftId":806,
@@ -3237,7 +3441,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[1,0]
+    "ProductSequence":[1,0],
+    "CatalystCost":420,
+    "UnstableSequence":[1,1]
   },{
     "craftIdName":"SilverIngot",
     "craftId":808,
@@ -3267,7 +3473,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SilverCoin",
     "craftId":809,
@@ -3297,7 +3505,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SilverAmulet",
     "craftId":810,
@@ -3330,7 +3540,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Mercury",
     "craftId":811,
@@ -3366,7 +3578,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"AquaVitae",
     "craftId":812,
@@ -3402,7 +3616,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"LapisLazuli",
     "craftId":813,
@@ -3435,7 +3651,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[2,1,0]
+    "ProductSequence":[2,1,0],
+    "CatalystCost":550,
+    "UnstableSequence":[1,0]
   },{
     "craftIdName":"MercuryP",
     "craftId":814,
@@ -3480,7 +3698,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Catalyst3",
     "craftId":815,
@@ -3516,7 +3736,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"PanaceaElixir",
     "craftId":816,
@@ -3552,7 +3774,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GoldDust",
     "craftId":901,
@@ -3588,7 +3812,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GoldDust2",
     "craftId":902,
@@ -3618,7 +3844,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GoldDust3",
     "craftId":903,
@@ -3654,7 +3882,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[2,2,1,2,2,1,2,2,1,0]
+    "ProductSequence":[2,2,1,2,2,1,2,2,1,0],
+    "CatalystCost":1000,
+    "UnstableSequence":[1,1,1,1,0]
   },{
     "craftIdName":"GoldDust5",
     "craftId":904,
@@ -3684,7 +3914,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GoldIngot",
     "craftId":905,
@@ -3714,7 +3946,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GoldCoin",
     "craftId":906,
@@ -3744,7 +3978,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Crown",
     "craftId":907,
@@ -3780,7 +4016,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Catalyst4",
     "craftId":908,
@@ -3813,7 +4051,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"StarDust",
     "craftId":909,
@@ -3849,7 +4089,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"FairyDust",
     "craftId":910,
@@ -3885,7 +4127,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"FairyTear",
     "craftId":911,
@@ -3915,7 +4159,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"MoonTear",
     "craftId":912,
@@ -3948,7 +4194,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"MoonlitSoap",
     "craftId":913,
@@ -3981,7 +4229,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Luna",
     "craftId":914,
@@ -4026,7 +4276,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sol",
     "craftId":1001,
@@ -4080,7 +4332,9 @@
       "qty":0
     },
     "alternate":false,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Salt_Alt",
     "craftId":2001,
@@ -4110,7 +4364,9 @@
       "qty":1
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Meteorite_Alt",
     "craftId":2002,
@@ -4140,7 +4396,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Coke_Alt",
     "craftId":2003,
@@ -4170,7 +4428,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CopperPowder2_Alt",
     "craftId":2004,
@@ -4200,7 +4460,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SilverPowder3_Alt",
     "craftId":2005,
@@ -4230,7 +4492,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GoldDust3_Alt",
     "craftId":2006,
@@ -4260,7 +4524,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CopperIngot_Alt",
     "craftId":2007,
@@ -4290,7 +4556,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SilverIngot_Alt",
     "craftId":2008,
@@ -4320,7 +4588,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GoldIngot_Alt",
     "craftId":2009,
@@ -4350,7 +4620,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"IronIngot_Alt",
     "craftId":2010,
@@ -4380,7 +4652,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CopperPowder2_Alt2",
     "craftId":2011,
@@ -4410,7 +4684,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"SilverPowder3_Alt3",
     "craftId":2012,
@@ -4440,7 +4716,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GoldDust5_Alt",
     "craftId":2013,
@@ -4470,7 +4748,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Shard1_Alt",
     "craftId":2014,
@@ -4500,7 +4780,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Mors_Alt",
     "craftId":2015,
@@ -4530,7 +4812,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"PhilosopherStone_Alt",
     "craftId":2016,
@@ -4566,7 +4850,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Ruby_Alt",
     "craftId":2017,
@@ -4602,7 +4888,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sapphire_Alt",
     "craftId":2018,
@@ -4638,7 +4926,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Emerald_Alt",
     "craftId":2019,
@@ -4674,7 +4964,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"IronAmulet",
     "craftId":9004,
@@ -4707,7 +4999,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"FineBandage",
     "craftId":9005,
@@ -4740,7 +5034,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CopperAmulet",
     "craftId":9007,
@@ -4773,7 +5069,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Cart",
     "craftId":9009,
@@ -4809,7 +5107,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Amethyst",
     "craftId":9010,
@@ -4845,7 +5145,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"CharismaPotion",
     "craftId":9013,
@@ -4881,7 +5183,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sulfur_Alt",
     "craftId":9014,
@@ -4917,7 +5221,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"Sand7",
     "craftId":9015,
@@ -4947,7 +5253,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"InvisbilityPotion",
     "craftId":9016,
@@ -4983,7 +5291,9 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   },{
     "craftIdName":"GoldDust4",
     "craftId":9017,
@@ -5013,5 +5323,7 @@
       "qty":0
     },
     "alternate":true,
-    "ProductSequence":[]
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
   }]
