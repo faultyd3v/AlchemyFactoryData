@@ -1957,7 +1957,7 @@
       }],
     "productInfo":{
       "name":"BlackPowder",
-      "qty":2
+      "qty":1
     },
     "craftType":12,
     "craftTime":12.0,
@@ -2019,19 +2019,16 @@
     "craftId":616,
     "ingredientList":[{
         "name":"ChamomilePowder",
-        "qty":1
+        "qty":2
       },{
         "name":"GloomSpores",
-        "qty":1
-      },{
-        "name":"SulfurPowder",
-        "qty":1
+        "qty":2
       }],
     "productInfo":{
       "name":"Catalyst1",
       "qty":1
     },
-    "craftType":17,
+    "craftType":10,
     "craftTime":4.0,
     "fractionNum":1,
     "failRate1":0.0,
@@ -2820,7 +2817,7 @@
         "qty":1
       },{
         "name":"BlackPowder",
-        "qty":2
+        "qty":1
       },{
         "name":"Brandy",
         "qty":40
@@ -3087,10 +3084,7 @@
     "craftId":803,
     "ingredientList":[{
         "name":"CopperPowder2",
-        "qty":1
-      },{
-        "name":"Catalyst1",
-        "qty":1
+        "qty":2
       },{
         "name":"BlackPowder",
         "qty":1
@@ -3153,10 +3147,7 @@
     "craftId":805,
     "ingredientList":[{
         "name":"CopperPowder2",
-        "qty":2
-      },{
-        "name":"Catalyst1",
-        "qty":2
+        "qty":4
       },{
         "name":"BlackPowder",
         "qty":2
@@ -3219,12 +3210,9 @@
     "craftId":806,
     "ingredientList":[{
         "name":"Mors",
-        "qty":1
+        "qty":2
       },{
         "name":"Crystal1",
-        "qty":1
-      },{
-        "name":"Catalyst1",
         "qty":1
       }],
     "productInfo":{
@@ -3422,11 +3410,8 @@
         "name":"SilverPowder2",
         "qty":1
       },{
-        "name":"Shard1",
-        "qty":4
-      },{
-        "name":"GentianPowder",
-        "qty":4
+        "name":"Crystal1",
+        "qty":1
       }],
     "productInfo":{
       "name":"LapisLazuli",
@@ -3578,11 +3563,8 @@
         "name":"VolcanicAsh",
         "qty":0
       },{
-        "name":"Catalyst2",
-        "qty":0
-      },{
         "name":"Mercury",
-        "qty":7
+        "qty":11
       }],
     "productInfo":{
       "name":"GoldDust",
@@ -3647,11 +3629,8 @@
         "name":"VolcanicAsh",
         "qty":1
       },{
-        "name":"Catalyst2",
-        "qty":1
-      },{
         "name":"Mercury",
-        "qty":12
+        "qty":18
       }],
     "productInfo":{
       "name":"GoldDust3",
@@ -3840,21 +3819,21 @@
     "craftId":909,
     "ingredientList":[{
         "name":"Jupiter",
-        "qty":12
+        "qty":60
       },{
         "name":"Saturn",
-        "qty":4
+        "qty":20
       },{
         "name":"Mars",
-        "qty":3
+        "qty":15
       }],
     "productInfo":{
       "name":"StarDust",
-      "qty":2
+      "qty":1
     },
     "craftType":23,
-    "craftTime":12.0,
-    "fractionNum":25,
+    "craftTime":60.0,
+    "fractionNum":5,
     "failRate1":0.0,
     "failProduct1":{
       "name":"None",
@@ -3942,10 +3921,10 @@
     "craftId":912,
     "ingredientList":[{
         "name":"StarDust",
-        "qty":16
+        "qty":1
       },{
         "name":"FairyTear",
-        "qty":10
+        "qty":18
       }],
     "productInfo":{
       "name":"MoonTear",

@@ -158,7 +158,7 @@
         "qty":30
       }],
     "unlockedBuffs":[],
-    "unlockedBuildings":["Pillar"]
+    "unlockedBuildings":["Pillar","GrandStairs"]
   },{
     "upgradeId":"Gloves1",
     "gearType":2,

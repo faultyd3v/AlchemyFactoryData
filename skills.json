@@ -2819,6 +2819,26 @@
     "unlockItems":[],
     "unlockConstructions":[]
   },{
+    "idName":"TreasureChest",
+    "tier":8,
+    "skillLevel":false,
+    "bUpgrade":false,
+    "predecessors":["Crown"],
+    "bUnlimited":false,
+    "requiredLevel":0,
+    "unlockCost":{
+      "Gold":5,
+      "Silver":0,
+      "Copper":0
+    },
+    "unlockResearchPoints":414.0,
+    "unlockItem":{
+      "name":"TreasureChest",
+      "type":3
+    },
+    "unlockItems":[],
+    "unlockConstructions":[]
+  },{
     "idName":"MoonlitSoap",
     "tier":8,
     "skillLevel":false,
