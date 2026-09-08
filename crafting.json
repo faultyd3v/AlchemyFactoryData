@@ -1011,7 +1011,7 @@
       }],
     "productInfo":{
       "name":"LinseedOil",
-      "qty":50
+      "qty":20
     },
     "craftType":5,
     "craftTime":2.0,
@@ -1138,7 +1138,7 @@
         "qty":3
       },{
         "name":"LinseedOil",
-        "qty":200
+        "qty":80
       }],
     "productInfo":{
       "name":"Soap",
@@ -1248,6 +1248,41 @@
     },
     "craftType":10,
     "craftTime":4.0,
+    "fractionNum":1,
+    "failRate1":0.0,
+    "failProduct1":{
+      "name":"None",
+      "qty":0
+    },
+    "failRate2":0.0,
+    "failProduct2":{
+      "name":"None",
+      "qty":0
+    },
+    "sideProduct":{
+      "name":"None",
+      "qty":0
+    },
+    "alternate":false,
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
+  },{
+    "craftIdName":"WhisperingFields",
+    "craftId":417,
+    "ingredientList":[{
+        "name":"LinseedOil",
+        "qty":40
+      },{
+        "name":"FruitWine",
+        "qty":80
+      }],
+    "productInfo":{
+      "name":"WhisperingFields",
+      "qty":1
+    },
+    "craftType":24,
+    "craftTime":10.0,
     "fractionNum":1,
     "failRate1":0.0,
     "failProduct1":{
@@ -2850,6 +2885,44 @@
     "CatalystCost":0,
     "UnstableSequence":[]
   },{
+    "craftIdName":"StrangeTide",
+    "craftId":637,
+    "ingredientList":[{
+        "name":"SaltWater",
+        "qty":60
+      },{
+        "name":"Limewater",
+        "qty":90
+      },{
+        "name":"FruitWine",
+        "qty":180
+      }],
+    "productInfo":{
+      "name":"StrangeTide",
+      "qty":1
+    },
+    "craftType":24,
+    "craftTime":15.0,
+    "fractionNum":1,
+    "failRate1":0.0,
+    "failProduct1":{
+      "name":"None",
+      "qty":0
+    },
+    "failRate2":0.0,
+    "failProduct2":{
+      "name":"None",
+      "qty":0
+    },
+    "sideProduct":{
+      "name":"None",
+      "qty":0
+    },
+    "alternate":false,
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
+  },{
     "craftIdName":"LavenderEssentialOil",
     "craftId":701,
     "ingredientList":[{
@@ -2857,7 +2930,7 @@
         "qty":3
       },{
         "name":"LinseedOil",
-        "qty":300
+        "qty":120
       }],
     "productInfo":{
       "name":"LavenderEssentialOil",
@@ -3212,6 +3285,41 @@
     "CatalystCost":0,
     "UnstableSequence":[]
   },{
+    "craftIdName":"LavenderDream",
+    "craftId":711,
+    "ingredientList":[{
+        "name":"LavenderEssentialOil",
+        "qty":30
+      },{
+        "name":"Brandy",
+        "qty":120
+      }],
+    "productInfo":{
+      "name":"LavenderDream",
+      "qty":1
+    },
+    "craftType":24,
+    "craftTime":18.0,
+    "fractionNum":1,
+    "failRate1":0.0,
+    "failProduct1":{
+      "name":"None",
+      "qty":0
+    },
+    "failRate2":0.0,
+    "failProduct2":{
+      "name":"None",
+      "qty":0
+    },
+    "sideProduct":{
+      "name":"None",
+      "qty":0
+    },
+    "alternate":false,
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
+  },{
     "craftIdName":"GentianPowder",
     "craftId":801,
     "ingredientList":[{
@@ -3378,8 +3486,8 @@
     "CatalystCost":150,
     "UnstableSequence":[1,0]
   },{
-    "craftIdName":"VolcanicAsh_Alt",
-    "craftId":2017,
+    "craftIdName":"VolcanicAsh",
+    "craftId":807,
     "ingredientList":[{
         "name":"Obsidian",
         "qty":1
@@ -3405,7 +3513,7 @@
       "name":"None",
       "qty":0
     },
-    "alternate":true,
+    "alternate":false,
     "ProductSequence":[],
     "CatalystCost":0,
     "UnstableSequence":[]
@@ -3428,7 +3536,7 @@
     "fractionNum":1,
     "failRate1":0.5,
     "failProduct1":{
-      "name":"VolcanicAsh",
+      "name":"Marble",
       "qty":1
     },
     "failRate2":0.0,
@@ -3443,7 +3551,7 @@
     "alternate":false,
     "ProductSequence":[1,0],
     "CatalystCost":420,
-    "UnstableSequence":[1,1]
+    "UnstableSequence":[0,0]
   },{
     "craftIdName":"SilverIngot",
     "craftId":808,
@@ -3758,6 +3866,41 @@
     },
     "craftType":12,
     "craftTime":6.0,
+    "fractionNum":1,
+    "failRate1":0.0,
+    "failProduct1":{
+      "name":"None",
+      "qty":0
+    },
+    "failRate2":0.0,
+    "failProduct2":{
+      "name":"None",
+      "qty":0
+    },
+    "sideProduct":{
+      "name":"None",
+      "qty":0
+    },
+    "alternate":false,
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
+  },{
+    "craftIdName":"WorldTreeVintage",
+    "craftId":817,
+    "ingredientList":[{
+        "name":"AquaVitae",
+        "qty":20
+      },{
+        "name":"FruitWine",
+        "qty":380
+      }],
+    "productInfo":{
+      "name":"WorldTreeVintage",
+      "qty":1
+    },
+    "craftType":24,
+    "craftTime":24.0,
     "fractionNum":1,
     "failRate1":0.0,
     "failProduct1":{
@@ -4261,6 +4404,44 @@
     "craftType":19,
     "craftTime":8.0,
     "fractionNum":75,
+    "failRate1":0.0,
+    "failProduct1":{
+      "name":"None",
+      "qty":0
+    },
+    "failRate2":0.0,
+    "failProduct2":{
+      "name":"None",
+      "qty":0
+    },
+    "sideProduct":{
+      "name":"None",
+      "qty":0
+    },
+    "alternate":false,
+    "ProductSequence":[],
+    "CatalystCost":0,
+    "UnstableSequence":[]
+  },{
+    "craftIdName":"AlchemistSigh",
+    "craftId":915,
+    "ingredientList":[{
+        "name":"MoonTear",
+        "qty":1
+      },{
+        "name":"Mercury",
+        "qty":20
+      },{
+        "name":"Brandy",
+        "qty":160
+      }],
+    "productInfo":{
+      "name":"AlchemistSigh",
+      "qty":1
+    },
+    "craftType":24,
+    "craftTime":32.0,
+    "fractionNum":1,
     "failRate1":0.0,
     "failProduct1":{
       "name":"None",
@@ -5074,23 +5255,17 @@
     "UnstableSequence":[]
   },{
     "craftIdName":"Cart",
-    "craftId":9009,
+    "craftId":418,
     "ingredientList":[{
-        "name":"WoodBoard",
-        "qty":10
-      },{
         "name":"IronIngot",
-        "qty":8
-      },{
-        "name":"CopperBearing",
-        "qty":4
+        "qty":5
       }],
     "productInfo":{
       "name":"Cart",
       "qty":1
     },
-    "craftType":17,
-    "craftTime":40.0,
+    "craftType":9,
+    "craftTime":30.0,
     "fractionNum":1,
     "failRate1":0.0,
     "failProduct1":{
@@ -5106,7 +5281,7 @@
       "name":"None",
       "qty":0
     },
-    "alternate":true,
+    "alternate":false,
     "ProductSequence":[],
     "CatalystCost":0,
     "UnstableSequence":[]

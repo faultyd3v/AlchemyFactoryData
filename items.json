@@ -34,6 +34,40 @@
     "catalystCharges":-1
   },{
     "id":2002,
+    "name":"AdPortalSigil",
+    "displayName":"Grand Portal Sigil",
+    "value":16000,
+    "cost":16000,
+    "gameValue":{
+      "Gold":0,
+      "Silver":16,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":16,
+      "Copper":0
+    },
+    "baseCost":16000.0,
+    "cauldronCost":5000.0,
+    "cauldronTarget":16000.0,
+    "cauldronMulti":0.0,
+    "questCost":16000,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":10,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":true,
+    "iconPath":"/Ingredients/T_UI_GrandPortalSigil",
+    "ingredientTags":["Ingredient.Type.Misc"],
+    "catalystCharges":-1
+  },{
+    "id":2003,
     "name":"GelatinousGridlock",
     "displayName":"Gelatinous Gridlock",
     "value":100,
@@ -67,15 +101,15 @@
     "ingredientTags":["Ingredient.Type.Misc"],
     "catalystCharges":-1
   },{
-    "id":2003,
+    "id":2004,
     "name":"CashRegister",
     "displayName":"Automatic Cashier",
     "value":3000,
     "cost":3000,
     "gameValue":{
       "Gold":0,
-      "Silver":0,
-      "Copper":3000
+      "Silver":3,
+      "Copper":0
     },
     "gameCost":{
       "Gold":0,
@@ -754,8 +788,8 @@
     "cost":2000,
     "gameValue":{
       "Gold":0,
-      "Silver":0,
-      "Copper":2000
+      "Silver":2,
+      "Copper":0
     },
     "gameCost":{
       "Gold":0,
@@ -951,7 +985,7 @@
     "ingredientTags":["Ingredient.Type.PlantSeed"],
     "catalystCharges":-1
   },{
-    "id":31,
+    "id":32,
     "name":"Ruby",
     "displayName":"Ruby",
     "value":250000,
@@ -985,7 +1019,7 @@
     "ingredientTags":[],
     "catalystCharges":-1
   },{
-    "id":32,
+    "id":33,
     "name":"Sapphire",
     "displayName":"Sapphire",
     "value":480000,
@@ -1019,7 +1053,7 @@
     "ingredientTags":[],
     "catalystCharges":-1
   },{
-    "id":33,
+    "id":34,
     "name":"Emerald",
     "displayName":"Emerald",
     "value":700000,
@@ -1053,7 +1087,7 @@
     "ingredientTags":[],
     "catalystCharges":-1
   },{
-    "id":34,
+    "id":35,
     "name":"PhilosopherStone",
     "displayName":"Philosopher's Stone",
     "value":1000000,
@@ -1952,9 +1986,9 @@
       "Silver":0,
       "Copper":0
     },
-    "baseCost":0.04,
-    "cauldronCost":0.04,
-    "cauldronTarget":0.04,
+    "baseCost":0.1,
+    "cauldronCost":0.1,
+    "cauldronTarget":0.1,
     "cauldronMulti":0.0,
     "questCost":0,
     "questTier":0,
@@ -2207,6 +2241,40 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_FertilizerSack",
     "ingredientTags":["Ingredient.Type.Fertilizer"],
+    "catalystCharges":-1
+  },{
+    "id":417,
+    "name":"WhisperingFields",
+    "displayName":"Whispering Fields",
+    "value":420,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":420
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":100.0,
+    "cauldronCost":100.0,
+    "cauldronTarget":100.0,
+    "cauldronMulti":0.0,
+    "questCost":420,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":6,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_WhisperingFields",
+    "ingredientTags":[],
     "catalystCharges":-1
   },{
     "id":501,
@@ -2581,6 +2649,40 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_AdFertilizerSack",
     "ingredientTags":["Ingredient.Type.Fertilizer"],
+    "catalystCharges":-1
+  },{
+    "id":418,
+    "name":"Cart",
+    "displayName":"Wagon",
+    "value":75,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":75
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":75.0,
+    "cauldronCost":75.0,
+    "cauldronTarget":75.0,
+    "cauldronMulti":0.0,
+    "questCost":792,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":10,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Wagon",
+    "ingredientTags":["Ingredient.Type.Component"],
     "catalystCharges":-1
   },{
     "id":601,
@@ -3130,12 +3232,12 @@
     "id":617,
     "name":"PocketWatch",
     "displayName":"Pocket Watch",
-    "value":1950,
+    "value":2000,
     "cost":0,
     "gameValue":{
       "Gold":0,
-      "Silver":0,
-      "Copper":1950
+      "Silver":2,
+      "Copper":0
     },
     "gameCost":{
       "Gold":0,
@@ -3146,7 +3248,7 @@
     "cauldronCost":789.0,
     "cauldronTarget":789.0,
     "cauldronMulti":0.0,
-    "questCost":1950,
+    "questCost":2000,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":50,
@@ -3218,7 +3320,7 @@
     "questTier":0,
     "shoppingTier":0,
     "maxStack":50,
-    "sellType":2,
+    "sellType":0,
     "hv":0.0,
     "nv":0.0,
     "ns":0.0,
@@ -3226,7 +3328,7 @@
     "liquid":false,
     "portal":false,
     "iconPath":"/Ingredients/T_UI_ClockworkBird",
-    "ingredientTags":[],
+    "ingredientTags":["Ingredient.Type.Component"],
     "catalystCharges":-1
   },{
     "id":620,
@@ -3295,6 +3397,210 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_Mars",
     "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":622,
+    "name":"Sand2",
+    "displayName":"Refined Sand",
+    "value":8,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":8
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":8.0,
+    "cauldronCost":8.0,
+    "cauldronTarget":8.0,
+    "cauldronMulti":0.0,
+    "questCost":8,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":200,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_RefinedSand",
+    "ingredientTags":["Ingredient.Type.Mash"],
+    "catalystCharges":-1
+  },{
+    "id":623,
+    "name":"Sand3",
+    "displayName":"Refined Sand",
+    "value":16,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":16
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":16.0,
+    "cauldronCost":16.0,
+    "cauldronTarget":16.0,
+    "cauldronMulti":0.0,
+    "questCost":16,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":200,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_RefinedSand",
+    "ingredientTags":["Ingredient.Type.Mash"],
+    "catalystCharges":-1
+  },{
+    "id":624,
+    "name":"Sand4",
+    "displayName":"Refined Sand",
+    "value":32,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":32
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":32.0,
+    "cauldronCost":32.0,
+    "cauldronTarget":32.0,
+    "cauldronMulti":0.0,
+    "questCost":32,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":200,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_RefinedSand",
+    "ingredientTags":["Ingredient.Type.Mash"],
+    "catalystCharges":-1
+  },{
+    "id":625,
+    "name":"Sand5",
+    "displayName":"Refined Sand",
+    "value":64,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":64
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":64.0,
+    "cauldronCost":64.0,
+    "cauldronTarget":64.0,
+    "cauldronMulti":0.0,
+    "questCost":64,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":200,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_RefinedSand",
+    "ingredientTags":["Ingredient.Type.Mash"],
+    "catalystCharges":-1
+  },{
+    "id":626,
+    "name":"Sand6",
+    "displayName":"Refined Sand",
+    "value":128,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":128
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":128.0,
+    "cauldronCost":128.0,
+    "cauldronTarget":128.0,
+    "cauldronMulti":0.0,
+    "questCost":128,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":200,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_RefinedSand",
+    "ingredientTags":["Ingredient.Type.Mash"],
+    "catalystCharges":-1
+  },{
+    "id":627,
+    "name":"Sand8",
+    "displayName":"Fully Refined Sand",
+    "value":256,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":256
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":256.0,
+    "cauldronCost":256.0,
+    "cauldronTarget":256.0,
+    "cauldronMulti":0.0,
+    "questCost":256,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":200,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_RefinedSand",
+    "ingredientTags":["Ingredient.Type.Mash"],
     "catalystCharges":-1
   },{
     "id":628,
@@ -3601,6 +3907,40 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_PerfectDiamond",
     "ingredientTags":["Ingredient.Type.Solid"],
+    "catalystCharges":-1
+  },{
+    "id":637,
+    "name":"StrangeTide",
+    "displayName":"Strange Tide",
+    "value":1806,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":1806
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":429.0,
+    "cauldronCost":429.0,
+    "cauldronTarget":429.0,
+    "cauldronMulti":0.0,
+    "questCost":1806,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":6,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_StrangeTide",
+    "ingredientTags":[],
     "catalystCharges":-1
   },{
     "id":701,
@@ -3977,7 +4317,7 @@
     "ingredientTags":[],
     "catalystCharges":-1
   },{
-    "id":30,
+    "id":31,
     "name":"STEAM",
     "displayName":"Steam",
     "value":1,
@@ -4009,6 +4349,40 @@
     "portal":false,
     "iconPath":"/Ingredients/T_UI_steam",
     "ingredientTags":["Ingredient.Type.Gas"],
+    "catalystCharges":-1
+  },{
+    "id":711,
+    "name":"LavenderDream",
+    "displayName":"Lavender Dream",
+    "value":8000,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":8,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":2027.4,
+    "cauldronCost":2027.4,
+    "cauldronTarget":2027.4,
+    "cauldronMulti":0.0,
+    "questCost":8000,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":6,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_LavenderDream",
+    "ingredientTags":[],
     "catalystCharges":-1
   },{
     "id":801,
@@ -4181,14 +4555,14 @@
     "ingredientTags":[],
     "catalystCharges":-1
   },{
-    "id":29,
+    "id":807,
     "name":"VolcanicAsh",
     "displayName":"Volcanic Ash",
-    "value":5000,
+    "value":11000,
     "cost":0,
     "gameValue":{
       "Gold":0,
-      "Silver":5,
+      "Silver":11,
       "Copper":0
     },
     "gameCost":{
@@ -4200,7 +4574,7 @@
     "cauldronCost":5404.0,
     "cauldronTarget":5404.0,
     "cauldronMulti":0.0,
-    "questCost":5404,
+    "questCost":11004,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":100,
@@ -4456,11 +4830,11 @@
     "id":815,
     "name":"Catalyst3",
     "displayName":"Resonant Catalyst",
-    "value":13000,
+    "value":18000,
     "cost":0,
     "gameValue":{
       "Gold":0,
-      "Silver":13,
+      "Silver":18,
       "Copper":0
     },
     "gameCost":{
@@ -4472,7 +4846,7 @@
     "cauldronCost":23977.44,
     "cauldronTarget":27977.44,
     "cauldronMulti":1.0,
-    "questCost":23137,
+    "questCost":28737,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":100,
@@ -4521,14 +4895,48 @@
     "ingredientTags":["Ingredient.Type.Fertilizer","Ingredient.Type.Fuel"],
     "catalystCharges":-1
   },{
-    "id":901,
-    "name":"GoldDust",
-    "displayName":"Crude Gold Dust",
-    "value":15000,
+    "id":817,
+    "name":"WorldTreeVintage",
+    "displayName":"World Tree Vintage",
+    "value":36000,
     "cost":0,
     "gameValue":{
       "Gold":0,
-      "Silver":15,
+      "Silver":36,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":9642.0,
+    "cauldronCost":9642.0,
+    "cauldronTarget":9642.0,
+    "cauldronMulti":0.0,
+    "questCost":36000,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":6,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_WorldtreeVintage",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":901,
+    "name":"GoldDust",
+    "displayName":"Crude Gold Dust",
+    "value":19000,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":19,
       "Copper":0
     },
     "gameCost":{
@@ -4540,7 +4948,7 @@
     "cauldronCost":10925.2,
     "cauldronTarget":12925.2,
     "cauldronMulti":1.0,
-    "questCost":15928,
+    "questCost":19428,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":100,
@@ -4558,11 +4966,11 @@
     "id":902,
     "name":"GoldDust2",
     "displayName":"Impure Gold Dust",
-    "value":31000,
+    "value":38000,
     "cost":0,
     "gameValue":{
       "Gold":0,
-      "Silver":31,
+      "Silver":38,
       "Copper":0
     },
     "gameCost":{
@@ -4574,7 +4982,7 @@
     "cauldronCost":21850.4,
     "cauldronTarget":22850.4,
     "cauldronMulti":1.0,
-    "questCost":31857,
+    "questCost":38857,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":100,
@@ -4592,11 +5000,11 @@
     "id":903,
     "name":"GoldDust3",
     "displayName":"Gold Dust",
-    "value":62000,
+    "value":76000,
     "cost":0,
     "gameValue":{
       "Gold":0,
-      "Silver":62,
+      "Silver":76,
       "Copper":0
     },
     "gameCost":{
@@ -4608,7 +5016,7 @@
     "cauldronCost":42836.8,
     "cauldronTarget":52836.8,
     "cauldronMulti":1.0,
-    "questCost":62851,
+    "questCost":76851,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":100,
@@ -4626,11 +5034,11 @@
     "id":904,
     "name":"GoldDust5",
     "displayName":"Pure Gold Dust",
-    "value":125000,
+    "value":153000,
     "cost":0,
     "gameValue":{
       "Gold":0,
-      "Silver":125,
+      "Silver":153,
       "Copper":0
     },
     "gameCost":{
@@ -4642,7 +5050,7 @@
     "cauldronCost":85673.6,
     "cauldronTarget":100673.6,
     "cauldronMulti":1.0,
-    "questCost":125703,
+    "questCost":153703,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":100,
@@ -4660,11 +5068,11 @@
     "id":905,
     "name":"GoldIngot",
     "displayName":"Gold Ingot",
-    "value":125000,
+    "value":153000,
     "cost":0,
     "gameValue":{
       "Gold":0,
-      "Silver":125,
+      "Silver":153,
       "Copper":0
     },
     "gameCost":{
@@ -4676,7 +5084,7 @@
     "cauldronCost":88181.6,
     "cauldronTarget":85681.6,
     "cauldronMulti":0.0,
-    "questCost":125711,
+    "questCost":153711,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":100,
@@ -4694,11 +5102,11 @@
     "id":906,
     "name":"GoldCoin",
     "displayName":"Gold Coin",
-    "value":125000,
+    "value":153000,
     "cost":0,
     "gameValue":{
       "Gold":0,
-      "Silver":125,
+      "Silver":153,
       "Copper":0
     },
     "gameCost":{
@@ -4710,7 +5118,7 @@
     "cauldronCost":90681.6,
     "cauldronTarget":85681.6,
     "cauldronMulti":0.0,
-    "questCost":125711,
+    "questCost":153711,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":5000,
@@ -4728,10 +5136,10 @@
     "id":907,
     "name":"Crown",
     "displayName":"Crown",
-    "value":1600000,
+    "value":1700000,
     "cost":0,
     "gameValue":{
-      "Gold":16,
+      "Gold":17,
       "Silver":0,
       "Copper":0
     },
@@ -4744,7 +5152,7 @@
     "cauldronCost":857044.8,
     "cauldronTarget":857044.8,
     "cauldronMulti":0.0,
-    "questCost":1647134,
+    "questCost":1731134,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":100,
@@ -4762,10 +5170,10 @@
     "id":908,
     "name":"Catalyst4",
     "displayName":"Eternal Catalyst",
-    "value":1100000,
+    "value":1200000,
     "cost":0,
     "gameValue":{
-      "Gold":11,
+      "Gold":12,
       "Silver":0,
       "Copper":0
     },
@@ -4778,7 +5186,7 @@
     "cauldronCost":1194661.6,
     "cauldronTarget":1194661.6,
     "cauldronMulti":0.0,
-    "questCost":2007061,
+    "questCost":2091061,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":20,
@@ -4790,7 +5198,7 @@
     "liquid":false,
     "portal":false,
     "iconPath":"/Ingredients/T_UI_EternalCatalyst",
-    "ingredientTags":["Ingredient.Type.Catalyst","Ingredient.Type.Magic"],
+    "ingredientTags":["Ingredient.Type.Catalyst"],
     "catalystCharges":99999
   },{
     "id":909,
@@ -4966,10 +5374,10 @@
     "id":914,
     "name":"Luna",
     "displayName":"Luna",
-    "value":18500000,
+    "value":20600000,
     "cost":0,
     "gameValue":{
-      "Gold":185,
+      "Gold":206,
       "Silver":0,
       "Copper":0
     },
@@ -4982,7 +5390,7 @@
     "cauldronCost":187482.6,
     "cauldronTarget":187482.6,
     "cauldronMulti":0.0,
-    "questCost":18567945,
+    "questCost":20667945,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":-75,
@@ -4997,13 +5405,47 @@
     "ingredientTags":[],
     "catalystCharges":-1
   },{
+    "id":915,
+    "name":"AlchemistSigh",
+    "displayName":"Alchemist's Sigh",
+    "value":400000,
+    "cost":0,
+    "gameValue":{
+      "Gold":4,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":106014.8,
+    "cauldronCost":106014.8,
+    "cauldronTarget":106014.8,
+    "cauldronMulti":0.0,
+    "questCost":400000,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":6,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_AlchemistSigh",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
     "id":1001,
     "name":"Sol",
     "displayName":"Sol",
-    "value":42000000,
+    "value":44500000,
     "cost":0,
     "gameValue":{
-      "Gold":420,
+      "Gold":445,
       "Silver":0,
       "Copper":0
     },
@@ -5016,7 +5458,7 @@
     "cauldronCost":5591400.6,
     "cauldronTarget":5591400.6,
     "cauldronMulti":0.0,
-    "questCost":42013963,
+    "questCost":44533963,
     "questTier":0,
     "shoppingTier":0,
     "maxStack":-5,
@@ -5028,6 +5470,652 @@
     "liquid":false,
     "portal":false,
     "iconPath":"/Ingredients/T_UI_Sol",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9999,
+    "name":"Aloe",
+    "displayName":"Aloe",
+    "value":0,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":0.0,
+    "cauldronCost":0.0,
+    "cauldronTarget":0.0,
+    "cauldronMulti":0.0,
+    "questCost":0,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":200,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Aloe",
+    "ingredientTags":["Ingredient.Type.Herb"],
+    "catalystCharges":-1
+  },{
+    "id":9999,
+    "name":"AloeSeed",
+    "displayName":"Aloe Seeds",
+    "value":0,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":0.0,
+    "cauldronCost":0.0,
+    "cauldronTarget":0.0,
+    "cauldronMulti":0.0,
+    "questCost":0,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":20,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_AloeSeedBag",
+    "ingredientTags":["Ingredient.Type.PlantSeed"],
+    "catalystCharges":-1
+  },{
+    "id":9004,
+    "name":"IronAmulet",
+    "displayName":"Iron Amulet",
+    "value":63,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":63
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":27.0,
+    "cauldronCost":27.0,
+    "cauldronTarget":27.0,
+    "cauldronMulti":0.0,
+    "questCost":63,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":2,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_IronAmulet",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9005,
+    "name":"FineBandage",
+    "displayName":"Advanced Bandage",
+    "value":168,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":168
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":60.0,
+    "cauldronCost":60.0,
+    "cauldronTarget":60.0,
+    "cauldronMulti":0.0,
+    "questCost":168,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":1,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":true,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FineBandage",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9999,
+    "name":"AloePaste",
+    "displayName":"Aloe Paste",
+    "value":0,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":0.0,
+    "cauldronCost":0.0,
+    "cauldronTarget":0.0,
+    "cauldronMulti":0.0,
+    "questCost":0,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_AloePaste",
+    "ingredientTags":["Ingredient.Type.Mash"],
+    "catalystCharges":-1
+  },{
+    "id":9007,
+    "name":"CopperAmulet",
+    "displayName":"Copper Amulet",
+    "value":928,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":928
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":401.0,
+    "cauldronCost":401.0,
+    "cauldronTarget":401.0,
+    "cauldronMulti":0.0,
+    "questCost":928,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":2,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_CopperAmulet",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9010,
+    "name":"Amethyst",
+    "displayName":"Amethyst",
+    "value":4112,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":4112
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":4112.0,
+    "cauldronCost":4112.0,
+    "cauldronTarget":4112.0,
+    "cauldronMulti":0.0,
+    "questCost":4112,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":2,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Amethyst",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9013,
+    "name":"CharismaPotion",
+    "displayName":"Charisma Potion",
+    "value":8000,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":8,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":4246.2,
+    "cauldronCost":4246.2,
+    "cauldronTarget":4246.2,
+    "cauldronMulti":0.0,
+    "questCost":8727,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":3,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_CharismaPotion",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9015,
+    "name":"Sand7",
+    "displayName":"Refined Sand",
+    "value":256,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":256
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":256.0,
+    "cauldronCost":256.0,
+    "cauldronTarget":256.0,
+    "cauldronMulti":0.0,
+    "questCost":256,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":200,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_RefinedSand",
+    "ingredientTags":["Ingredient.Type.Mash"],
+    "catalystCharges":-1
+  },{
+    "id":9016,
+    "name":"InvisbilityPotion",
+    "displayName":"Floating Potion",
+    "value":22000,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":22,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":14015.6,
+    "cauldronCost":14015.6,
+    "cauldronTarget":14015.6,
+    "cauldronMulti":0.0,
+    "questCost":22120,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":3,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_InvisbilityPotion",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9017,
+    "name":"GoldDust4",
+    "displayName":"Refined Gold Dust",
+    "value":153000,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":153,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":85673.6,
+    "cauldronCost":85673.6,
+    "cauldronTarget":85673.6,
+    "cauldronMulti":0.0,
+    "questCost":153703,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_GoldDust_3",
+    "ingredientTags":["Ingredient.Type.Mash"],
+    "catalystCharges":-1
+  },{
+    "id":9999,
+    "name":"Salve",
+    "displayName":"Styptic Salve",
+    "value":0,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":0.0,
+    "cauldronCost":0.0,
+    "cauldronTarget":0.0,
+    "cauldronMulti":0.0,
+    "questCost":0,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":3,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Salve",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9999,
+    "name":"WoodAcid",
+    "displayName":"Wood Acid",
+    "value":0,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":0.0,
+    "cauldronCost":0.0,
+    "cauldronTarget":0.0,
+    "cauldronMulti":0.0,
+    "questCost":0,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":true,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_WoodAcid",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9999,
+    "name":"Pottery",
+    "displayName":"Pottery",
+    "value":0,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":0.0,
+    "cauldronCost":0.0,
+    "cauldronTarget":0.0,
+    "cauldronMulti":0.0,
+    "questCost":0,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Pottery",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9999,
+    "name":"Ceramics",
+    "displayName":"Ceramics",
+    "value":0,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":0.0,
+    "cauldronCost":0.0,
+    "cauldronTarget":0.0,
+    "cauldronMulti":0.0,
+    "questCost":0,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Ceramics",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9999,
+    "name":"FireBrick",
+    "displayName":"Fire Brick",
+    "value":0,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":0.0,
+    "cauldronCost":0.0,
+    "cauldronTarget":0.0,
+    "cauldronMulti":0.0,
+    "questCost":0,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":100,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_FireBrick",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":9999,
+    "name":"Granite",
+    "displayName":"Granite",
+    "value":0,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":0.0,
+    "cauldronCost":0.0,
+    "cauldronTarget":0.0,
+    "cauldronMulti":0.0,
+    "questCost":0,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":200,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Granite",
+    "ingredientTags":[],
+    "catalystCharges":-1
+  },{
+    "id":808,
+    "name":"Marble",
+    "displayName":"Marble",
+    "value":5000,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":5,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":5404.0,
+    "cauldronCost":5404.0,
+    "cauldronTarget":6404.0,
+    "cauldronMulti":0.0,
+    "questCost":5404,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":50,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_Marble",
+    "ingredientTags":["Ingredient.Type.Solid"],
+    "catalystCharges":-1
+  },{
+    "id":9999,
+    "name":"DriedClay",
+    "displayName":"Dry Clay",
+    "value":0,
+    "cost":0,
+    "gameValue":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "gameCost":{
+      "Gold":0,
+      "Silver":0,
+      "Copper":0
+    },
+    "baseCost":0.0,
+    "cauldronCost":0.0,
+    "cauldronTarget":0.0,
+    "cauldronMulti":0.0,
+    "questCost":0,
+    "questTier":0,
+    "shoppingTier":0,
+    "maxStack":200,
+    "sellType":0,
+    "hv":0.0,
+    "nv":0.0,
+    "ns":0.0,
+    "sellStack":false,
+    "liquid":false,
+    "portal":false,
+    "iconPath":"/Ingredients/T_UI_DriedClay",
     "ingredientTags":[],
     "catalystCharges":-1
   }]

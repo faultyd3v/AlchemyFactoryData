@@ -31,9 +31,14 @@
       "idx":6
     },
     "7":{
-      "value":"EBeltTDConfigType_MAX",
+      "value":"License",
       "friendlyName":"unknown",
       "idx":7
+    },
+    "8":{
+      "value":"EBeltTDConfigType_MAX",
+      "friendlyName":"unknown",
+      "idx":8
     },
     "0":{
       "value":"Ingredients",
@@ -157,6 +162,11 @@
       "friendlyName":"Arcane Processor",
       "idx":23
     },
+    "24":{
+      "value":"LiquidTap",
+      "friendlyName":"",
+      "idx":24
+    },
     "0":{
       "value":"TableSaw",
       "friendlyName":"Table Saw",
@@ -239,9 +249,14 @@
       "idx":5
     },
     "6":{
-      "value":"EEnemySellType_MAX",
+      "value":"Liquid",
       "friendlyName":"unknown",
       "idx":6
+    },
+    "7":{
+      "value":"EEnemySellType_MAX",
+      "friendlyName":"unknown",
+      "idx":7
     },
     "0":{
       "value":"Worthless",
@@ -294,42 +309,42 @@
   "EPlayerGearType":{
     "1":{
       "value":"Backpack",
-      "friendlyName":"unknown",
+      "friendlyName":"Inventory",
       "idx":1
     },
     "2":{
       "value":"Gloves",
-      "friendlyName":"unknown",
+      "friendlyName":"Gloves",
       "idx":2
     },
     "3":{
       "value":"PotionBelt",
-      "friendlyName":"unknown",
+      "friendlyName":"Potion Belt",
       "idx":3
     },
     "4":{
       "value":"Blueprint",
-      "friendlyName":"unknown",
+      "friendlyName":"Blueprint Tool",
       "idx":4
     },
     "5":{
       "value":"BuildTool",
-      "friendlyName":"unknown",
+      "friendlyName":"Building Tool",
       "idx":5
     },
     "6":{
       "value":"Monocle",
-      "friendlyName":"unknown",
+      "friendlyName":"Monocle",
       "idx":6
     },
     "7":{
       "value":"EPlayerGearType_MAX",
-      "friendlyName":"unknown",
+      "friendlyName":"",
       "idx":7
     },
     "0":{
       "value":"Invalid",
-      "friendlyName":"unknown",
+      "friendlyName":"",
       "idx":0
     }
   },
@@ -380,9 +395,14 @@
       "idx":9
     },
     "10":{
-      "value":"ESecondaryType_MAX",
+      "value":"Elevator",
       "friendlyName":"unknown",
       "idx":10
+    },
+    "11":{
+      "value":"ESecondaryType_MAX",
+      "friendlyName":"unknown",
+      "idx":11
     },
     "0":{
       "value":"None",

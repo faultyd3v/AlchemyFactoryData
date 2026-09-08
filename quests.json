@@ -297,7 +297,7 @@
       },
       "GoldFactor":0.0,
       "Products":[],
-      "Buildings":["LargeStand","CheckoutTable"],
+      "Buildings":["JunkBarrel"],
       "Contracts":[],
       "LevelUp":false
     }
@@ -324,7 +324,7 @@
       },
       "GoldFactor":0.0,
       "Products":[],
-      "Buildings":["MetalContainer","Beam3"],
+      "Buildings":["Beam3"],
       "Contracts":[],
       "LevelUp":false
     }
@@ -525,7 +525,7 @@
     "randomWeight":0.0,
     "main":false,
     "conditions":{
-      "RequireQuests":["Main4","Contract1"],
+      "RequireQuests":["Main4","Contract3"],
       "RequireContracts":[{
           "name":"Bandage",
           "qty":2000

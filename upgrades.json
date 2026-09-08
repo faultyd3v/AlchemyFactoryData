@@ -135,7 +135,7 @@
         "qty":30
       }],
     "unlockedBuffs":[],
-    "unlockedBuildings":["Platform_Wood","Stairs_Wood","NoticeBoard","Chandelier"]
+    "unlockedBuildings":["Construct_Floor_Wood","Construct_Wall_Wood","Construct_Wall_Stone","Roof_Wood"]
   },{
     "upgradeId":"BuildTool2",
     "gearType":5,
@@ -148,7 +148,7 @@
         "qty":30
       }],
     "unlockedBuffs":[],
-    "unlockedBuildings":["Construct_Floor_Wood","Construct_Wall_Wood","Construct_Wall_Stone","Roof_Wood"]
+    "unlockedBuildings":["Construct_Floor_Brick","Construct_Wall_Brick","GrandStairs","ShopEntrance"]
   },{
     "upgradeId":"BuildTool3",
     "gearType":5,
@@ -158,7 +158,17 @@
         "qty":30
       }],
     "unlockedBuffs":[],
-    "unlockedBuildings":["Pillar","GrandStairs"]
+    "unlockedBuildings":["Pillar","Elevator_Bottom","Elevator_Station"]
+  },{
+    "upgradeId":"BuildTool4",
+    "gearType":5,
+    "tier":4,
+    "upgradeCost":[{
+        "name":"Marble",
+        "qty":30
+      }],
+    "unlockedBuffs":[],
+    "unlockedBuildings":["Construct_Floor_Marble","Construct_Wall_Marble","MarblePillar"]
   },{
     "upgradeId":"Gloves1",
     "gearType":2,
